@@ -1,0 +1,976 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+*/
+
+$balanced: #01a1e1 !default;
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic, Ionic-Material and Animation Css libraries
+@import "www/lib/ionic/scss/ionic";
+//@import "www/lib/ionic-material/dist/ionic.material";
+@import "www/lib/animate/animate";
+@import "www/lib/ionic-filter-bar/scss/ionic.filter.bar";
+
+/* Fonts
+*********************/
+
+@font-face {
+  font-family: "Helvetica Neue LT Std Condensed";
+  src: url(../fonts/HelveticaNeueLTStd-Cn.otf);
+}
+
+@font-face {
+  font-family: "Helvetica Neue LT Std Black Condensed";
+  src: url(../fonts/HelveticaNeueLTStd-BlkCn.otf);
+}
+
+@font-face {
+  font-family: "Helvetica Neue LT Std Bold Condensed";
+  src: url(../fonts/HelveticaNeueLTStd-BdCn.otf);
+}
+
+@font-face {
+  font-family: "Helvetica Neue LT Std Heavy Condensed";
+  src: url(../fonts/HelveticaNeueLTStd-HvCn.otf);
+}
+
+/* Global Rules
+********************/
+
+body {
+  &.platform-ios {
+    .ion-search:before {
+      content: "";
+    }
+  }
+
+  &.platform-android {
+    .ion-search:before {
+      content: "";
+    }
+  }
+
+  .ion-search:before {
+    font-size: 24px !important;
+    line-height: 32px;
+  }
+
+}
+
+.platform-android {
+
+  .filter-bar {
+
+    .filter-bar-balanced {
+
+      .item-input-wrapper {
+
+        border: none;
+        background: #01a1e1;
+
+        input[type="search"] {
+          font-family: "Helvetica Neue LT Std Condensed";
+          text-transform: capitalize;
+          color: #fff;
+
+          font-size: 16px;
+          line-height: 16px;
+          padding: 5px 0 0 0;
+          margin-right: 10px;
+          height: auto !important;
+          //font-weight: bold !important;
+
+          border-bottom: 1px solid #fff;
+        }
+
+        .filter-bar-clear:before {
+          font-weight: bold;
+          font-size: 28px;
+        }
+      }
+    }
+  }
+}
+
+
+.modal-backdrop{
+  top:44px !important;
+  bottom: 0px !important;
+  height: auto !important;
+  z-index: 10 !important;
+
+  .modal-backdrop-bg{
+    top:44px !important;
+    bottom: 50px !important;
+    pointer-events: auto !important;
+  }
+}
+.filter-bar {
+  z-index: 100 !important;
+  pointer-events: auto !important;
+}
+
+/* Side Menu Styling
+*************************/
+
+.ion_alpha_list_outer {
+  .list {
+    padding-right: 0px;
+  }
+  .ion_alpha_list {
+    .item {
+      background: url("../img/menu_item_bkg.png") repeat-x top left;
+      background-size: contain;
+
+      font-family: "Helvetica Neue LT Std Heavy Condensed";
+      font-size: 1em;
+      text-transform: capitalize;
+
+      color: #fff;
+      text-align: center;
+
+      border: none;
+
+      &.custom{
+
+        padding: 0;
+
+        div {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          padding: 16px 10%;
+          margin: 1px 0 3px;
+
+          &.activated {
+            background-image: none;
+            background-color: #a3d63e;
+
+            color: #000;
+          }
+        }
+
+      }
+
+      &.item-divider {
+        background: url("../img/menu_header.png") repeat-x top left;
+        background-size: contain;
+
+        font-family: "Helvetica Neue LT Std Bold Condensed";
+        font-size: 1.6em;
+        line-height: 2em;
+        text-transform: capitalize;
+        color: #fff;
+        text-align: center;
+        min-height: 48px;
+      }
+
+      &:after {
+        content: ' ';
+        display: block;
+        width: 100%;
+        height: 3px;
+        background: url("../img/menu_item_border.png") repeat-x top left;
+        box-shadow: 12px 0 12px -4px rgba(23, 100, 157, 0.8) inset, -12px 0 12px -4px rgba(23, 100, 157, 0.8) inset;
+        position: absolute;
+        bottom: 0px;
+        right: 10px;
+        left: 0;
+        margin: auto;
+        width: 90%;
+      }
+    }
+  }
+
+  .ion_alpha_sidebar {
+    margin: 5px 2px;
+    overflow: hidden;
+
+    width: 20px;
+    .alpha {
+      display: block;
+      color: #01a1e1;
+      padding: 3px 5px;
+      box-sizing: border-box;
+      font-size: 12px;
+      line-height: 12px;
+      text-align: center;
+      border-radius: 100%;
+      font-weight: 600;
+
+      &.selected {
+        background-color: #d1d76d;
+      }
+    }
+  }
+}
+
+.portrait {
+  .portrait {
+    display: block !important;
+  }
+  .landscape {
+    display: none !important;
+  }
+
+  .f-box {
+
+    width: 300px;
+    margin: auto;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    padding: 10px 0;
+  }
+}
+
+.landscape {
+  .portrait {
+    display: none !important;
+  }
+  .landscape {
+    display: block !important;
+  }
+
+  .f-box {
+
+
+    position: absolute;
+
+    height: 240px;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    top: 50%;
+    right: 10px;
+    left: 20px;
+    transform: translateY(-50%);
+
+    .f-box-child{
+      position: absolute;
+
+      &:nth-child(1){
+
+        top: 0px;
+        left: 0px;
+      }
+      &:nth-child(2){
+
+        top: 50%;
+        left: 0px;
+      }
+      &:nth-child(3){
+
+        top: 0px;
+        left: 150px;
+      }
+      &:nth-child(4){
+
+        top: 50%;
+        left: 150px;
+      }
+      &:nth-child(5){
+
+        top: 0px;
+        left: 300px;
+      }
+      &:nth-child(6){
+
+        top: 50%;
+        left: 300px;
+      }
+      &:nth-child(7){
+
+        top: 0px;
+        left: 450px;
+      }
+      &:nth-child(8){
+
+        top: 50%;
+        left: 450px;
+      }
+      &:nth-child(9){
+
+        top: 0px;
+        left: 600px;
+      }
+    }
+  }
+}
+
+.right-buttons {
+  .button {
+    margin-right: 5px;
+  }
+  .button:last-child {
+    margin-right: 0px;
+  }
+}
+
+/*  Home Page Styling
+***********************************/
+
+.col {
+
+  background-color: #01a1e1;
+
+  &.col-md {
+    padding: 0px 5px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 5px;
+
+    span {
+      font-size: 16px;
+    }
+  }
+
+  span {
+    display: block;
+    text-transform: capitalize;
+    color: #fff;
+  }
+
+  img {
+    width: 60%;
+    height: 80px;
+    object-fit: contain;
+    object-position: center center;
+
+    padding: 10px 10px 5px;
+    box-sizing: border-box;
+  }
+}
+
+.f-box {
+  /*display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: center;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;*/
+
+  height: 100%;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .f-box-child {
+    /*-webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;*/
+
+    display: block;
+    float: left;
+
+    text-align: center;
+    box-sizing: border-box;
+    margin: 5px;
+
+    background-color: #01a1e1;
+
+    width: 140px;
+
+    &:last-child{
+      content: ' ';
+      display: block;
+      clear: both;
+    }
+
+    &.activated {
+
+      background-color: #a3d65c;
+
+      span {
+        color: #000;
+      }
+
+      img {
+        display: none;
+
+        &.selected {
+          display: block;
+        }
+      }
+    }
+
+    &.blank {
+      pointer-events: none !important;
+      background-color: transparent !important;
+      min-height: 114px;
+    }
+
+    h1 {
+      padding: 0;
+      margin: 0;
+    }
+    span {
+      font-family: "Helvetica Neue LT Std Heavy Condensed";
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #fff;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+
+      width: 140px;
+      height: 50px;
+      padding: 10px 0px 5px;
+    }
+
+    img {
+      width: 50%;
+      height: 60px;
+      object-fit: contain;
+      object-position: center center;
+      padding: 10px 10px 0px;
+      box-sizing: border-box;
+      display: block;
+      margin: auto;
+
+      &.selected {
+        display: none;
+      }
+    }
+  }
+}
+
+
+
+/* Page Styling
+**********************************/
+
+.page {
+
+  .bar-greeny {
+    background-color: #a3d65c;
+
+    h2 {
+      font-family: "Helvetica Neue LT Std Condensed";
+      text-transform: uppercase;
+      font-weight: bold;
+
+      font-size: 1.6em !important;
+      line-height: 2.4em !important;
+      color: #003ca6;
+    }
+  }
+
+  h1 {
+    font-family: "Helvetica Neue LT Std Bold Condensed";
+    font-size: 1.4em;
+    margin: 10px 0 5px 10px;
+  }
+
+  h2 {
+
+    font-family: "Helvetica Neue LT Std Condensed";
+    font-size: 1.4em;
+    margin: 0 0 10px 10px;
+  }
+
+  ol {
+
+    list-style: decimal;
+    margin: 20px 20px;
+
+    li {
+
+      font-family: "Helvetica Neue LT Std Condensed";
+      font-size: 1.2em;
+      margin: 5px;
+    }
+  }
+
+  img {
+
+    width: 60%;
+    height: auto;
+    margin: auto;
+
+    display: block;
+  }
+}
+
+/* Search Page
+********************************/
+
+.highlighted {
+  color: #01a1e1 !important;
+}
+
+.search-list {
+  margin: 0px;
+  padding: 0px;
+
+  li:before {
+    content: '';
+    display: block;
+    height: 20px;
+    width: 20px;
+    background: url("../img/search_icon.png") no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    left: 10px;
+    top: 12px;
+  }
+  li:after {
+    clear: both;
+  }
+
+  li {
+    position: relative;
+
+    font-family: "Helvetica Neue LT Std Condensed";
+    font-size: 1.1em;
+    padding: 15px 10px 10px 40px;
+    border-bottom: 1px solid #c7c7c7;
+  }
+}
+
+/* Footer Component
+********************************/
+
+.my-footer {
+  background-color: #03644e;
+  color: #fff;
+  display: block;
+  width: 100%;
+  height: 44px;
+  position: absolute;
+  bottom: 0;
+
+  z-index: 99;
+  img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -12px;
+    left: 20px;
+  }
+
+  a {
+
+    position: absolute;
+    right: 10px;
+    top: 12px;
+
+    text-decoration: none;
+    &:visited, &:link, &:active {
+      color: #fff;
+    }
+    span {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+  .f-box {
+
+    padding: 0 20px;
+
+
+    .f-box-child {
+
+      span {
+
+        width: 140px;
+        height: 50px;
+        padding: 10px 0px 5px;
+      }
+
+      img {
+        width: 40%;
+        height: 40px;
+        padding: 10px 10px 0px;
+
+      }
+    }
+  }
+
+}
+
+/* Landscape */
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) {
+  .f-box {
+
+    padding: 0 20px;
+    height: 200px !important;
+
+    .f-box-child {
+
+      span {
+
+        width: 140px;
+        height: 50px;
+        padding: 10px 0px 5px;
+      }
+
+      img {
+        width: 40%;
+        height: 40px;
+        padding: 10px 10px 0px;
+
+      }
+    }
+  }
+
+}
+
+/* ----------- Galaxy S4 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+and (device-width: 360px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen
+and (device-width: 360px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen
+and (device-width: 360px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) {
+  .f-box {
+
+    padding: 0 20px;
+    height: 200px !important;
+
+    .f-box-child {
+
+      span {
+
+        width: 140px;
+        height: 50px;
+        padding: 10px 0px 5px;
+      }
+
+      img {
+        width: 40%;
+        height: 40px;
+        padding: 10px 10px 0px;
+
+      }
+    }
+  }
+}
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+  .f-box {
+
+    padding: 10px 0;
+
+    .f-box-child {
+
+      span {
+
+        width: 140px;
+        height: 50px;
+        padding: 10px 0px 5px;
+      }
+
+      img {
+        width: 40%;
+        height: 40px;
+        padding: 10px 10px 0px;
+
+      }
+    }
+  }
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+  .f-box {
+
+    padding: 0 20px;
+    height: 200px !important;
+
+    .f-box-child {
+
+      span {
+
+        width: 140px;
+        height: 50px;
+        padding: 10px 0px 5px;
+      }
+
+      img {
+        width: 40%;
+        height: 40px;
+        padding: 10px 10px 0px;
+
+      }
+    }
+  }
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+  .f-box {
+
+    padding: 10px 0;
+
+    .f-box-child {
+
+      span {
+
+        width: 140px;
+        height: 50px;
+        padding: 10px 0px 5px;
+      }
+
+      img {
+        width: 40%;
+        height: 40px;
+        padding: 10px 10px 0px;
+
+      }
+    }
+  }
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+  .f-box {
+
+    padding: 0 20px;
+    height: 200px !important;
+
+    /*column-width: 100px;
+    -webkit-column-width: 100px;
+    -moz-column-width: 100px;*/
+
+
+    .f-box-child {
+
+      span {
+
+        width: 140px;
+        height: 50px;
+        padding: 10px 0px 5px;
+      }
+
+      img {
+        width: 40%;
+        height: 40px;
+        padding: 10px 10px 0px;
+
+      }
+    }
+  }
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+  .f-box {
+
+    padding: 10px 0;
+
+    .f-box-child {
+
+      span {
+
+        width: 140px;
+        height: 50px;
+        padding: 10px 0px 5px;
+      }
+
+      img {
+        width: 50%;
+        height: 60px;
+        padding: 10px 10px 0px;
+
+      }
+    }
+  }
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+
+}

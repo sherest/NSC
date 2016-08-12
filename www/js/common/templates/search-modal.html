@@ -1,0 +1,11 @@
+<ion-modal-view>
+    <ion-content class="has-footer">
+        <ul class="search-list" ng-show="filterObject.topic&&topicList.length>0">
+            <li ng-repeat="topicItem in topicList" class="animated"
+                ng-bind-html="topicItem.name | highlight:filterObject.topic"
+                ng-click="openPage('{{topicItem.name}}')"></li>
+        </ul>
+    </ion-content>
+    <div class="my-footer" ng-include="'js/common/templates/footer.html'">
+    </div>
+</ion-modal-view>

@@ -1,0 +1,32 @@
+<ion-side-menus enable-menu-with-back-views="true">
+  <ion-side-menu-content drag-content="false">
+    <ion-nav-bar align-title="center" class="bar-balanced nav-title-slide-ios7">
+      <ion-nav-back-button class="no-text">
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="right">
+        <button class="button button-icon button-clear ion-search" ng-click="search()">
+        </button>
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="right">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="right" width="myWidth">
+    <ion-header-bar class="bar-balanced">
+      <button menu-close class="button button-icon button-clear ion-android-arrow-back"></button>
+      <h1 class="title"></h1>
+      <button menu-close class="button button-icon button-clear ion-home" ui-sref="app.home"></button>
+    </ion-header-bar>
+    <ion-content has-bouncing="false"
+                 scroll="false"
+                 has-tabs="true"
+                 has-header="true">
+      <ion-alpha-scroll ng-model="indexList" key="name">
+        <div menu-close ng-click="openPage('{{item.name}}')">{{item.name}}</div>
+      </ion-alpha-scroll>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
