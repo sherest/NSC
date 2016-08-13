@@ -6,8 +6,6 @@ nscApp.controller("BleedingCtrl", function ($scope, $ionicViewSwitcher, $state) 
     $scope.$on('$stateChangeSuccess',function(event, toState, toParams, fromState, fromParams){
         var state = {url: toState.url };
         currentIndex = _.findIndex($scope.topicList, state);
-
-        console.log(currentIndex);
     });
 
     $scope.$on("SwipeLeftEvent", function(){

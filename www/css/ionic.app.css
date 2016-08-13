@@ -12634,36 +12634,10 @@ body .ion-search:before {
     box-sizing: border-box; }
 
 .f-box {
-  /*display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: center;
-  -webkit-align-content: flex-start;
-  -ms-flex-line-pack: start;
-  align-content: flex-start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;*/
   height: 100%; }
   .f-box::-webkit-scrollbar {
     display: none; }
   .f-box .f-box-child {
-    /*-webkit-order: 0;
-    -ms-flex-order: 0;
-    order: 0;
-    -webkit-flex: 0 1 auto;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
-    align-self: auto;*/
     display: block;
     float: left;
     text-align: center;
@@ -12736,10 +12710,23 @@ body .ion-search:before {
   font-size: 1.4em;
   margin: 0 0 10px 10px; }
 
+.page p {
+  font-family: "Helvetica Neue LT Std Condensed";
+  font-size: 1.2em;
+  margin: 10px 0 10px 10px; }
+
 .page ol {
   list-style: decimal;
   margin: 20px 20px; }
   .page ol li {
+    font-family: "Helvetica Neue LT Std Condensed";
+    font-size: 1.2em;
+    margin: 5px; }
+
+.page ul {
+  list-style: disc;
+  margin: 20px 20px; }
+  .page ul li {
     font-family: "Helvetica Neue LT Std Condensed";
     font-size: 1.2em;
     margin: 5px; }

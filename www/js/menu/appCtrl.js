@@ -46,7 +46,6 @@ nscApp.controller('AppCtrl', function ($scope, indexList, topicList, $timeout, $
     };
 
     angular.element($window).bind("resize", function () {
-        console.log($ionicSideMenuDelegate.isOpen());
 
         $scope.myWidth = $window.innerWidth;
 
@@ -75,7 +74,7 @@ nscApp.controller('AppCtrl', function ($scope, indexList, topicList, $timeout, $
             update: function (filteredItems, filterText) {
 
                 $scope.filterObject.topic = filterText;
-                $scope.topicList = filteredItems;
+                $scope.filteredList = filteredItems;
             },
             cancel: function () {
                 $scope.closeModal();
