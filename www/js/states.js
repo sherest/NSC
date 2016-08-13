@@ -60,15 +60,24 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        /*.state('app.airway-obstruction.fbao', {
-            url: '/fbao',
+        .state('app.airway-obstruction.fbao-infant', {
+            url: '/fbao-infant',
             views: {
                 'subContent': {
-                    templateUrl: 'js/page/airway-obstruction/fbao.html'
+                    templateUrl: 'js/page/airway-obstruction/fbao-infant.html'
                 }
             }
-        })*/
-        
+        })
+
+        .state('app.airway-obstruction.fbao-unresponsive', {
+            url: '/fbao-unresponsive',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/airway-obstruction/fbao-unresponsive.html'
+                }
+            }
+        })
+
         .state('app.bleeding', {
             url: '/app/bleeding',
             abstract:true,
@@ -105,8 +114,27 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                     templateUrl: 'js/page/bleeding/bleeding-internal.html'
                 }
             }
-        });
+        })
 
+        .state('app.burns', {
+            url: '/app/burns',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/burns/index.html',
+                    controller: "BleedingCtrl"
+                }
+            }
+        })
+
+        .state('app.burns.burns', {
+            url: '/burns',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/burns/burns.html'
+                }
+            }
+        });
 
 
     // if none of the above states are matched, use this as the fallback
