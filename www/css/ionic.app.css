@@ -12481,6 +12481,9 @@ body .ion-search:before {
 
 /* Side Menu Styling
 *************************/
+.menu.menu-right {
+  background: #17649d; }
+
 .ion_alpha_list_outer .list {
   padding-right: 0px; }
 
@@ -12645,7 +12648,7 @@ body .ion-search:before {
     margin: 5px;
     background-color: #01a1e1;
     width: 140px; }
-    .f-box .f-box-child:last-child {
+    .f-box .f-box-child:last-child:after {
       content: ' ';
       display: block;
       clear: both; }

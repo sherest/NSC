@@ -107,19 +107,19 @@ body {
   }
 }
 
-.modal-backdrop {
-  top: 44px !important;
+
+.modal-backdrop{
+  top:44px !important;
   bottom: 0px !important;
   height: auto !important;
   z-index: 10 !important;
 
-  .modal-backdrop-bg {
-    top: 44px !important;
+  .modal-backdrop-bg{
+    top:44px !important;
     bottom: 50px !important;
     pointer-events: auto !important;
   }
 }
-
 .filter-bar {
   z-index: 100 !important;
   pointer-events: auto !important;
@@ -128,12 +128,10 @@ body {
 /* Side Menu Styling
 *************************/
 .menu {
-  .menu-right {
-
+  &.menu-right{
     background: #17649d;
   }
 }
-
 .ion_alpha_list_outer {
   .list {
     padding-right: 0px;
@@ -152,7 +150,7 @@ body {
 
       border: none;
 
-      &.custom {
+      &.custom{
 
         padding: 0;
 
@@ -256,6 +254,7 @@ body {
 
   .f-box {
 
+
     position: absolute;
 
     height: 240px;
@@ -268,50 +267,50 @@ body {
     left: 20px;
     transform: translateY(-50%);
 
-    .f-box-child {
+    .f-box-child{
       position: absolute;
 
-      &:nth-child(1) {
+      &:nth-child(1){
 
         top: 0px;
         left: 0px;
       }
-      &:nth-child(2) {
+      &:nth-child(2){
 
         top: 50%;
         left: 0px;
       }
-      &:nth-child(3) {
+      &:nth-child(3){
 
         top: 0px;
         left: 150px;
       }
-      &:nth-child(4) {
+      &:nth-child(4){
 
         top: 50%;
         left: 150px;
       }
-      &:nth-child(5) {
+      &:nth-child(5){
 
         top: 0px;
         left: 300px;
       }
-      &:nth-child(6) {
+      &:nth-child(6){
 
         top: 50%;
         left: 300px;
       }
-      &:nth-child(7) {
+      &:nth-child(7){
 
         top: 0px;
         left: 450px;
       }
-      &:nth-child(8) {
+      &:nth-child(8){
 
         top: 50%;
         left: 450px;
       }
-      &:nth-child(9) {
+      &:nth-child(9){
 
         top: 0px;
         left: 600px;
@@ -384,10 +383,12 @@ body {
 
     width: 140px;
 
-    &:last-child {
-      content: ' ';
-      display: block;
-      clear: both;
+    &:last-child{
+      &:after{
+        content: ' ';
+        display: block;
+        clear: both;
+      }
     }
 
     &.activated {
@@ -448,6 +449,8 @@ body {
     }
   }
 }
+
+
 
 /* Page Styling
 **********************************/
@@ -600,16 +603,24 @@ body {
 /* ----------- Galaxy S3 ----------- */
 
 /* Portrait and Landscape */
-@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 2) {
 
 }
 
 /* Portrait */
-@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: portrait) {
 
   .f-box {
 
     padding: 0 20px;
+
 
     .f-box-child {
 
@@ -632,7 +643,11 @@ body {
 }
 
 /* Landscape */
-@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) {
   .f-box {
 
     padding: 0 20px;
@@ -661,34 +676,56 @@ body {
 /* ----------- Galaxy S4 ----------- */
 
 /* Portrait and Landscape */
-@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3) {
 
 }
 
 /* Portrait */
-@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: portrait) {
 
 }
 
 /* Landscape */
-@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) {
 
 }
 
 /* ----------- Galaxy S5 ----------- */
 
 /* Portrait and Landscape */
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+@media screen
+and (device-width: 360px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3) {
 
 }
 
 /* Portrait */
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+@media screen
+and (device-width: 360px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: portrait) {
 
 }
 
 /* Landscape */
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+@media screen
+and (device-width: 360px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) {
   .f-box {
 
     padding: 0 20px;
@@ -713,15 +750,23 @@ body {
   }
 }
 
+
 /* ----------- iPhone 4 and 4S ----------- */
 
 /* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 
 /* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
 
   .f-box {
 
@@ -747,7 +792,11 @@ body {
 }
 
 /* Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
   .f-box {
 
     padding: 0 20px;
@@ -775,12 +824,19 @@ body {
 /* ----------- iPhone 5 and 5S ----------- */
 
 /* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 
 /* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
   .f-box {
 
     padding: 10px 0;
@@ -805,7 +861,11 @@ body {
 }
 
 /* Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
   .f-box {
 
     padding: 0 20px;
@@ -814,6 +874,7 @@ body {
     /*column-width: 100px;
     -webkit-column-width: 100px;
     -moz-column-width: 100px;*/
+
 
     .f-box-child {
 
@@ -838,12 +899,19 @@ body {
 /* ----------- iPhone 6 ----------- */
 
 /* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 
 /* Portrait */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
 
   .f-box {
 
@@ -870,25 +938,38 @@ body {
 }
 
 /* Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
 
 }
 
 /* ----------- iPhone 6+ ----------- */
 
 /* Portrait and Landscape */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3) {
 
 }
 
 /* Portrait */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
 
 }
 
 /* Landscape */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-
-}
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
 
 }
