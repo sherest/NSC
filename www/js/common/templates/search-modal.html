@@ -3,7 +3,7 @@
         <ul class="search-list" ng-show="filterObject.topic&&filteredList.length>0">
             <li ng-repeat="filterItem in filteredList" class="animated"
                 ng-bind-html="filterItem.name | highlight:filterObject.topic"
-                ng-click="openPage('{{topicItem.name}}')"></li>
+                ng-click="openPage('{{filterItem.name}}')"></li>
         </ul>
     </ion-content>
     <div class="my-footer" ng-include="'js/common/templates/footer.html'">
