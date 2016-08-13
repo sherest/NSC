@@ -31,7 +31,44 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                 }]
             }
         })
+        .state('app.airway-obstruction', {
+            url: '/app/airway-obstruction',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/airway-obstruction/index.html',
+                    controller: "BleedingCtrl"
+                }
+            }
+        })
 
+        .state('app.airway-obstruction.fbao', {
+            url: '/fbao',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/airway-obstruction/fbao.html'
+                }
+            }
+        })
+
+        .state('app.airway-obstruction.fbao-adult', {
+            url: '/fbao-adult',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/airway-obstruction/fbao-adult.html'
+                }
+            }
+        })
+
+        /*.state('app.airway-obstruction.fbao', {
+            url: '/fbao',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/airway-obstruction/fbao.html'
+                }
+            }
+        })*/
+        
         .state('app.bleeding', {
             url: '/app/bleeding',
             abstract:true,
