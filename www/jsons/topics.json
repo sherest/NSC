@@ -1,19 +1,19 @@
 {
   "topics": [
     {
-      "title": "Controlling External Bleeding",
+      "title": "Bleeding, External",
       "state": "app.bleeding.bleedingExternal",
       "head": "Bleeding",
       "url": "/bleeding-external"
     },
     {
-      "title": "Use of a Tourniquet to Control Bleeding",
+      "title": "Tourniquet to control bleeding",
       "state": "app.bleeding.controlBleedingUsingTourniquet",
       "head": "Bleeding",
       "url": "/control-bleeding-using-tourniquet"
     },
     {
-      "title": "Internal Bleeding (Abdominal Injury)",
+      "title": "Bleeding, Internal",
       "state": "app.bleeding.bleedingInternal",
       "head": "Bleeding",
       "url": "/bleeding-internal"

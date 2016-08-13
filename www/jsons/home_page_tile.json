@@ -1,39 +1,35 @@
 {
   "data": [
     {
-      "name": "Memory Aids",
+      "name": "Airway Obstruction",
       "link": ""
     },
     {
-      "name": "Responder Safety",
+      "name": "Bleeding Control",
       "link": ""
     },
     {
-      "name": "Assessment",
+      "name": "Burns",
       "link": ""
     },
     {
-      "name": "Circulation/ Airway/Breathing",
+      "name": "CPR",
       "link": ""
     },
     {
-      "name": "Medical",
+      "name": "Respiratory Emergencies",
       "link": ""
     },
     {
-      "name": "Trauma",
+      "name": "Scene Safety",
       "link": ""
     },
     {
-      "name": "EMS Operations",
+      "name": "Shock",
       "link": ""
     },
     {
-      "name": "Special Situations",
-      "link": ""
-    },
-    {
-      "name": "TBD",
+      "name": "Stroke",
       "link": ""
     }
   ]
