@@ -79,8 +79,6 @@ nscApp.controller('AppCtrl', function ($scope, indexList, topicList, $timeout, $
             cancel: function () {
                 $scope.closeModal();
             },
-            debounce: true,
-            delay: 200,
             filterProperties: 'name'
         });
     }
