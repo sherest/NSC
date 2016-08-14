@@ -24,6 +24,7 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 @import "www/lib/ionic/scss/ionic";
 //@import "www/lib/ionic-material/dist/ionic.material";
 @import "www/lib/animate/animate";
+@import "www/lib/ion-alpha-scroll/src/ion-alpha-scroll";
 @import "www/lib/ionic-filter-bar/scss/ionic.filter.bar";
 
 /* Fonts
@@ -133,6 +134,9 @@ body {
   }
 }
 .ion_alpha_list_outer {
+  .scroll{
+    transform: none !important;
+  }
   .list {
     padding-right: 0px;
   }
@@ -204,6 +208,7 @@ body {
   .ion_alpha_sidebar {
     margin: 5px 2px;
     overflow: hidden;
+    z-index: 99999999;
 
     width: 20px;
     .alpha {

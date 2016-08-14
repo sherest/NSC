@@ -55,7 +55,7 @@ angular.module('ion-alpha-scroll', [])
 
                         ngModel.$render = function () {
                             scope.items = [];
-                            scope.items = ngModel.$viewValue;
+                            scope.items = _.sortBy(ngModel.$viewValue, attrs.key);
                             scope.alphabet = iterateAlphabet();
                             scope.checkoutletter = function (letter) {
 
@@ -76,6 +76,8 @@ angular.module('ion-alpha-scroll', [])
 
                                 tmp[letter].push(scope.items[i]);
                             }
+                            // tmp.unshift();
+
                             scope.sorted_items = tmp;
 
                             scope.alphaScrollGoToList = function (id) {
@@ -113,17 +115,6 @@ angular.module('ion-alpha-scroll', [])
                                     numbers.push(nextChar);
                                 }
                                 return numbers;
-                            }
-
-                            scope.groups = [];
-                            for (var i = 0; i < 10; i++) {
-                                scope.groups[i] = {
-                                    name: i,
-                                    items: []
-                                };
-                                for (var j = 0; j < 3; j++) {
-                                    scope.groups[i].items.push(i + '-' + j);
-                                }
                             }
 
                             scope.layoutDone = function () {

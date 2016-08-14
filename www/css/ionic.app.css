@@ -12181,6 +12181,21 @@ a.button {
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp; }
 
+.ion_alpha_list_outer .list {
+  padding-right: 15px; }
+
+.ion_alpha_list_outer .item {
+  border-right: none; }
+
+.ion_alpha_sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%; }
+
+.ion_alpha_sidebar li {
+  line-height: 1.1; }
+
 .filter-bar-backdrop {
   -webkit-transition: opacity 150ms ease-in-out;
   transition: opacity 150ms ease-in-out;
@@ -12484,6 +12499,9 @@ body .ion-search:before {
 .menu.menu-right {
   background: #17649d; }
 
+.ion_alpha_list_outer .scroll {
+  transform: none !important; }
+
 .ion_alpha_list_outer .list {
   padding-right: 0px; }
 
@@ -12535,6 +12553,7 @@ body .ion-search:before {
 .ion_alpha_list_outer .ion_alpha_sidebar {
   margin: 5px 2px;
   overflow: hidden;
+  z-index: 99999999;
   width: 20px; }
   .ion_alpha_list_outer .ion_alpha_sidebar .alpha {
     display: block;
