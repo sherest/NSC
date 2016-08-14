@@ -2,8 +2,8 @@
     <ion-content class="has-footer">
         <ul class="search-list" ng-show="filterObject.topic&&filteredList.length>0">
             <li ng-repeat="filterItem in filteredList" class="animated"
-                ng-bind-html="filterItem.name | highlight:filterObject.topic"
-                ng-click="openPage('{{filterItem.name}}')"></li>
+                ng-bind-html="filterItem.title | highlight:filterObject.topic"
+                ng-click="openPage(filterItem)"></li>
         </ul>
     </ion-content>
     <div class="my-footer" ng-include="'js/common/templates/footer.html'">

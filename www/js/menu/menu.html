@@ -23,9 +23,9 @@
     <ion-content has-bouncing="false"
                  scroll="false"
                  has-tabs="true"
-                 has-header="true">
-      <ion-alpha-scroll ng-model="indexList" key="name">
-        <div menu-close ng-click="openPage('{{item.name}}')">{{item.name}}</div>
+                 has-header="true" overflow-scroll="false">
+      <ion-alpha-scroll ng-model="topicList" key="title">
+        <div menu-close ng-click="openPage(item)">{{item.title}}</div>
       </ion-alpha-scroll>
     </ion-content>
   </ion-side-menu>

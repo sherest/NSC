@@ -70,7 +70,7 @@ nscApp.controller('AppCtrl', function ($scope, indexList, topicList, $timeout, $
 
         filterBarInstance = $ionicFilterBar.show({
 
-            items: $scope.indexList,
+            items: $scope.topicList,
             update: function (filteredItems, filterText) {
 
                 $scope.filterObject.topic = filterText;
@@ -79,7 +79,7 @@ nscApp.controller('AppCtrl', function ($scope, indexList, topicList, $timeout, $
             cancel: function () {
                 $scope.closeModal();
             },
-            filterProperties: 'name'
+            filterProperties: 'title'
         });
     }
 });

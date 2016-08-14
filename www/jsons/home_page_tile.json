@@ -1,36 +1,36 @@
 {
   "data": [
     {
-      "name": "Airway Obstruction",
-      "link": ""
+      "title": "Airway Obstruction",
+      "state": ""
     },
     {
-      "name": "Bleeding Control",
-      "link": ""
+      "title": "Bleeding Control",
+      "state": ""
     },
     {
-      "name": "Burns",
-      "link": ""
+      "title": "Burns",
+      "state": ""
     },
     {
-      "name": "CPR",
-      "link": ""
+      "title": "CPR",
+      "state": ""
     },
     {
-      "name": "Respiratory Emergencies",
-      "link": ""
+      "title": "Respiratory Emergencies",
+      "state": ""
     },
     {
-      "name": "Scene Safety",
-      "link": ""
+      "title": "Scene Safety",
+      "state": ""
     },
     {
-      "name": "Shock",
-      "link": ""
+      "title": "Shock",
+      "state": ""
     },
     {
-      "name": "Stroke",
-      "link": ""
+      "title": "Stroke",
+      "state": ""
     }
   ]
 }
