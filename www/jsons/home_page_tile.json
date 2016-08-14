@@ -2,15 +2,15 @@
   "data": [
     {
       "title": "Airway Obstruction",
-      "state": ""
+      "state": "app.airway-obstruction.fbao"
     },
     {
       "title": "Bleeding Control",
-      "state": ""
+      "state": "app.bleeding.bleedingExternal"
     },
     {
       "title": "Burns",
-      "state": ""
+      "state": "app.burns.burns"
     },
     {
       "title": "CPR",
