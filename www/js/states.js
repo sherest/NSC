@@ -37,7 +37,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             views: {
                 'menuContent': {
                     templateUrl: 'js/page/airway-obstruction/index.html',
-                    controller: "BleedingCtrl"
+                    controller: "PageCtrl"
                 }
             }
         })
@@ -84,7 +84,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             views: {
                 'menuContent': {
                     templateUrl: 'js/page/bleeding/index.html',
-                    controller: "BleedingCtrl"
+                    controller: "PageCtrl"
                 }
             }
         })
@@ -122,7 +122,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             views: {
                 'menuContent': {
                     templateUrl: 'js/page/burns/index.html',
-                    controller: "BleedingCtrl"
+                    controller: "PageCtrl"
                 }
             }
         })

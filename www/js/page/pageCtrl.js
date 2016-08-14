@@ -1,4 +1,4 @@
-nscApp.controller("BleedingCtrl", function ($scope, $ionicViewSwitcher, $state) {
+nscApp.controller("PageCtrl", function ($scope, $ionicViewSwitcher, $state) {
 
 
     var currentIndex = 0;
@@ -12,7 +12,8 @@ nscApp.controller("BleedingCtrl", function ($scope, $ionicViewSwitcher, $state) 
 
         if(currentIndex < $scope.topicList.length - 1 ){
             $ionicViewSwitcher.nextDirection('forward');
-            $state.go($scope.topicList[currentIndex+1].state);
+
+            toState($scope.topicList[currentIndex+1].state);
         }
 
     });
@@ -21,7 +22,15 @@ nscApp.controller("BleedingCtrl", function ($scope, $ionicViewSwitcher, $state) 
 
         if(currentIndex > 0){
             $ionicViewSwitcher.nextDirection('back');
-            $state.go($scope.topicList[currentIndex-1].state);
+
+            toState($scope.topicList[currentIndex-1].state);
         }
     });
+
+
+    function toState(toState){
+        if(toState != ""){
+            $state.go(toState);
+        }
+    }
 });
