@@ -34,14 +34,14 @@ nscApp.controller('AppCtrl', function ($scope, indexList, topicList, $timeout, $
         $ionicSideMenuDelegate.toggleLeft();
     };
 
-    $scope.openPage = function (pageName) {
+    $scope.openPage = function (selectedTopic) {
 
         if (filterBarInstance){
             filterBarInstance(); //hide filter-bar instance
         }
 
-        console.log(pageName);
-        $state.go("app.bleeding.bleedingExternal");
+        console.log(selectedTopic);
+        $scope.toState(selectedTopic.state || "app.bleeding.bleedingExternal");
 
     };
 
@@ -64,6 +64,12 @@ nscApp.controller('AppCtrl', function ($scope, indexList, topicList, $timeout, $
             perform_action();
         }, 100);
 
+    };
+
+    $scope.toState = function(toState){
+        if(toState != ""){
+            $state.go(toState);
+        }
     };
 
     function perform_action() {

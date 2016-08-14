@@ -13,7 +13,7 @@ nscApp.controller("PageCtrl", function ($scope, $ionicViewSwitcher, $state) {
         if(currentIndex < $scope.topicList.length - 1 ){
             $ionicViewSwitcher.nextDirection('forward');
 
-            toState($scope.topicList[currentIndex+1].state);
+            $scope.toState($scope.topicList[currentIndex+1].state);
         }
 
     });
@@ -23,14 +23,7 @@ nscApp.controller("PageCtrl", function ($scope, $ionicViewSwitcher, $state) {
         if(currentIndex > 0){
             $ionicViewSwitcher.nextDirection('back');
 
-            toState($scope.topicList[currentIndex-1].state);
+            $scope.toState($scope.topicList[currentIndex-1].state);
         }
     });
-
-
-    function toState(toState){
-        if(toState != ""){
-            $state.go(toState);
-        }
-    }
 });
