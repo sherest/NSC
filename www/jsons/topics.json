@@ -1285,10 +1285,15 @@
     {
       "title": "Stroke",
       "head": "Stroke",
-      "state": "",
+      "state": "app.stroke.cpss",
       "url": ""
     },
-
+    {
+      "title": "Cincinnati Prehospital Stroke Scale (CPSS)",
+      "head": "Stroke",
+      "state": "app.stroke.cpss",
+      "url": ""
+    },
 
 
     
@@ -1338,12 +1343,6 @@
     },
     {
       "title": "BVM (bag-valve-mask) ventilation",
-      "head": "Ventilation",
-      "state": "",
-      "url": ""
-    },
-    {
-      "title": "Cincinnati Prehospital Stroke Scale (CPSS)",
       "head": "Ventilation",
       "state": "",
       "url": ""

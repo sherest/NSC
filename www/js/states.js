@@ -116,6 +116,26 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.stroke', {
+            url: '/app/stroke',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/stroke/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.stroke.cpss', {
+            url: '/cpss',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/stroke/stroke.html'
+                }
+            }
+        })
+
         .state('app.burns', {
             url: '/app/burns',
             abstract:true,
