@@ -30,7 +30,7 @@
     },
     {
       "title": "Stroke",
-      "state": "app.stroke.cpss"
+      "state": "app.stroke.fastStroke"
     }
   ]
 }

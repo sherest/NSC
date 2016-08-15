@@ -509,6 +509,34 @@ body {
     }
   }
 
+  dl{
+    dt,dd{
+      font-family: "Helvetica Neue LT Std Condensed";
+      font-size: 1.2em;
+      margin: 0 0 0 10px;
+    }
+
+    dt{
+      display: inline-block;
+    }
+
+    dd{
+      display: inline;
+      //padding-left: 10px;
+
+      &:after{
+        content: ' ';
+        display: block;
+        margin-bottom: 10px;
+      }
+      &:last-child:after{
+        margin-bottom: 0px;
+      }
+    }
+
+    margin: 20px 0 0px;
+  }
+
   ul {
 
     list-style: disc;

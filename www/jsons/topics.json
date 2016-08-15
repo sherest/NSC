@@ -1285,14 +1285,14 @@
     {
       "title": "Stroke",
       "head": "Stroke",
-      "state": "app.stroke.cpss",
-      "url": ""
+      "state": "app.stroke.fastStroke",
+      "url": "/FAST-stroke"
     },
     {
-      "title": "Cincinnati Prehospital Stroke Scale (CPSS)",
+      "title": "FAST Stroke Assessment",
       "head": "Stroke",
-      "state": "app.stroke.cpss",
-      "url": ""
+      "state": "app.stroke.fastStroke",
+      "url": "/FAST-stroke"
     },
 
 
@@ -1377,14 +1377,6 @@
     },
 
 
-    
-
-    {
-      "title": "FAST Stroke Assessment",
-      "head": "??",
-      "state": "",
-      "url": ""
-    },
     {
       "title": "Opioid drug overdose",
       "head": "??",

@@ -12745,6 +12745,23 @@ body .ion-search:before {
     font-size: 1.2em;
     margin: 5px; }
 
+.page dl {
+  margin: 20px 0 0px; }
+  .page dl dt, .page dl dd {
+    font-family: "Helvetica Neue LT Std Condensed";
+    font-size: 1.2em;
+    margin: 0 0 0 10px; }
+  .page dl dt {
+    display: inline-block; }
+  .page dl dd {
+    display: inline; }
+    .page dl dd:after {
+      content: ' ';
+      display: block;
+      margin-bottom: 10px; }
+    .page dl dd:last-child:after {
+      margin-bottom: 0px; }
+
 .page ul {
   list-style: disc;
   margin: 20px 20px; }

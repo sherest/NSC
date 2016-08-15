@@ -127,8 +127,8 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.stroke.cpss', {
-            url: '/cpss',
+        .state('app.stroke.fastStroke', {
+            url: '/FAST-stroke',
             views: {
                 'subContent': {
                     templateUrl: 'js/page/stroke/stroke.html'
