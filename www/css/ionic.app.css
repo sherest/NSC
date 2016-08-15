@@ -12754,7 +12754,8 @@ body .ion-search:before {
   .page dl dt {
     display: inline-block; }
   .page dl dd {
-    display: inline; }
+    display: inline;
+    padding-left: 10px; }
     .page dl dd:after {
       content: ' ';
       display: block;
