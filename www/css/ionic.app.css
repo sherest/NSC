@@ -12689,7 +12689,6 @@ body .ion-search:before {
     .f-box .f-box-child span {
       font-family: "Helvetica Neue LT Std Heavy Condensed";
       font-size: 14px;
-      font-weight: bold;
       text-transform: uppercase;
       color: #fff;
       display: table-cell;
@@ -12718,7 +12717,7 @@ body .ion-search:before {
     font-family: "Helvetica Neue LT Std Condensed";
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 1.6em !important;
+    font-size: 1.5em !important;
     line-height: 2.4em !important;
     color: #003ca6; }
 
