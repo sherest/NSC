@@ -154,6 +154,90 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                     templateUrl: 'js/page/burns/burns.html'
                 }
             }
+        })
+
+        .state('app.burns.burnsHeat', {
+            url: '/burnsHeat',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/burns/burns-heat.html'
+                }
+            }
+        })
+
+        .state('app.respiratoryEmergencies', {
+            url: '/app/respiratory-emergencies',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/respiratory-emergencies/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.respiratoryEmergencies.signAndSymptom', {
+            url: '/sign-and-symptom',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/respiratory-emergencies/sign-and-symptom.html'
+                }
+            }
+        })
+
+        .state('app.respiratoryEmergencies.inadequateBreathing', {
+            url: '/inadequate-breathing',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/respiratory-emergencies/inadequate-breathing.html'
+                }
+            }
+        })
+
+        .state('app.respiratoryEmergencies.emergencyCare', {
+            url: '/emergency-care',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/respiratory-emergencies/emergency-care.html'
+                }
+            }
+        })
+
+        .state('app.respiratoryEmergencies.emergencyCareForAnAsthama', {
+            url: '/emergency-care-for-an-asthama',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/respiratory-emergencies/emergency-care-for-an-asthama.html'
+                }
+            }
+        })
+        .state('app.shock', {
+            url: '/app/shock',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/shock/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.shock.bleedingExternal', {
+            url: '/signsAndSymptomsOfShock',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/shock/signs-and-symptoms-of-shock.html'
+                }
+            }
+        })
+
+        .state('app.shock.emergencyCareForShock', {
+            url: '/emergency-care-for-shock',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/shock/emergency-care-for-shock.html'
+                }
+            }
         });
 
 

@@ -353,38 +353,30 @@
       "state": "",
       "url": ""
     },
-
-
-
     {
       "title": "Burns",
       "head": "Burns",
-      "state": "",
-      "url": ""
+      "state": "app.burns.burns",
+      "url": "/burns"
     },
     {
       "title": "Burns, heat",
       "head": "Burns",
-      "state": "",
-      "url": ""
+      "state": "app.burns.burnsHeat",
+      "url": "/burns-heat"
     },
     {
       "title": "Heat burns",
       "head": "Burns",
-      "state": "",
-      "url": ""
+      "state": "app.burns.burnsHeat",
+      "url": "/burns-heat"
     },
     {
       "title": "Rule of Nines for burns",
       "head": "Burns",
-      "state": "",
-      "url": ""
-    },
-
-
-
-
-    
+      "state": "app.burns.burns",
+      "url": "/burns"
+    },    
     {
       "title": "Burns, chemical",
       "head": "Chemical Burns",
@@ -397,8 +389,6 @@
       "state": "",
       "url": ""
     },
-
-
     {
       "title": "Bleeding after childbirth",
       "head": "Childbirth",
@@ -1182,8 +1172,8 @@
     {
       "title": "Respiratory emergencies",
       "head": "Respiratory Emergencies",
-      "state": "",
-      "url": ""
+      "state": "app.respiratoryEmergencies",
+      "url": "/app/respiratory-emergencies"
     },
 
 
