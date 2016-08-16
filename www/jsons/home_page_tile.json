@@ -14,11 +14,11 @@
     },
     {
       "title": "CPR",
-      "state": ""
+      "state": "app.cpr.call-first-vs-call-fast"
     },
     {
       "title": "Respiratory Emergencies",
-      "state": ""
+      "state": "app.respiratory-emergencies.signAndSymptom"
     },
     {
       "title": "Scene Safety",
@@ -26,7 +26,7 @@
     },
     {
       "title": "Shock",
-      "state": ""
+      "state": "app.shock.signsAndSymptomsOfShock"
     },
     {
       "title": "Stroke",

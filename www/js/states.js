@@ -165,7 +165,63 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.respiratoryEmergencies', {
+        .state('app.cpr', {
+            url: '/app/cpr',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/cpr/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.cpr.call-first-vs-call-fast', {
+            url: '/call-first-vs-call-fast',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/cpr/call-first-vs-call-fast.html'
+                }
+            }
+        })
+
+        .state('app.cpr.1-rescuer-cpr', {
+            url: '/1-rescuer-cpr',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/cpr/1-rescuer-cpr.html'
+                }
+            }
+        })
+
+        .state('app.cpr.2-rescuer-cpr-for-adults-and-children', {
+            url: '/2-rescuer-cpr-for-adults-and-children',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/cpr/2-rescuer-cpr-for-adults-and-children.html'
+                }
+            }
+        })
+    
+        .state('app.cpr.2-rescuer-cpr-for-infants', {
+            url: '/2-rescuer-cpr-for-infants',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/cpr/2-rescuer-cpr-for-infants.html'
+                }
+            }
+        })
+
+        .state('app.cpr.using-an-aed', {
+            url: '/using-an-aed',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/cpr/using-an-aed.html'
+                }
+            }
+        })
+    
+        .state('app.respiratory-emergencies', {
             url: '/app/respiratory-emergencies',
             abstract:true,
             views: {
@@ -175,8 +231,8 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                 }
             }
         })
-
-        .state('app.respiratoryEmergencies.signAndSymptom', {
+    
+        .state('app.respiratory-emergencies.signAndSymptom', {
             url: '/sign-and-symptom',
             views: {
                 'subContent': {
@@ -185,7 +241,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.respiratoryEmergencies.inadequateBreathing', {
+        .state('app.respiratory-emergencies.inadequateBreathing', {
             url: '/inadequate-breathing',
             views: {
                 'subContent': {
@@ -194,7 +250,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.respiratoryEmergencies.emergencyCare', {
+        .state('app.respiratory-emergencies.emergencyCare', {
             url: '/emergency-care',
             views: {
                 'subContent': {
@@ -203,7 +259,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.respiratoryEmergencies.emergencyCareForAnAsthama', {
+        .state('app.respiratory-emergencies.emergencyCareForAnAsthama', {
             url: '/emergency-care-for-an-asthama',
             views: {
                 'subContent': {
@@ -222,7 +278,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.shock.bleedingExternal', {
+        .state('app.shock.signsAndSymptomsOfShock', {
             url: '/signsAndSymptomsOfShock',
             views: {
                 'subContent': {
