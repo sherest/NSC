@@ -356,6 +356,26 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.reassessment', {
+            url: '/app/reassessment',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/reassessment/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.reassessment.reassessment', {
+            url: '/reassessment',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/reassessment/reassessment.html'
+                }
+            }
+        })
+
 
         .state('app.shock', {
             url: '/app/shock',

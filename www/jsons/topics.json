@@ -282,9 +282,9 @@
     },
     {
       "title": "Reassessment",
-      "head": "Assessment, Reassessment",
-      "state": "",
-      "url": ""
+      "head": "Reassessment, Assessment",
+      "state": "app.reassessment.reassessment",
+      "url": "/reassessment"
     },
     {
       "title": "Responsiveness, assessing",
