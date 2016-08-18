@@ -1103,36 +1103,33 @@
     {
       "title": "Inhaled poisoning",
       "head": "Poisoning",
-      "state": "",
-      "url": ""
+      "state": "app.poisoning.emergencyCare",
+      "url": "/emergency-care"
     },
     {
       "title": "Poison Control Centers",
       "head": "Poisoning",
-      "state": "",
-      "url": ""
+      "state": "app.poisoning.emergencyCare",
+      "url": "/emergency-care"
     },
     {
       "title": "Poisoning, inhaled",
       "head": "Poisoning",
-      "state": "",
-      "url": ""
+      "state": "app.poisoning.emergencyCare",
+      "url": "/emergency-care"
     },
     {
       "title": "Poisoning, swallowed",
       "head": "Poisoning",
-      "state": "",
-      "url": ""
+      "state": "app.poisoning.emergencyCare",
+      "url": "/emergency-care"
     },
     {
       "title": "Swallowed poison",
       "head": "Poisoning",
-      "state": "",
-      "url": ""
+      "state": "app.poisoning.emergencyCare",
+      "url": "/emergency-care"
     },
-
-
-    
 
 
     
@@ -1148,7 +1145,6 @@
       "state": "",
       "url": ""
     },
-
 
 
     {

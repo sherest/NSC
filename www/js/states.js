@@ -336,6 +336,26 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.poisoning', {
+            url: '/app/poisoning',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/poisoning/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.poisoning.emergencyCare', {
+            url: '/emergency-care',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/poisoning/poisoning.html'
+                }
+            }
+        })
+
 
         .state('app.shock', {
             url: '/app/shock',

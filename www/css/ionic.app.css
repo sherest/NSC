@@ -12747,6 +12747,11 @@ body .ion-search:before {
     font-family: "Helvetica Neue LT Std Condensed";
     font-size: 1.2em;
     margin: 5px; }
+    .page ol li ul {
+      list-style: disc;
+      margin: 0 0 0 10px; }
+      .page ol li ul li {
+        font-size: 1em; }
 
 .page dl {
   margin: 20px 10px 0px; }
@@ -12772,6 +12777,15 @@ body .ion-search:before {
     font-family: "Helvetica Neue LT Std Condensed";
     font-size: 1.2em;
     margin: 5px; }
+    .page ul li ul {
+      list-style-type: none;
+      margin: 0 0 0 10px; }
+      .page ul li ul li {
+        font-size: 1em;
+        text-indent: -15px; }
+        .page ul li ul li:before {
+          content: "-";
+          padding-right: 10px; }
 
 .page img {
   width: 70%;
