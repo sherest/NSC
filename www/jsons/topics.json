@@ -1172,7 +1172,7 @@
     {
       "title": "Respiratory distress",
       "head": "Respiratory Emergencies",
-      "state": "app.respiratoryEmergencies.emergencyCare",
+      "state": "app.respiratory-emergencies.inadequateBreathing",
       "url": "/emergency-care"
     },
 
