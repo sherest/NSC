@@ -560,9 +560,9 @@ body {
 
     width: 70%;
     height: auto;
-    margin: auto;
 
     display: block;
+    margin: 20px auto;
   }
 }
 
@@ -621,6 +621,8 @@ body {
     position: absolute;
     top: -12px;
     left: 20px;
+    margin: 0;
+    padding: 0;
   }
 
   a {

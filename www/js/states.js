@@ -267,6 +267,76 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                 }
             }
         })
+
+
+        .state('app.oxygen', {
+            url: '/app/oxygen',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/oxygen-administration/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.oxygen.administration', {
+            url: '/administration',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/oxygen-administration/oxygen-administration.html'
+                }
+            }
+        })
+
+        .state('app.pediatricProblems', {
+            url: '/app/pediatric-problems',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/pediatric-problems/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.pediatricProblems.blowByOxygen', {
+            url: '/blow-by-oxygen',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/pediatric-problems/blow-by-oxygen-for-respiratory-distress.html'
+                }
+            }
+        })
+
+        .state('app.pediatricProblems.seizures', {
+            url: '/seizures',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/pediatric-problems/seizures.html'
+                }
+            }
+        })
+
+        .state('app.pediatricProblems.SUID', {
+            url: '/SUID',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/pediatric-problems/SUID.html'
+                }
+            }
+        })
+
+        .state('app.pediatricProblems.abuseIsSuspected', {
+            url: '/abuse-is-suspected',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/pediatric-problems/abuse-is-suspected.html'
+                }
+            }
+        })
+
+
         .state('app.shock', {
             url: '/app/shock',
             abstract:true,

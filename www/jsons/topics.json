@@ -1035,14 +1035,14 @@
     {
       "title": "Oxygen administration",
       "head": "Oxygen Administration",
-      "state": "",
-      "url": ""
+      "state": "app.oxygen.administration",
+      "url": "/administration"
     },
     {
       "title": "Oxygen cylinder volumes",
       "head": "Oxygen Administration",
-      "state": "",
-      "url": ""
+      "state": "app.oxygen.administration",
+      "url": "/administration"
     },
 
 
@@ -1051,50 +1051,50 @@
     {
       "title": "Pediatric problems",
       "head": "Pediatric Problems",
-      "state": "",
-      "url": ""
+      "state": "app.pediatricProblems.blowByOxygen",
+      "url": "/blow-by-oxygen"
     },
     {
       "title": "Abuse, child",
       "head": "Pediatric Problems",
-      "state": "",
-      "url": ""
+      "state": "app.pediatricProblems.abuseIsSuspected",
+      "url": "/abuse-is-suspected"
     },
     {
       "title": "Blow-by oxygen for pediatric respiratory distress",
       "head": "Pediatric Problems",
-      "state": "",
-      "url": ""
+      "state": "app.pediatricProblems.blowByOxygen",
+      "url": "/blow-by-oxygen"
     },
     {
       "title": "Child abuse",
       "head": "Pediatric Problems",
-      "state": "",
-      "url": ""
+      "state": "app.pediatricProblems.abuseIsSuspected",
+      "url": "/abuse-is-suspected"
     },
     {
       "title": "Seizures, pediatric",
       "head": "Pediatric Problems",
-      "state": "",
-      "url": ""
+      "state": "app.pediatricProblems.seizures",
+      "url": "/seizures"
     },
     {
       "title": "SIDS",
       "head": "Pediatric Problems",
-      "state": "",
-      "url": ""
+      "state": "app.pediatricProblems.SUID",
+      "url": "/SUID"
     },
     {
       "title": "Sudden unexpected infant death (SIUD)",
       "head": "Pediatric Problems",
-      "state": "",
-      "url": ""
+      "state": "app.pediatricProblems.seizures",
+      "url": "/seizures"
     },
     {
       "title": "Trauma in pediatric patients",
       "head": "Pediatric Problems",
-      "state": "",
-      "url": ""
+      "state": "app.pediatricProblems.SUID",
+      "url": "/SUID"
     },
 
 
