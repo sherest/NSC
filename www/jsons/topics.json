@@ -1136,14 +1136,14 @@
     {
       "title": "Recovery position (HAINES)",
       "head": "Recovery Position (HAINES)",
-      "state": "",
-      "url": ""
+      "state": "app.recoverPosition.recoverPosition",
+      "url": "/recover-position"
     },
     {
       "title": "HAINES recovery position",
       "head": "Recovery Position (HAINES)",
-      "state": "",
-      "url": ""
+      "state": "app.recoverPosition.recoverPosition",
+      "url": "/recover-position"
     },
 
 

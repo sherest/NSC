@@ -376,6 +376,26 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.recoverPosition', {
+            url: '/app/recover-position',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/recovery-position-haines/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.recoverPosition.recoverPosition', {
+            url: '/recover-position',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/recovery-position-haines/recovery-position.html'
+                }
+            }
+        })
+
 
         .state('app.shock', {
             url: '/app/shock',

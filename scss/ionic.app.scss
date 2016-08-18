@@ -36,6 +36,12 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 }
 
 @font-face {
+  font-family: "Helvetica Neue LT Std Condensed";
+  font-style: oblique;
+  src: url(../fonts/HelveticaNeueLTStd-CnO.otf);
+}
+
+@font-face {
   font-family: "Helvetica Neue LT Std Black Condensed";
   src: url(../fonts/HelveticaNeueLTStd-BlkCn.otf);
 }
@@ -579,6 +585,25 @@ body {
           }
         }
       }
+    }
+  }
+
+  figure{
+    width: 70%;
+
+    display: block;
+    margin: 20px auto;
+
+    img{
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      margin: 5px auto;
+    }
+    figcaption{
+      font-family: "Helvetica Neue LT Std Condensed";
+      font-size: 1.2em;
+      font-style: oblique;
     }
   }
 
