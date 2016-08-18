@@ -2,7 +2,7 @@
   "data": [
     {
       "title": "Airway Obstruction",
-      "state": "app.airway-obstruction.fbao"
+      "state": "app.airwayObstruction.fbao"
     },
     {
       "title": "Bleeding Control",
@@ -14,11 +14,11 @@
     },
     {
       "title": "CPR",
-      "state": "app.cpr.call-first-vs-call-fast"
+      "state": "app.cprCallFirstVsCallFast"
     },
     {
       "title": "Respiratory Emergencies",
-      "state": "app.respiratory-emergencies.signAndSymptom"
+      "state": "app.respiratoryEmergencies.signAndSymptom"
     },
     {
       "title": "Scene Safety",

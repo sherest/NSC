@@ -31,7 +31,37 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                 }]
             }
         })
-        .state('app.airway-obstruction', {
+    
+        .state('app.abdominalPain', {
+            url: '/app/abdominal-pain',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/abdominal-pain/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.abdominalPain.whenEmergencCareNeeded', {
+            url: '/when-emergenc-care-needed',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/abdominal-pain/when-emergenc-care-needed.html'
+                }
+            }
+        })
+    
+        .state('app.abdominalPain.emergencyCareForSevereAbdominalPain', {
+            url: '/emergency-care-for-severe-abdominal-pain',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/abdominal-pain/emergency-care-for-severe-abdominal-pain.html'
+                }
+            }
+        })
+    
+        .state('app.airwayObstruction', {
             url: '/app/airway-obstruction',
             abstract:true,
             views: {
@@ -42,7 +72,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.airway-obstruction.fbao', {
+        .state('app.airwayObstruction.fbao', {
             url: '/fbao',
             views: {
                 'subContent': {
@@ -51,7 +81,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.airway-obstruction.fbao-adult', {
+        .state('app.airwayObstruction.fbaoAdult', {
             url: '/fbao-adult',
             views: {
                 'subContent': {
@@ -60,7 +90,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.airway-obstruction.fbao-infant', {
+        .state('app.airwayObstruction.fbaoInfant', {
             url: '/fbao-infant',
             views: {
                 'subContent': {
@@ -69,7 +99,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.airway-obstruction.fbao-unresponsive', {
+        .state('app.airwayObstruction.fbaoUnresponsive', {
             url: '/fbao-unresponsive',
             views: {
                 'subContent': {
@@ -176,7 +206,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.cpr.call-first-vs-call-fast', {
+        .state('app.cpr.callFirstVsCallFast', {
             url: '/call-first-vs-call-fast',
             views: {
                 'subContent': {
@@ -185,7 +215,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.cpr.1-rescuer-cpr', {
+        .state('app.cpr.1RescuerCpr', {
             url: '/1-rescuer-cpr',
             views: {
                 'subContent': {
@@ -194,7 +224,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.cpr.2-rescuer-cpr-for-adults-and-children', {
+        .state('app.cpr.2RescuerCprForAdultsAndChildren', {
             url: '/2-rescuer-cpr-for-adults-and-children',
             views: {
                 'subContent': {
@@ -203,7 +233,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
     
-        .state('app.cpr.2-rescuer-cpr-for-infants', {
+        .state('app.cpr.2RescuerCprForInfants', {
             url: '/2-rescuer-cpr-for-infants',
             views: {
                 'subContent': {
@@ -212,7 +242,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.cpr.using-an-aed', {
+        .state('app.cpr.usingAnAed', {
             url: '/using-an-aed',
             views: {
                 'subContent': {
@@ -221,7 +251,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
     
-        .state('app.respiratory-emergencies', {
+        .state('app.respiratoryEmergencies', {
             url: '/app/respiratory-emergencies',
             abstract:true,
             views: {
@@ -232,7 +262,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
     
-        .state('app.respiratory-emergencies.signAndSymptom', {
+        .state('app.respiratoryEmergencies.signAndSymptom', {
             url: '/sign-and-symptom',
             views: {
                 'subContent': {
@@ -241,7 +271,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.respiratory-emergencies.inadequateBreathing', {
+        .state('app.respiratoryEmergencies.inadequateBreathing', {
             url: '/inadequate-breathing',
             views: {
                 'subContent': {
@@ -250,7 +280,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.respiratory-emergencies.emergencyCare', {
+        .state('app.respiratoryEmergencies.emergencyCare', {
             url: '/emergency-care',
             views: {
                 'subContent': {
@@ -259,7 +289,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.respiratory-emergencies.emergencyCareForAnAsthama', {
+        .state('app.respiratoryEmergencies.emergencyCareForAnAsthama', {
             url: '/emergency-care-for-an-asthama',
             views: {
                 'subContent': {
