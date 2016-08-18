@@ -1152,29 +1152,30 @@
 
 
     {
+      "title": "Respiratory emergencies",
+      "head": "Respiratory Emergencies",
+      "state": "app.respiratory-emergencies.signAndSymptom",
+      "url": "/sign-and-symptom"
+    },
+    {
       "title": "Breathing, inadequate",
       "head": "Respiratory Emergencies",
-      "state": "",
-      "url": ""
+      "state": "app.respiratory-emergencies.inadequateBreathing",
+      "url": "/inadequate-breathing"
     },
     {
       "title": "Inadequate breathing",
       "head": "Respiratory Emergencies",
-      "state": "",
-      "url": ""
+      "state": "app.respiratory-emergencies.inadequateBreathing",
+      "url": "/inadequate-breathing"
     },
     {
       "title": "Respiratory distress",
       "head": "Respiratory Emergencies",
-      "state": "",
-      "url": ""
+      "state": "app.respiratoryEmergencies.emergencyCare",
+      "url": "/emergency-care"
     },
-    {
-      "title": "Respiratory emergencies",
-      "head": "Respiratory Emergencies",
-      "state": "app.respiratoryEmergencies",
-      "url": "/app/respiratory-emergencies"
-    },
+
 
 
 
@@ -1231,14 +1232,14 @@
     {
       "title": "Hypoperfusion",
       "head": "Shock (Hypoperfusion)",
-      "state": "",
-      "url": ""
+      "state": "app.shock.signsAndSymptomsOfShock",
+      "url": "/signs-and-symptoms-of-shock"
     },
     {
       "title": "Shock",
       "head": "Shock (Hypoperfusion)",
-      "state": "",
-      "url": ""
+      "state": "app.shock.signsAndSymptomsOfShock",
+      "url": "/signs-and-symptoms-of-shock"
     },
 
 

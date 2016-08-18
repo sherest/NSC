@@ -13,3 +13,8 @@
 .ion_alpha_sidebar li{
 	line-height: 1.1;
 }
+.ion_alpha_list_outer #alpha-scroll{
+	height: calc(100vh - 44px);
+	overflow-y: scroll;
+	overflow-x: hidden;
+}

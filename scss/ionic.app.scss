@@ -90,7 +90,7 @@ body {
           color: #fff;
 
           font-size: 16px;
-          line-height: 16px;
+          line-height: 18px;
           padding: 5px 0 0 0;
           margin-right: 10px;
           height: auto !important;
@@ -131,11 +131,19 @@ body {
 .menu {
   &.menu-right{
     background: #17649d;
+
+
+    button.button-icon{
+      &:before{
+        font-size: 24px !important;
+      }
+    }
+
   }
 }
 .ion_alpha_list_outer {
   .scroll{
-    transform: none !important;
+    //transform: none !important;
   }
   .list {
     padding-right: 0px;
@@ -550,7 +558,7 @@ body {
 
   img {
 
-    width: 60%;
+    width: 70%;
     height: auto;
     margin: auto;
 

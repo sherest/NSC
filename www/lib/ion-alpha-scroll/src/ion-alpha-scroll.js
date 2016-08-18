@@ -23,12 +23,12 @@ angular.module('ion-alpha-scroll', [])
                     var children = tElement.contents();
                     var template = angular.element([
                         '<ion-list class="ion_alpha_list_outer">',
-                        '<ion-scroll delegate-handle="alphaScroll">',
+                        '<div delegate-handle="alphaScroll" id="alpha-scroll">',
                         '<div data-ng-repeat="(letter, items) in sorted_items" class="ion_alpha_list">',
                         '<ion-item class="item item-divider" id="index_{{letter}}">{{letter}}</ion-item>',
                         '<ion-item ng-repeat="item in items" class="custom"></ion-item>',
                         '</div>',
-                        '</ion-scroll>',
+                        '</div>',
                         '<ul class="ion_alpha_sidebar" on-drag="onDrag($event)">',
                         ' <li ng-click="alphaScrollGoToList(\'index_{{letter}}\')" data-code="{{letter.charCodeAt(0)}}" ng-repeat="letter in alphabet" ng-class="{portrait: checkoutletter(letter)}" repeat-done="layoutDone()"><span class="alpha" ng-class="{portrait:$index%2==1}">{{letter}}</span><span ng-if="$index%2==1" class="alpha landscape">&bull;</span></li>',
                         '</ul>',

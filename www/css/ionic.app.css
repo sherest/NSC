@@ -12196,6 +12196,11 @@ a.button {
 .ion_alpha_sidebar li {
   line-height: 1.1; }
 
+.ion_alpha_list_outer #alpha-scroll {
+  height: calc(100vh - 44px);
+  overflow-y: scroll;
+  overflow-x: hidden; }
+
 .filter-bar-backdrop {
   -webkit-transition: opacity 150ms ease-in-out;
   transition: opacity 150ms ease-in-out;
@@ -12471,7 +12476,7 @@ body .ion-search:before {
     text-transform: capitalize;
     color: #fff;
     font-size: 16px;
-    line-height: 16px;
+    line-height: 18px;
     padding: 5px 0 0 0;
     margin-right: 10px;
     height: auto !important;
@@ -12498,9 +12503,8 @@ body .ion-search:before {
 *************************/
 .menu.menu-right {
   background: #17649d; }
-
-.ion_alpha_list_outer .scroll {
-  transform: none !important; }
+  .menu.menu-right button.button-icon:before {
+    font-size: 24px !important; }
 
 .ion_alpha_list_outer .list {
   padding-right: 0px; }
@@ -12770,7 +12774,7 @@ body .ion-search:before {
     margin: 5px; }
 
 .page img {
-  width: 60%;
+  width: 70%;
   height: auto;
   margin: auto;
   display: block; }

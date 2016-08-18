@@ -157,7 +157,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.burns.burnsHeat', {
-            url: '/burnsHeat',
+            url: '/burns-heat',
             views: {
                 'subContent': {
                     templateUrl: 'js/page/burns/burns-heat.html'
@@ -282,16 +282,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             url: '/signsAndSymptomsOfShock',
             views: {
                 'subContent': {
-                    templateUrl: 'js/page/shock/signs-and-symptoms-of-shock.html'
-                }
-            }
-        })
-
-        .state('app.shock.emergencyCareForShock', {
-            url: '/emergency-care-for-shock',
-            views: {
-                'subContent': {
-                    templateUrl: 'js/page/shock/emergency-care-for-shock.html'
+                    templateUrl: 'js/page/shock/shock.html'
                 }
             }
         });
