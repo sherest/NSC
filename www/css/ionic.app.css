@@ -12776,8 +12776,8 @@ body .ion-search:before {
 .page img {
   width: 70%;
   height: auto;
-  margin: auto;
-  display: block; }
+  display: block;
+  margin: 20px auto; }
 
 /* Search Page
 ********************************/
@@ -12822,7 +12822,9 @@ body .ion-search:before {
     height: 50px;
     position: absolute;
     top: -12px;
-    left: 20px; }
+    left: 20px;
+    margin: 0;
+    padding: 0; }
   .my-footer a {
     position: absolute;
     right: 10px;
