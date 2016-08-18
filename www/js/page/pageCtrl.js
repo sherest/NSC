@@ -4,16 +4,16 @@ nscApp.controller("PageCtrl", function ($scope, $ionicViewSwitcher, $state) {
     var currentIndex = 0;
 
     $scope.$on('$stateChangeSuccess',function(event, toState, toParams, fromState, fromParams){
-        var state = {url: toState.url };
-        currentIndex = _.findIndex($scope.topicList, state);
+        var state = toState.name;
+        currentIndex = _.indexOf($scope.uTopicList, state);
     });
 
     $scope.$on("SwipeLeftEvent", function(){
 
-        if(currentIndex < $scope.topicList.length - 1 ){
+        if(currentIndex < $scope.uTopicList.length - 1 ){
             $ionicViewSwitcher.nextDirection('forward');
 
-            $scope.toState($scope.topicList[currentIndex+1].state);
+            $scope.toState($scope.uTopicList[currentIndex+1]);
         }
 
     });
@@ -23,7 +23,7 @@ nscApp.controller("PageCtrl", function ($scope, $ionicViewSwitcher, $state) {
         if(currentIndex > 0){
             $ionicViewSwitcher.nextDirection('back');
 
-            $scope.toState($scope.topicList[currentIndex-1].state);
+            $scope.toState($scope.uTopicList[currentIndex-1]);
         }
     });
 });
