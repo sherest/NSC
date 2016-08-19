@@ -101,6 +101,35 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
     
+        .state('app.airwayOpening', {
+            url: '/app/airway-opening',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/airway-opening/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.airwayOpening.headTiltChinLift', {
+            url: '/head-tilt-chin-lift',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/airway-opening/head-tilt-chin-lift.html'
+                }
+            }
+        })
+
+        .state('app.airwayOpening.jawThrust', {
+            url: '/jaw-thrust',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/airway-opening/jaw-thrust.html'
+                }
+            }
+        })
+    
         .state('app.airwayObstruction', {
             url: '/app/airway-obstruction',
             abstract:true,
