@@ -10,7 +10,7 @@ nscApp.controller("PageCtrl", function ($scope, $ionicViewSwitcher, $state) {
 
     $scope.$on("SwipeLeftEvent", function(){
 
-        if(currentIndex < $scope.uTopicList.length - 1 ){
+        if(currentIndex < $scope.uTopicList.length - 1 && currentIndex > -1){
             $ionicViewSwitcher.nextDirection('forward');
 
             $scope.toState($scope.uTopicList[currentIndex+1]);

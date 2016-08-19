@@ -280,15 +280,6 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.respiratoryEmergencies.emergencyCare', {
-            url: '/emergency-care',
-            views: {
-                'subContent': {
-                    templateUrl: 'js/page/respiratory-emergencies/emergency-care.html'
-                }
-            }
-        })
-
         .state('app.respiratoryEmergencies.emergencyCareForAnAsthama', {
             url: '/emergency-care-for-an-asthama',
             views: {

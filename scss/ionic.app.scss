@@ -615,6 +615,31 @@ body {
     display: block;
     margin: 20px auto;
   }
+
+  fieldset{
+
+    border: none;
+    border-top: 1px solid gray;
+
+
+    legend{
+
+      font-family: "Helvetica Neue LT Std Bold Condensed";
+      font-size: 1.2em;
+
+      width: auto !important;
+      border: none;
+      padding: 0 10px;
+    }
+
+    ul{
+      margin: 0px 10px;
+
+      li::first-letter{
+        text-transform: capitalize;
+      }
+    }
+  }
 }
 
 /* Search Page

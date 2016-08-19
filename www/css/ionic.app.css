@@ -12812,6 +12812,20 @@ body .ion-search:before {
   display: block;
   margin: 20px auto; }
 
+.page fieldset {
+  border: none;
+  border-top: 1px solid gray; }
+  .page fieldset legend {
+    font-family: "Helvetica Neue LT Std Bold Condensed";
+    font-size: 1.2em;
+    width: auto !important;
+    border: none;
+    padding: 0 10px; }
+  .page fieldset ul {
+    margin: 0px 10px; }
+    .page fieldset ul li::first-letter {
+      text-transform: capitalize; }
+
 /* Search Page
 ********************************/
 .highlighted {
