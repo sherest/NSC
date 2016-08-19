@@ -66,8 +66,8 @@
     {
       "title": "Airway, opening",
       "head": "Airway—Opening",
-      "state": "app.airwayOpening",
-      "url": "/app/airway-opening"
+      "state": "app.airwayOpening.headTiltChinLift",
+      "url": "/head-tilt-chin-lift"
     },
     {
       "title": "Head tilt–chin lift",
