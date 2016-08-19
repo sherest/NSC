@@ -1,54 +1,54 @@
 {
   "topics": [
-
-    
+      
+      
     {
       "title": "AED",
       "head": "Abbreviations and Memory Aids",
-      "state": "",
-      "url": ""
+      "state": "app.abbreviations.aed",
+      "url": "/aed"
     },
     {
       "title": "Abbreviations",
       "head": "Abbreviations and Memory Aids",
-      "state": "",
-      "url": ""
+      "state": "app.abbreviations.aed",
+      "url": "/aed"
     },
     {
       "title": "AVPU responsiveness scale",
       "head": "Abbreviations and Memory Aids",
-      "state": "",
-      "url": ""
+      "state": "app.abbreviations.aed",
+      "url": "/aed"
     },
     {
       "title": "DCAP-BTLS in physical examination",
       "head": "Abbreviations and Memory Aids, Assessment",
-      "state": "",
-      "url": ""
+      "state": "app.abbreviations.dots",
+      "url": "/dots"
     },
     {
       "title": "DOTS in physical examination",
       "head": "Abbreviations and Memory Aids, Assessment",
-      "state": "",
-      "url": ""
+      "state": "app.abbreviations.dots",
+      "url": "/dots"
     },
     {
       "title": "Memory aids",
       "head": "Abbreviations and Memory Aids",
-      "state": "",
-      "url": ""
+      "state": "app.abbreviations.rpm",
+      "url": "/rpm"
     },
     {
       "title": "OPQRST to evaluate pain/symptoms",
       "head": "Abbreviations and Memory Aids",
-      "state": "",
-      "url": ""
+      "state": "app.abbreviations.rpm",
+      "url": "/rpm"
     },
     {
       "title": "SAMPLE history",
       "head": "Abbreviations and Memory Aids, Assessment",
-      "state": "",
-      "url": ""
+      "state": "app.abbreviations.rpm",
+      "url": "/rpm"
     },
 
 

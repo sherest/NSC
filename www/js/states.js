@@ -32,6 +32,46 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
     
+        .state('app.abbreviations', {
+            url: '/app/abbreviations',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/abbreviations/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.abbreviations.aed', {
+            url: '/aed',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/abbreviations/aed.html'
+                }
+            }
+        })
+    
+    
+        .state('app.abbreviations.dots', {
+            url: '/dots',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/abbreviations/dots.html'
+                }
+            }
+        })
+    
+    
+        .state('app.abbreviations.rpm', {
+            url: '/rpm',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/abbreviations/rpm.html'
+                }
+            }
+        })
+    
         .state('app.abdominalPain', {
             url: '/app/abdominal-pain',
             abstract:true,
