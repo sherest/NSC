@@ -119,20 +119,20 @@
     {
       "title": "Abuse, alcohol",
       "head": "Alcohol and Drug Abuse and Overdose Emergencies",
-      "state": "",
-      "url": ""
+      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
+      "url": "/alcohol-and-drug-abuse"
     },
     {
       "title": "Abuse, drug",
       "head": "Alcohol and Drug Abuse and Overdose Emergencies",
-      "state": "",
-      "url": ""
+      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
+      "url": "/alcohol-and-drug-abuse"
     },
     {
       "title": "Alcohol abuse",
       "head": "Alcohol and Drug Abuse and Overdose Emergencies",
-      "state": "",
-      "url": ""
+      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
+      "url": "/alcohol-and-drug-abuse"
     },
     {
       "title": "Alcohol overdose",
@@ -143,8 +143,8 @@
     {
       "title": "Drug abuse",
       "head": "Alcohol and Drug Abuse and Overdose Emergencies",
-      "state": "",
-      "url": ""
+      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
+      "url": "/alcohol-and-drug-abuse"
     },
     {
       "title": "Drug overdose",
@@ -158,20 +158,20 @@
     {
       "title": "Allergic reactions (severe)",
       "head": "Allergic Reactions (Severe), Medications",
-      "state": "",
-      "url": ""
+      "state": "app.allergicReactions.earlySignsAndSymptoms",
+      "url": "/early-signs-and-symptoms"
     },
     {
       "title": "Anaphylaxis – see Allergic reactions (severe)",
       "head": "Allergic Reactions (Severe), Medications",
-      "state": "",
-      "url": ""
+      "state": "app.allergicReactions.developingSignsAndSymptoms",
+      "url": "/developing-signs-and-symptoms"
     },
     {
       "title": "Epinephrine auto-injector for severe allergic reaction",
       "head": "Allergic Reactions (Severe), Medications",
-      "state": "",
-      "url": ""
+      "state": "app.allergicReactions.emergencyCareForAllergicReactions",
+      "url": "/emergency-care-for-allergic-reactions"
     },
 
 
@@ -181,8 +181,8 @@
     {
       "title": "Altered mental status",
       "head": "Altered Mental Status",
-      "state": "",
-      "url": ""
+      "state": "app.alteredMentalStatus.commonCausesOfAlteredMentalStatus",
+      "url": "/common-causes-of-altered-mental-status"
     },
 
 
@@ -190,8 +190,8 @@
     {
       "title": "Anatomy",
       "head": "Anatomy Review",
-      "state": "",
-      "url": ""
+      "state": "app.anatomy.directionalTerms",
+      "url": "/directional-terms"
     },
 
 
@@ -310,22 +310,22 @@
     {
       "title": "Behavioral emergencies",
       "head": "Behavioral Emergencies",
-      "state": "",
-      "url": ""
+      "state": "app.behavioralEmergencies.assessingBehavioralEmergencies",
+      "url": "/assessing-behavioral-emergencies"
     },
 
 
     {
       "title": "Bites",
       "head": "Bites and Stings",
-      "state": "",
-      "url": ""
+      "state": "app.bitesAndStings.careForAnimalBites",
+      "url": "/care-for-animal-bites"
     },
     {
       "title": "Sting",
       "head": "Bites and Stings",
-      "state": "",
-      "url": ""
+      "state": "app.bitesAndStings.careForOtherBitesAndStings",
+      "url": "/care-for-other-bites-and-stings"
     },
 
 

@@ -195,6 +195,207 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.alcoholAndDrugAbuse', {
+            url: '/app/alcohol-and-drug-abuse',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/alcohol-and-drug-abuse/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.alcoholAndDrugAbuse.alcoholAndDrugAbuse', {
+            url: '/alcohol-and-drug-abuse',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/alcohol-and-drug-abuse/alcohol-and-drug-abuse.html'
+                }
+            }
+        })
+    
+        .state('app.allergicReactions', {
+            url: '/app/allergic-reactions',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/allergic-reactions/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.allergicReactions.earlySignsAndSymptoms', {
+            url: '/early-signs-and-symptoms',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/allergic-reactions/early-signs-and-symptoms.html'
+                }
+            }
+        })
+        
+        .state('app.allergicReactions.developingSignsAndSymptoms', {
+            url: '/developing-signs-and-symptoms',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/allergic-reactions/developing-signs-and-symptoms.html'
+                }
+            }
+        })
+    
+        .state('app.allergicReactions.emergencyCareForAllergicReactions', {
+            url: '/emergency-care-for-allergic-reactions',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/allergic-reactions/emergency-care-for-allergic-reactions.html'
+                }
+            }
+        })
+    
+        .state('app.alteredMentalStatus', {
+            url: '/app/altered-mental-status',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/altered-mental-status/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.alteredMentalStatus.commonCausesOfAlteredMentalStatus', {
+            url: '/common-causes-of-altered-mental-status',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/altered-mental-status/common-causes-of-altered-mental-status.html'
+                }
+            }
+        })
+        
+        .state('app.alteredMentalStatus.emergencyCareForAlteredMentalStatus', {
+            url: '/emergency-care-for-altered-mental-status',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/altered-mental-status/emergency-care-for-altered-mental-status.html'
+                }
+            }
+        })
+        
+        .state('app.anatomy', {
+            url: '/app/anatomy',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/anatomy/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.anatomy.directionalTerms', {
+            url: '/directional-terms',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/anatomy/directional-terms.html'
+                }
+            }
+        })
+        
+        .state('app.anatomy.abdominalQuadrants', {
+            url: '/abdominal-quadrants',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/anatomy/abdominal-quadrants.html'
+                }
+            }
+        })
+        
+        .state('app.anatomy.respiratorySystem', {
+            url: '/respiratory-system',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/anatomy/respiratory-system.html'
+                }
+            }
+        })
+    
+        .state('app.anatomy.majorArteries', {
+            url: '/major-arteries',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/anatomy/major-arteries.html'
+                }
+            }
+        })
+        
+        .state('app.anatomy.skeletalSystem', {
+            url: '/skeletal-system',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/anatomy/skeletal-system.html'
+                }
+            }
+        })
+    
+        .state('app.behavioralEmergencies', {
+            url: '/app/behavioral-emergencies',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/behavioral-emergencies/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.behavioralEmergencies.assessingBehavioralEmergencies', {
+            url: '/assessing-behavioral-emergencies',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/behavioral-emergencies/assessing-behavioral-emergencies.html'
+                }
+            }
+        })
+
+        .state('app.behavioralEmergencies.emergencyCareForBehavioralEmergencies', {
+            url: '/emergency-care-for-behavioral-emergencies',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/behavioral-emergencies/emergency-care-for-behavioral-emergencies.html'
+                }
+            }
+        })
+    
+        .state('app.bitesAndStings', {
+            url: '/app/bites-and-stings',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/bites-and-stings/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.bitesAndStings.careForAnimalBites', {
+            url: '/care-for-animal-bites',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/bites-and-stings/care-for-animal-bites.html'
+                }
+            }
+        })
+
+        .state('app.bitesAndStings.careForOtherBitesAndStings', {
+            url: '/care-for-other-bites-and-stings',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/bites-and-stings/care-for-other-bites-and-stings.html'
+                }
+            }
+        })
+    
         .state('app.airwayObstruction', {
             url: '/app/airway-obstruction',
             abstract:true,
