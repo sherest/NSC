@@ -86,32 +86,32 @@
     {
       "title": "Airway maintenance",
       "head": "Airway Maintenance",
-      "state": "",
-      "url": ""
+      "state": "app.airwayMaintenance.safetyPrecautionsWhenSuctioning",
+      "url": "/safety-precautions-when-suctioning"
     },
     {
       "title": "Nasal airway insertion",
       "head": "Airway Maintenance",
-      "state": "",
-      "url": ""
+      "state": "app.airwayMaintenance.nasalAirwayInsertionInAdults",
+      "url": "/nasal-airway-insertion-in-adults"
     },
     {
       "title": "Oral airway insertion",
       "head": "Airway Maintenance",
-      "state": "",
-      "url": ""
+      "state": "app.airwayMaintenance.oralAirwayInsertionInAdults",
+      "url": "/oral-airway-insertion-in-adults"
     },
     {
       "title": "Suctioning, adult or child",
       "head": "Airway Maintenance",
-      "state": "",
-      "url": ""
+      "state": "app.airwayMaintenance.suctioningAdultOrChild",
+      "url": "/suctioning-adult-or-child"
     },
     {
       "title": "Suctioning, infant",
       "head": "Airway Maintenance",
-      "state": "",
-      "url": ""
+      "state": "app.airwayMaintenance.suctioningInAnInfant",
+      "url": "/suctioning-in-an-infant"
     },
 
 

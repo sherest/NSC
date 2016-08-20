@@ -130,6 +130,71 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
     
+        .state('app.airwayMaintenance', {
+            url: '/app/airway-maintenance',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/airway-maintenance/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.airwayMaintenance.safetyPrecautionsWhenSuctioning', {
+            url: '/safety-precautions-when-suctioning',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/airway-maintenance/safety-precautions-when-suctioning.html'
+                }
+            }
+        })
+
+        .state('app.airwayMaintenance.suctioningInAnInfant', {
+            url: '/suctioning-in-an-infant',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/airway-maintenance/suctioning-in-an-infant.html'
+                }
+            }
+        })
+
+        .state('app.airwayMaintenance.suctioningAdultOrChild', {
+            url: '/suctioning-adult-or-child',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/airway-maintenance/suctioning-adult-or-child.html'
+                }
+            }
+        })
+
+        .state('app.airwayMaintenance.oralAirwayInsertionInAdults', {
+            url: '/oral-airway-insertion-in-adults',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/airway-maintenance/oral-airway-insertion-in-adults.html'
+                }
+            }
+        })
+
+        .state('app.airwayMaintenance.oralAirwayInChildrenAndInfants', {
+            url: '/oral-airway-in-children-and-infants',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/airway-maintenance/oral-airway-in-children-and-infants.html'
+                }
+            }
+        })
+    
+        .state('app.airwayMaintenance.nasalAirwayInsertionInAdults', {
+            url: '/nasal-airway-insertion-in-adults',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/airway-maintenance/nasal-airway-insertion-in-adults.html'
+                }
+            }
+        })
+
         .state('app.airwayObstruction', {
             url: '/app/airway-obstruction',
             abstract:true,
