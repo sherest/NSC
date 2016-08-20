@@ -594,6 +594,11 @@ body {
     display: block;
     margin: 20px auto;
 
+    &.full-size{
+      width: calc(100% - 10px);
+
+    }
+
     img{
       width: 100%;
       height: auto;
@@ -638,6 +643,12 @@ body {
       li::first-letter{
         text-transform: capitalize;
       }
+    }
+  }
+
+  li{
+    figcaption{
+      font-size: 1em;
     }
   }
 }

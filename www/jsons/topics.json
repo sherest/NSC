@@ -300,9 +300,9 @@
     },
     {
       "title": "Vital signs",
-      "head": "Assessment, Vital Signs",
-      "state": "",
-      "url": ""
+      "head": " Vital Signs, Assessment",
+      "state": "app.vitalSigns.vitalSigns",
+      "url": "/vital-signs"
     },
 
 
@@ -1181,38 +1181,38 @@
     {
       "title": "Environmental danger",
       "head": "Scene Safety",
-      "state": "",
-      "url": ""
+      "state": "app.sceneSafety.sceneSizeUp",
+      "url": "/scene-size-up"
     },
     {
       "title": "Hazards within structures",
       "head": "Scene Safety",
-      "state": "",
-      "url": ""
+      "state": "app.sceneSafety.hazardsWithinStructures",
+      "url": "/hazards-within-structures"
     },
     {
       "title": "Scene safety",
       "head": "Scene Safety",
-      "state": "",
-      "url": ""
+      "state": "app.sceneSafety.sceneSizeUp",
+      "url": "/scene-size-up"
     },
     {
       "title": "Scene size-up",
       "head": "Scene Safety",
-      "state": "",
-      "url": ""
+      "state": "app.sceneSafety.sceneSizeUp",
+      "url": "/scene-size-up"
     },
     {
       "title": "Vehicle crash hazards",
       "head": "Scene Safety",
-      "state": "",
-      "url": ""
+      "state": "app.sceneSafety.sceneSizeUp",
+      "url": "/scene-size-up"
     },
     {
       "title": "Violence",
       "head": "Scene Safety",
-      "state": "",
-      "url": ""
+      "state": "app.sceneSafety.sceneSizeUp",
+      "url": "/scene-size-up"
     },
 
 
@@ -1220,8 +1220,8 @@
     {
       "title": "Seizures",
       "head": "Seizures",
-      "state": "",
-      "url": ""
+      "state": "app.seizures.causesOfSeizures",
+      "url": "/causes-of-seizures"
     },
 
 
@@ -1244,8 +1244,8 @@
     {
       "title": "Spinal injuries",
       "head": "Spinal and Head Injuries",
-      "state": "",
-      "url": ""
+      "state": "app.spinalHeadInjury.suspect",
+      "url": "/suspect"
     },
 
 
@@ -1253,20 +1253,20 @@
     {
       "title": "Rigid splint",
       "head": "Splinting",
-      "state": "",
-      "url": ""
+      "state": "app.splinting.examples",
+      "url": "/examples"
     },
     {
       "title": "Sling and binder",
       "head": "Splinting",
-      "state": "",
-      "url": ""
+      "state": "app.splinting.examples",
+      "url": "/examples"
     },
     {
       "title": "Splinting",
       "head": "Splinting",
-      "state": "",
-      "url": ""
+      "state": "app.splinting.splinting",
+      "url": "/splinting"
     },
 
 
@@ -1288,32 +1288,32 @@
     {
       "title": "JumpSTART triage for pediatric patients",
       "head": "Triage",
-      "state": "",
-      "url": ""
+      "state": "app.triage.jumpStart",
+      "url": "/jump-start"
     },
     {
       "title": "START triage assessment",
       "head": "Triage",
-      "state": "",
-      "url": ""
+      "state": "app.triage.triage",
+      "url": "/triage"
     },
     {
       "title": "Triage",
       "head": "Triage",
-      "state": "",
-      "url": ""
+      "state": "app.triage.triage",
+      "url": "/triage"
     },
     {
       "title": "Triage assessment",
       "head": "Triage",
-      "state": "",
-      "url": ""
+      "state": "app.triage.triage",
+      "url": "/triage"
     },
     {
       "title": "Triage categories",
       "head": "Triage",
-      "state": "",
-      "url": ""
+      "state": "app.triage.triage",
+      "url": "/triage"
     },
 
 
@@ -1326,26 +1326,26 @@
     {
       "title": "Bag mask (BVM) for ventilation",
       "head": "Ventilation",
-      "state": "",
-      "url": ""
+      "state": "app.ventilation.ventilation",
+      "url": "/ventilation"
     },
     {
       "title": "BVM (bag-valve-mask) ventilation",
       "head": "Ventilation",
-      "state": "",
-      "url": ""
+      "state": "app.ventilation.ventilation",
+      "url": "/ventilation"
     },
     {
       "title": "Mouth-to-mask ventilation",
       "head": "Ventilation",
-      "state": "",
-      "url": ""
+      "state": "app.ventilation.ventilation",
+      "url": "/ventilation"
     },
     {
       "title": "Ventilation",
       "head": "Ventilation",
-      "state": "",
-      "url": ""
+      "state": "app.ventilation.ventilation",
+      "url": "/ventilation"
     },
 
 
@@ -1354,14 +1354,14 @@
     {
       "title": "Soft-tissue injuries",
       "head": "Wounds and Soft-Tissue Injuries",
-      "state": "",
-      "url": ""
+      "state": "app.wounds.wounds'",
+      "url": "/wounds"
     },
     {
       "title": "Wounds",
       "head": "Wounds and Soft-Tissue Injuries",
-      "state": "",
-      "url": ""
+      "state": "app.wounds.wounds'",
+      "url": "/wounds"
     },
 
 

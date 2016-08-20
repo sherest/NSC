@@ -487,6 +487,57 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
 
+        .state('app.sceneSafety', {
+            url: '/app/scene-safety',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/scene-safety/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.sceneSafety.sceneSizeUp', {
+            url: '/scene-size-up',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/scene-safety/scene-size-up.html'
+                }
+            }
+        })
+
+        .state('app.sceneSafety.hazardsWithinStructures', {
+            url: '/hazards-within-structures',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/scene-safety/hazards-within-structures.html'
+                }
+            }
+        })
+
+
+        .state('app.seizures', {
+            url: '/app/seizures',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/seizures/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.seizures.causesOfSeizures', {
+            url: '/causes-of-seizures',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/seizures/seizures.html'
+                }
+            }
+        })
+
+
         .state('app.shock', {
             url: '/app/shock',
             abstract:true,
@@ -503,6 +554,149 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             views: {
                 'subContent': {
                     templateUrl: 'js/page/shock/shock.html'
+                }
+            }
+        })
+
+
+        .state('app.spinalHeadInjury', {
+            url: '/app/spinal-head-injury',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/spinal-and-head-injuries/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.spinalHeadInjury.suspect', {
+            url: '/suspect',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/spinal-and-head-injuries/suspect.html'
+                }
+            }
+        })
+
+
+        .state('app.splinting', {
+            url: '/app/splinting',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/splinting/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.splinting.splinting', {
+            url: '/splinting',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/splinting/splinting.html'
+                }
+            }
+        })
+
+        .state('app.splinting.examples', {
+            url: '/examples',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/splinting/examples.html'
+                }
+            }
+        })
+
+        .state('app.triage', {
+            url: '/triage',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/triage/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.triage.triage', {
+            url: '/triage',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/triage/triage.html'
+                }
+            }
+        })
+
+        .state('app.triage.jumpStart', {
+            url: '/jump-start',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/triage/jump-start.html'
+                }
+            }
+        })
+
+
+        .state('app.ventilation', {
+            url: '/ventilation',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/ventilation/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.ventilation.ventilation', {
+            url: '/ventilation',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/ventilation/ventilation.html'
+                }
+            }
+        })
+
+
+        .state('app.vitalSigns', {
+            url: '/vital-signs',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/vital-signs/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.vitalSigns.vitalSigns', {
+            url: '/vital-signs',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/vital-signs/vital-signs.html'
+                }
+            }
+        })
+
+
+        .state('app.wounds', {
+            url: '/wounds',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/wounds-and-soft-tissue-injuries/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.wounds.wounds', {
+            url: '/wounds',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/wounds-and-soft-tissue-injuries/wounds.html'
                 }
             }
         });
