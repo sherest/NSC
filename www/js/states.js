@@ -454,15 +454,6 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.airwayObstruction.fbaoUnresponsive', {
-            url: '/fbao-unresponsive',
-            views: {
-                'subContent': {
-                    templateUrl: 'js/page/airway-obstruction/fbao-unresponsive.html'
-                }
-            }
-        })
-
         .state('app.bleeding', {
             url: '/app/bleeding',
             abstract:true,
@@ -625,7 +616,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                 }
             }
         })
-    
+
         .state('app.respiratoryEmergencies', {
             url: '/app/respiratory-emergencies',
             abstract:true,
@@ -1003,6 +994,106 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             views: {
                 'subContent': {
                     templateUrl: 'js/page/wounds-and-soft-tissue-injuries/wounds.html'
+                }
+            }
+        })
+
+        .state('app.frostbite', {
+            url: '/app/frostbite',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/frostbite/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.frostbite.emergency', {
+            url: '/emergency',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/frostbite/emergency-care-for-frostbite.html'
+                }
+            }
+        })
+
+        .state('app.glascow', {
+            url: '/app/glascow',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/glascow-coma/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.glascow.glascowComaScale', {
+            url: '/glascow-coma-scale',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/glascow-coma/glascow-coma-scale.html'
+                }
+            }
+        })
+
+        .state('app.hazmat', {
+            url: '/app/hazmat',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/hazmat/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.hazmat.hazmat', {
+            url: '/hazmat',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/hazmat/hazmat.html'
+                }
+            }
+        })
+
+        .state('app.headInjury', {
+            url: '/app/head-injury',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/head-injury/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.headInjury.emergency', {
+            url: '/emergency',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/head-injury/emergency-care-for-head-injury.html'
+                }
+            }
+        })
+
+        .state('app.heartAttack', {
+            url: '/app/heart-attack',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/heart-attack/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.heartAttack.signs', {
+            url: '/signs',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/heart-attack/signs.html'
                 }
             }
         });

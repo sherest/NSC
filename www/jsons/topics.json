@@ -450,8 +450,8 @@
     {
       "title": "Frostbite",
       "head": "Cold Emergencies, Frostbite",
-      "state": "",
-      "url": ""
+      "state": "app.frostbite.emergency",
+      "url": "/emergency"
     },
     {
       "title": "Hypothermia",
@@ -614,60 +614,58 @@
     {
       "title": "Airway obstruction, responsive adult or child",
       "head": "Foreign Body Airway Obstruction (Fbao )",
-      "state": "",
-      "url": ""
+      "state": "app.airwayObstruction.fbaoAdult",
+      "url": "/fbao-adult"
     },
     {
       "title": "Airway obstruction, responsive infant",
       "head": "Foreign Body Airway Obstruction (Fbao )",
-      "state": "",
-      "url": ""
+      "state": "app.airwayObstruction.fbaoInfant",
+      "url": "/fbao-infant"
     },
     {
       "title": "Airway obstruction, unresponsive patient",
       "head": "Foreign Body Airway Obstruction (Fbao )",
-      "state": "",
-      "url": ""
+      "state": "app.airwayObstruction.fbaoInfant",
+      "url": "/fbao-infant"
     },
     {
       "title": "Choking",
       "head": "Foreign Body Airway Obstruction (Fbao )",
-      "state": "",
-      "url": ""
+      "state": "app.airwayObstruction.fbao",
+      "url": "/fbao"
     },
     {
       "title": "Foreign body airway obstruction (FBAO)",
       "head": "Foreign Body Airway Obstruction (Fbao )",
-      "state": "",
-      "url": ""
+      "state": "app.airwayObstruction.fbao",
+      "url": "/fbao"
     },
     {
       "title": "Foreign body airway obstruction, responsive adult or child",
       "head": "Foreign Body Airway Obstruction (Fbao )",
-      "state": "",
-      "url": ""
+      "state": "app.airwayObstruction.fbaoAdult",
+      "url": "/fbao-adult"
     },
     {
       "title": "Foreign body airway obstruction, responsive infant",
       "head": "Foreign Body Airway Obstruction (Fbao )",
-      "state": "",
-      "url": ""
+      "state": "app.airwayObstruction.fbaoInfant",
+      "url": "/fbao-infant"
     },
     {
       "title": "Foreign body airway obstruction, unresponsive patient",
       "head": "Foreign Body Airway Obstruction (Fbao )",
-      "state": "",
-      "url": ""
+      "state": "app.airwayObstruction.fbaoAdult",
+      "url": "/fbao-adult"
     },
 
 
-
-    
     {
       "title": "Glasgow Coma Scale",
       "head": "Glasgow Coma Scale to Assess Head Injury",
-      "state": "",
-      "url": ""
+      "state": "app.glascow.glascowComaScale",
+      "url": "/glascow-coma-scale"
     },
 
 
@@ -676,8 +674,8 @@
     {
       "title": "HAZMAT scenes",
       "head": "Hazmat Scenes",
-      "state": "",
-      "url": ""
+      "state": "app.hazmat.hazmat",
+      "url": "/hazmat"
     },
 
 
@@ -685,8 +683,8 @@
     {
       "title": "Head injuries",
       "head": "Head Injuries, Spinal and Head Injuries",
-      "state": "",
-      "url": ""
+      "state": "app.headInjury.emergency",
+      "url": "/emergency"
     },
 
 
@@ -694,14 +692,14 @@
     {
       "title": "Aspirin for heart attack",
       "head": "Heart Attack, Medications",
-      "state": "",
-      "url": ""
+      "state": "app.heartAttack.signs",
+      "url": "/signs"
     },
     {
       "title": "Heart attack",
       "head": "Heart Attack, Medications",
-      "state": "",
-      "url": ""
+      "state": "app.heartAttack.signs",
+      "url": "/signs"
     },
 
 
