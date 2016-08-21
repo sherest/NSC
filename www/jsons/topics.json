@@ -526,8 +526,8 @@
     {
       "title": "Diabetic emergencies",
       "head": "Diabetic Emergencies",
-      "state": "app.diabeticEmergencies.diabeticEmergencies",
-      "url": "/diabetic-emergencies"
+      "state": "",
+      "url": ""
     },
     {
       "title": "Glucose paste for diabetic emergenc",
@@ -538,14 +538,14 @@
     {
       "title": "Hyperglycemia",
       "head": "Diabetic Emergencies",
-      "state": "app.diabeticEmergencies.diabeticEmergencies",
-      "url": "/diabetic-emergencies"
+      "state": "",
+      "url": ""
     },
     {
       "title": "Hypoglycemia",
       "head": "Diabetic Emergencies, Medications",
-      "state": "app.diabeticEmergencies.diabeticEmergencies",
-      "url": "/diabetic-emergencies"
+      "state": "",
+      "url": ""
     },
 
 
@@ -555,34 +555,34 @@
     {
       "title": "Documentation tips",
       "head": "Documentation Tips",
-      "state": "app.documentationTips.documentationTips",
-      "url": "/documentation-tips"
+      "state": "",
+      "url": ""
     },
     {
       "title": "Error in report, correcting",
       "head": "Documentation Tips, Legal and Ethical Issues",
-      "state": "app.documentationTips.documentationTips",
-      "url": "/documentation-tips"
+      "state": "",
+      "url": ""
     },
     {
       "title": "Minimal data set in documentation",
       "head": "Documentation Tips",
-      "state": "app.documentationTips.documentationTips",
-      "url": "/documentation-tips"
+      "state": "",
+      "url": ""
     },
 
 
     {
       "title": "Bandages",
       "head": "Dressing and Bandages",
-      "state": "app.dressingAndBandages.bandages",
-      "url": "/bandages"
+      "state": "",
+      "url": ""
     },
     {
       "title": "Dressings",
       "head": "Dressing and Bandages",
-      "state": "app.dressingAndBandages.dressing",
-      "url": "/dressing"
+      "state": "",
+      "url": ""
     },
 
 
@@ -607,8 +607,8 @@
     {
       "title": "Fainting",
       "head": "Fainting",
-      "state": "",
-      "url": ""
+      "state": "app.fainting.fainting",
+      "url": "/fainting"
     },
 
 

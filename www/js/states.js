@@ -695,6 +695,26 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
     
+        .state('app.fainting', {
+            url: '/fainting-index',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/fainting/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+    
+        .state('app.fainting.fainting', {
+            url: '/fainting',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/fainting/fainting.html'
+                }
+            }
+        })
+    
         .state('app.cpr', {
             url: '/cpr',
             abstract:true,
@@ -758,75 +778,6 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                 'menuContent': {
                     templateUrl: 'js/page/respiratory-emergencies/index.html',
                     controller: "PageCtrl"
-                }
-            }
-        })
-    
-        .state('app.diabeticEmergencies', {
-            url: '/app/diabetic-emergencies',
-            abstract:true,
-            views: {
-                'menuContent': {
-                    templateUrl: 'js/page/diabetic-emergencies/index.html',
-                    controller: "PageCtrl"
-                }
-            }
-        })
-
-        .state('app.diabeticEmergencies.diabeticEmergencies', {
-            url: '/diabetic-emergencies',
-            views: {
-                'subContent': {
-                    templateUrl: 'js/page/diabetic-emergencies/diabetic-emergencies.html'
-                }
-            }
-        })
-    
-        .state('app.documentationTips', {
-            url: '/app/documentation-tips',
-            abstract:true,
-            views: {
-                'menuContent': {
-                    templateUrl: 'js/page/documentation-tips/index.html',
-                    controller: "PageCtrl"
-                }
-            }
-        })
-
-        .state('app.documentationTips.documentationTips', {
-            url: '/documentation-tips',
-            views: {
-                'subContent': {
-                    templateUrl: 'js/page/documentation-tips/documentation-tips.html'
-                }
-            }
-        })
-        
-        .state('app.dressingAndBandages', {
-            url: '/app/dressing-and-bandages',
-            abstract:true,
-            views: {
-                'menuContent': {
-                    templateUrl: 'js/page/dressing-and-bandages/index.html',
-                    controller: "PageCtrl"
-                }
-            }
-        })
-
-        .state('app.dressingAndBandages.dressing', {
-            url: '/dressing',
-            views: {
-                'subContent': {
-                    templateUrl: 'js/page/dressing-and-bandages/dressing.html'
-                }
-            }
-        })
-
-        .state('app.dressingAndBandages.bandages', {
-            url: '/bandages',
-            views: {
-                'subContent': {
-                    templateUrl: 'js/page/dressing-and-bandages/bandages.html'
                 }
             }
         })
