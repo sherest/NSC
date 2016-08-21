@@ -33,7 +33,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
     
         .state('app.abbreviations', {
-            url: '/app/abbreviations',
+            url: '/abbreviations',
             abstract:true,
             views: {
                 'menuContent': {
@@ -73,7 +73,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
     
         .state('app.abdominalPain', {
-            url: '/app/abdominal-pain',
+            url: '/abdominal-pain',
             abstract:true,
             views: {
                 'menuContent': {
@@ -102,7 +102,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
     
         .state('app.airwayOpening', {
-            url: '/app/airway-opening',
+            url: '/airway-opening',
             abstract:true,
             views: {
                 'menuContent': {
@@ -131,7 +131,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
     
         .state('app.airwayMaintenance', {
-            url: '/app/airway-maintenance',
+            url: '/airway-maintenance',
             abstract:true,
             views: {
                 'menuContent': {
@@ -196,7 +196,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.alcoholAndDrugAbuse', {
-            url: '/app/alcohol-and-drug-abuse',
+            url: '/alcohol-and-drug-abuse',
             abstract:true,
             views: {
                 'menuContent': {
@@ -216,7 +216,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
     
         .state('app.allergicReactions', {
-            url: '/app/allergic-reactions',
+            url: '/allergic-reactions',
             abstract:true,
             views: {
                 'menuContent': {
@@ -254,7 +254,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
     
         .state('app.alteredMentalStatus', {
-            url: '/app/altered-mental-status',
+            url: '/altered-mental-status',
             abstract:true,
             views: {
                 'menuContent': {
@@ -283,7 +283,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
         
         .state('app.anatomy', {
-            url: '/app/anatomy',
+            url: '/anatomy',
             abstract:true,
             views: {
                 'menuContent': {
@@ -339,7 +339,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
     
         .state('app.apgar', {
-            url: '/app/apgar',
+            url: '/apgar',
             abstract:true,
             views: {
                 'menuContent': {
@@ -359,7 +359,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
     
         .state('app.behavioralEmergencies', {
-            url: '/app/behavioral-emergencies',
+            url: '/behavioral-emergencies',
             abstract:true,
             views: {
                 'menuContent': {
@@ -388,7 +388,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
     
         .state('app.bitesAndStings', {
-            url: '/app/bites-and-stings',
+            url: '/bites-and-stings',
             abstract:true,
             views: {
                 'menuContent': {
@@ -417,7 +417,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
     
         .state('app.airwayObstruction', {
-            url: '/app/airway-obstruction',
+            url: '/airway-obstruction',
             abstract:true,
             views: {
                 'menuContent': {
@@ -455,7 +455,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.bleeding', {
-            url: '/app/bleeding',
+            url: '/bleeding',
             abstract:true,
             views: {
                 'menuContent': {
@@ -493,7 +493,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.stroke', {
-            url: '/app/stroke',
+            url: '/stroke',
             abstract:true,
             views: {
                 'menuContent': {
@@ -513,7 +513,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.burns', {
-            url: '/app/burns',
+            url: '/burns',
             abstract:true,
             views: {
                 'menuContent': {
@@ -542,7 +542,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.chemicalBurns', {
-            url: '/app/chemical-burns',
+            url: '/chemical-burns',
             abstract:true,
             views: {
                 'menuContent': {
@@ -562,7 +562,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
         
         .state('app.childbirth', {
-            url: '/app/childbirth',
+            url: '/childbirth',
             abstract:true,
             views: {
                 'menuContent': {
@@ -627,7 +627,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
     
         .state('app.choking', {
-            url: '/app/choking',
+            url: '/choking',
             abstract:true,
             views: {
                 'menuContent': {
@@ -647,7 +647,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
     
         .state('app.coldEmergencies', {
-            url: '/app/cold-emergencies',
+            url: '/cold-emergencies',
             abstract:true,
             views: {
                 'menuContent': {
@@ -676,7 +676,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
     
         .state('app.electricalBurns', {
-            url: '/app/electrical-burns',
+            url: '/electrical-burns',
             abstract:true,
             views: {
                 'menuContent': {
@@ -696,7 +696,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
     
         .state('app.cpr', {
-            url: '/app/cpr',
+            url: '/cpr',
             abstract:true,
             views: {
                 'menuContent': {
@@ -752,7 +752,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.respiratoryEmergencies', {
-            url: '/app/respiratory-emergencies',
+            url: '/respiratory-emergencies',
             abstract:true,
             views: {
                 'menuContent': {
@@ -791,7 +791,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
 
 
         .state('app.oxygen', {
-            url: '/app/oxygen',
+            url: '/oxygen',
             abstract:true,
             views: {
                 'menuContent': {
@@ -811,7 +811,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.pediatricProblems', {
-            url: '/app/pediatric-problems',
+            url: '/pediatric-problems',
             abstract:true,
             views: {
                 'menuContent': {
@@ -858,7 +858,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.poisoning', {
-            url: '/app/poisoning',
+            url: '/poisoning',
             abstract:true,
             views: {
                 'menuContent': {
@@ -878,7 +878,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.reassessment', {
-            url: '/app/reassessment',
+            url: '/reassessment',
             abstract:true,
             views: {
                 'menuContent': {
@@ -898,7 +898,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.recoverPosition', {
-            url: '/app/recover-position',
+            url: '/recover-position',
             abstract:true,
             views: {
                 'menuContent': {
@@ -919,7 +919,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
 
 
         .state('app.sceneSafety', {
-            url: '/app/scene-safety',
+            url: '/scene-safety',
             abstract:true,
             views: {
                 'menuContent': {
@@ -949,7 +949,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
 
 
         .state('app.seizures', {
-            url: '/app/seizures',
+            url: '/seizures',
             abstract:true,
             views: {
                 'menuContent': {
@@ -970,7 +970,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
 
 
         .state('app.shock', {
-            url: '/app/shock',
+            url: '/shock',
             abstract:true,
             views: {
                 'menuContent': {
@@ -991,7 +991,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
 
 
         .state('app.spinalHeadInjury', {
-            url: '/app/spinal-head-injury',
+            url: '/spinal-head-injury',
             abstract:true,
             views: {
                 'menuContent': {
@@ -1012,7 +1012,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
 
 
         .state('app.splinting', {
-            url: '/app/splinting',
+            url: '/splinting',
             abstract:true,
             views: {
                 'menuContent': {
@@ -1133,7 +1133,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.frostbite', {
-            url: '/app/frostbite',
+            url: '/frostbite',
             abstract:true,
             views: {
                 'menuContent': {
@@ -1153,7 +1153,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.glascow', {
-            url: '/app/glascow',
+            url: '/glascow',
             abstract:true,
             views: {
                 'menuContent': {
@@ -1173,7 +1173,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.hazmat', {
-            url: '/app/hazmat',
+            url: '/hazmat',
             abstract:true,
             views: {
                 'menuContent': {
@@ -1193,7 +1193,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.headInjury', {
-            url: '/app/head-injury',
+            url: '/head-injury',
             abstract:true,
             views: {
                 'menuContent': {
@@ -1213,7 +1213,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.heartAttack', {
-            url: '/app/heart-attack',
+            url: '/heart-attack',
             abstract:true,
             views: {
                 'menuContent': {
@@ -1233,7 +1233,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.heatEmergency', {
-            url: '/app/heat-emergency',
+            url: '/heat-emergency',
             abstract:true,
             views: {
                 'menuContent': {
@@ -1253,7 +1253,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.helicopterLandingZone', {
-            url: '/app/helicopter-landing-zone',
+            url: '/helicopter-landing-zone',
             abstract:true,
             views: {
                 'menuContent': {
@@ -1273,7 +1273,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.hypothermia', {
-            url: '/app/hypothermia',
+            url: '/hypothermia',
             abstract:true,
             views: {
                 'menuContent': {
@@ -1293,7 +1293,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.legalEthical', {
-            url: '/app/hypothermia',
+            url: '/legal-ethical',
             abstract:true,
             views: {
                 'menuContent': {
@@ -1326,6 +1326,66 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             views: {
                 'subContent': {
                     templateUrl: 'js/page/legal-and-ethical-issues/falsification-of-records.html'
+                }
+            }
+        })
+
+
+        .state('app.massCasualtyIncidents', {
+            url: '/mass-casualty-incidents',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/mass-casualty-incidents/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.massCasualtyIncidents.roleOfEmergency', {
+            url: '/role-of-emergency',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/mass-casualty-incidents/role-of-emergency.html'
+                }
+            }
+        })
+
+
+        .state('app.medication', {
+            url: '/medication',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/medication/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.medication.aspirinForHeartAttack', {
+            url: '/aspirin-for-heart-attack',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/medication/aspirin-for-heart-attack.html'
+                }
+            }
+        })
+
+        .state('app.medication.severeAllergicReation', {
+            url: '/severe-allergic-reation',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/medication/severe-allergic-reation.html'
+                }
+            }
+        })
+
+        .state('app.medication.cardiacEmergency', {
+            url: '/cardiac-emergency',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/medication/cardiac-emergency.html'
                 }
             }
         });

@@ -834,9 +834,9 @@
     
     {
       "title": "Mass-casualty incidents (MCIs)",
-      "head": "Mass-Casualty Incidents",
-      "state": "",
-      "url": ""
+      "head": "Mass Casualty Incidents",
+      "state": "app.massCasualtyIncidents.roleOfEmergency",
+      "url": "/role-of-emergency"
     },
 
 
@@ -844,30 +844,28 @@
     {
       "title": "Bronchodilator (inhaler) for asthma attack",
       "head": "Medications",
-      "state": "",
-      "url": ""
+      "state": "app.medication.aspirinForHeartAttack",
+      "url": "/aspirin-for-heart-attack"
     },
 
     {
       "title": "Inhaler for asthma attack",
       "head": "Medications",
-      "state": "",
-      "url": ""
+      "state": "app.medication.aspirinForHeartAttack",
+      "url": "/aspirin-for-heart-attack"
     },
     {
       "title": "Medications",
       "head": "Medications",
-      "state": "",
-      "url": ""
+      "state": "app.medication.aspirinForHeartAttack",
+      "url": "/aspirin-for-heart-attack"
     },
     {
       "title": "Nitroglycerin for heart attack",
       "head": "Medications",
-      "state": "",
-      "url": ""
+      "state": "app.medication.cardiacEmergency",
+      "url": "/cardiac-emergency"
     },
-
-
 
 
 
