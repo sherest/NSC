@@ -12747,7 +12747,7 @@ body .ion-search:before {
 
 .page ol {
   list-style: decimal;
-  margin: 20px 20px; }
+  margin: 20px 0 20px 20px; }
   .page ol li {
     font-family: "Helvetica Neue LT Std Condensed";
     font-size: 1.2em;
@@ -12777,7 +12777,7 @@ body .ion-search:before {
 
 .page ul {
   list-style: disc;
-  margin: 20px 20px; }
+  margin: 20px 0 20px 20px; }
   .page ul li {
     font-family: "Helvetica Neue LT Std Condensed";
     font-size: 1.2em;

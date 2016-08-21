@@ -1096,6 +1096,66 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                     templateUrl: 'js/page/heart-attack/signs.html'
                 }
             }
+        })
+
+        .state('app.heatEmergency', {
+            url: '/app/heat-emergency',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/heat-emergency/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.heatEmergency.signsAndSymptoms', {
+            url: '/signs-and-symptoms',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/heat-emergency/signs-and-symptoms.html'
+                }
+            }
+        })
+
+        .state('app.helicopterLandingZone', {
+            url: '/app/helicopter-landing-zone',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/helicopter-landing-zone/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.helicopterLandingZone.helicopterLandingZone', {
+            url: '/helicopter-landing-zone',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/helicopter-landing-zone/helicopter-landing.html'
+                }
+            }
+        })
+
+        .state('app.hypothermia', {
+            url: '/app/hypothermia',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/hypothermia/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.hypothermia.signsAndSymptoms', {
+            url: '/signs-and-symptoms',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/hypothermia/signs-and-symptoms.html'
+                }
+            }
         });
 
 

@@ -456,8 +456,8 @@
     {
       "title": "Hypothermia",
       "head": "Cold Emergencies, Hypothermia",
-      "state": "",
-      "url": ""
+      "state": "app.hypothermia.signsAndSymptoms",
+      "url": "/signs-and-symptoms"
     },
 
 
@@ -707,20 +707,20 @@
     {
       "title": "Heat emergencies",
       "head": "Heat Emergencies",
-      "state": "",
-      "url": ""
+      "state": "app.heatEmergency.signsAndSymptoms",
+      "url": "/signs-and-symptoms"
     },
     {
       "title": "Heat exhaustion",
       "head": "Heat Emergencies",
-      "state": "",
-      "url": ""
+      "state": "app.heatEmergency.signsAndSymptoms",
+      "url": "/signs-and-symptoms"
     },
     {
       "title": "Heatstroke",
       "head": "Heat Emergencies",
-      "state": "",
-      "url": ""
+      "state": "app.heatEmergency.signsAndSymptoms",
+      "url": "/signs-and-symptoms"
     },
 
 
@@ -728,15 +728,15 @@
     {
       "title": "Helicopter landing zone",
       "head": "Helicopter Landing Zone",
-      "state": "",
-      "url": ""
+      "state": "app.helicopterLandingZone.helicopterLandingZone",
+      "url": "/helicopter-landing-zone"
     },
 
     {
       "title": "Landing zone, helicopter",
       "head": "Helicopter Landing Zone",
-      "state": "",
-      "url": ""
+      "state": "app.helicopterLandingZone.helicopterLandingZone",
+      "url": "/helicopter-landing-zone"
     },
 
 
