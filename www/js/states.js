@@ -338,6 +338,26 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
     
+        .state('app.apgar', {
+            url: '/app/apgar',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/apgar/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.apgar.apgar', {
+            url: '/apgar',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/apgar/apgar.html'
+                }
+            }
+        })
+    
         .state('app.behavioralEmergencies', {
             url: '/app/behavioral-emergencies',
             abstract:true,
@@ -530,6 +550,26 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.chemicalBurns', {
+            url: '/app/chemical-burns',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/chemical-burns/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.chemicalBurns.burnsChemical', {
+            url: '/burns-chemical',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/chemical-burns/burns-chemical.html'
+                }
+            }
+        })
+    
         .state('app.cpr', {
             url: '/app/cpr',
             abstract:true,

@@ -200,8 +200,8 @@
     {
       "title": "APGAR score",
       "head": "Apgar Score for Newborn Assessment",
-      "state": "",
-      "url": ""
+      "state": "app.apgar.apgar",
+      "url": "/apgar"
 
     },
 
@@ -380,14 +380,14 @@
     {
       "title": "Burns, chemical",
       "head": "Chemical Burns",
-      "state": "",
-      "url": ""
+      "state": "app.chemicalBurns.burnsChemical",
+      "url": "/burns-chemical"
     },
     {
       "title": "Chemical burns",
       "head": "Chemical Burns",
-      "state": "",
-      "url": ""
+      "state": "app.chemicalBurns.burnsChemical",
+      "url": "/burns-chemical"
     },
     {
       "title": "Bleeding after childbirth",
