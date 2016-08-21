@@ -392,50 +392,50 @@
     {
       "title": "Bleeding after childbirth",
       "head": "Childbirth",
-      "state": "",
-      "url": ""
+      "state": "app.childbirth.careForMaternalBleedingAfterDelivery",
+      "url": "/care-for-maternal-bleeding-after-delivery"
     },
     {
       "title": "Childbirth",
       "head": "Childbirth",
-      "state": "",
-      "url": ""
+      "state": "app.childbirth.prepareForChildbirth",
+      "url": "/prepare-for-childbirth"
     },
     {
       "title": "Childbirth imminence, assessing",
       "head": "Childbirth",
-      "state": "",
-      "url": ""
+      "state": "app.childbirth.assessingChildbirthImminence",
+      "url": "/assessing-childbirth-imminence"
     },
     {
       "title": "Childbirth, assisting with delivery",
       "head": "Childbirth",
-      "state": "",
-      "url": ""
+      "state": "app.childbirth.assistingWithDelivery",
+      "url": "/assisting-with-delivery"
     },
     {
       "title": "Childbirth, preparing for",
       "head": "Childbirth",
-      "state": "",
-      "url": ""
+      "state": "app.childbirth.prepareForChildbirth",
+      "url": "/prepare-for-childbirth"
     },
     {
       "title": "Delivery, assisting with",
       "head": "Childbirth",
-      "state": "",
-      "url": ""
+      "state": "app.childbirth.assistingWithDelivery",
+      "url": "/assisting-with-delivery"
     },
     {
       "title": "Labor, care during",
       "head": "Childbirth",
-      "state": "",
-      "url": ""
+      "state": "app.childbirth.supportiveCareDuringLabor",
+      "url": "/supportive-care-during-labor"
     },
     {
       "title": "Newborn care",
       "head": "Childbirth",
-      "state": "",
-      "url": ""
+      "state": "app.childbirth.careOfTheNewborn",
+      "url": "/care-of-the-newborn"
     },
 
 
@@ -444,20 +444,30 @@
     {
       "title": "Cold emergencies",
       "head": "Cold Emergencies",
-      "state": "",
-      "url": ""
+      "state": "app.coldEmergencies.frostbite",
+      "url": "/frostbite"
     },
     {
       "title": "Frostbite",
       "head": "Cold Emergencies, Frostbite",
+<<<<<<< Updated upstream
       "state": "app.frostbite.emergency",
       "url": "/emergency"
+=======
+      "state": "app.coldEmergencies.frostbite",
+      "url": "/frostbite"
+>>>>>>> Stashed changes
     },
     {
       "title": "Hypothermia",
       "head": "Cold Emergencies, Hypothermia",
+<<<<<<< Updated upstream
       "state": "app.hypothermia.signsAndSymptoms",
       "url": "/signs-and-symptoms"
+=======
+      "state": "app.coldEmergencies.hypothermia",
+      "url": "/hypothermia"
+>>>>>>> Stashed changes
     },
 
 
@@ -590,14 +600,14 @@
     {
       "title": "Burns, electrical",
       "head": "Electrical Burns",
-      "state": "",
-      "url": ""
+      "state": "app.electricalBurns.burnsElectrical",
+      "url": "/burns-electrical"
     },
     {
       "title": "Electrical burns",
       "head": "Electrical Burns",
-      "state": "",
-      "url": ""
+      "state": "app.electricalBurns.burnsElectrical",
+      "url": "/burns-electrical"
     },
 
 
@@ -632,8 +642,13 @@
     {
       "title": "Choking",
       "head": "Foreign Body Airway Obstruction (Fbao )",
+<<<<<<< Updated upstream
       "state": "app.airwayObstruction.fbao",
       "url": "/fbao"
+=======
+      "state": "app.choking.choking",
+      "url": "/choking"
+>>>>>>> Stashed changes
     },
     {
       "title": "Foreign body airway obstruction (FBAO)",

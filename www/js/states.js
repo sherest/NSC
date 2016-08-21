@@ -560,6 +560,140 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                 }
             }
         })
+        
+        .state('app.childbirth', {
+            url: '/app/childbirth',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/childbirth/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.childbirth.supportiveCareDuringLabor', {
+            url: '/supportive-care-during-labor',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/childbirth/supportive-care-during-labor.html'
+                }
+            }
+        })
+
+        .state('app.childbirth.assessingChildbirthImminence', {
+            url: '/assessing-childbirth-imminence',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/childbirth/assessing-childbirth-imminence.html'
+                }
+            }
+        })
+
+        .state('app.childbirth.prepareForChildbirth', {
+            url: '/prepare-for-childbirth',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/childbirth/prepare-for-childbirth.html'
+                }
+            }
+        })
+
+        .state('app.childbirth.assistingWithDelivery', {
+            url: '/assisting-with-delivery',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/childbirth/assisting-with-delivery.html'
+                }
+            }
+        })
+
+        .state('app.childbirth.careForMaternalBleedingAfterDelivery', {
+            url: '/care-for-maternal-bleeding-after-delivery',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/childbirth/care-for-maternal-bleeding-after-delivery.html'
+                }
+            }
+        })
+    
+        .state('app.childbirth.careOfTheNewborn', {
+            url: '/care-of-the-newborn',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/childbirth/care-of-the-newborn.html'
+                }
+            }
+        })
+    
+        .state('app.choking', {
+            url: '/app/choking',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/choking/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.choking.choking', {
+            url: '/choking',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/choking/choking.html'
+                }
+            }
+        })
+    
+        .state('app.coldEmergencies', {
+            url: '/app/cold-emergencies',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/cold-emergencies/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.coldEmergencies.frostbite', {
+            url: '/frostbite',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/cold-emergencies/frostbite.html'
+                }
+            }
+        })
+
+        .state('app.coldEmergencies.hypothermia', {
+            url: '/hypothermia',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/cold-emergencies/hypothermia.html'
+                }
+            }
+        })
+    
+        .state('app.electricalBurns', {
+            url: '/app/electrical-burns',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/electrical-burns/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.electricalBurns.burnsElectrical', {
+            url: '/burns-electrical',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/electrical-burns/burns-electrical.html'
+                }
+            }
+        })
     
         .state('app.cpr', {
             url: '/app/cpr',
