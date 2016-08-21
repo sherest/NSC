@@ -56,8 +56,8 @@
     {
       "title": "Abdominal pain",
       "head": "Abdominal Pain",
-      "state": "",
-      "url": ""
+      "state": "app.abdominalPain.whenEmergencCareNeeded",
+      "url": "/when-emergenc-care-needed"
     },
 
 
@@ -211,74 +211,74 @@
     {
       "title": "Assessment, primary",
       "head": "Assessment",
-      "state": "",
-      "url": ""
+      "state": "app.assessment.primaryAssessment",
+      "url": "/primary-assessment"
     },
     {
       "title": "Assessments, comparing",
       "head": "Assessment, Reassessment",
-      "state": "",
-      "url": ""
+      "state": "app.assessment.reassessment",
+      "url": "/reassessment"
     },
     {
       "title": "Assessment, secondary",
       "head": "Assessment",
-      "state": "",
-      "url": ""
+      "state": "app.assessment.secondaryAssessment",
+      "url": "/secondary-assessment"
     },
     {
       "title": "Auscultation, measuring blood pressure by",
       "head": "Assessment",
-      "state": "",
-      "url": ""
+      "state": "app.assessment.auscultation",
+      "url": "/auscultation"
     },
     {
       "title": "Bleeding, checking for serious",
       "head": "Assessment",
-      "state": "",
-      "url": ""
+      "state": "app.assessment.primaryAssessment",
+      "url": "/primary-assessment"
     },
     {
       "title": "Blood pressure, auscultation",
       "head": "Assessment",
-      "state": "",
-      "url": ""
+      "state": "app.assessment.auscultation",
+      "url": "/auscultation"
     },
     {
       "title": "Blood pressure, palpation",
       "head": "Assessment",
-      "state": "",
-      "url": ""
+      "state": "app.assessment.palpation",
+      "url": "/palpation"
     },
     {
       "title": "Breathing, looking for normal",
       "head": "Assessment",
-      "state": "",
-      "url": ""
+      "state": "app.assessment.primaryAssessment",
+      "url": "/primary-assessment"
     },
     {
       "title": "Palpation, measuring blood pressure by",
       "head": "Assessment",
-      "state": "",
-      "url": ""
+      "state": "app.assessment.palpation",
+      "url": "/palpation"
     },
     {
       "title": "Physical examination",
       "head": "Assessment",
-      "state": "",
-      "url": ""
+      "state": "app.assessment.dcapBtls",
+      "url": "/dcap-btls"
     },
     {
       "title": "Primary assessment",
       "head": "Assessment",
-      "state": "",
-      "url": ""
+      "state": "app.assessment.primaryAssessment",
+      "url": "/primary-assessment"
     },
     {
       "title": "Pulse, checking",
       "head": "Assessment",
-      "state": "",
-      "url": ""
+      "state": "app.assessment.primaryAssessment",
+      "url": "/primary-assessment"
     },
     {
       "title": "Reassessment",
@@ -289,14 +289,14 @@
     {
       "title": "Responsiveness, assessing",
       "head": "Assessment",
-      "state": "",
-      "url": ""
+      "state": "app.assessment.primaryAssessment",
+      "url": "/primary-assessment"
     },
     {
       "title": "Secondary assessment",
       "head": "Assessment",
-      "state": "",
-      "url": ""
+      "state": "app.assessment.secondaryAssessment",
+      "url": "/secondary-assessment"
     },
     {
       "title": "Vital signs",
@@ -467,56 +467,56 @@
     {
       "title": "1-rescuer CPR for adult, child or infant",
       "head": "CPR and AED",
-      "state": "",
-      "url": ""
+      "state": "app.cpr.1RescuerCpr",
+      "url": "/1-rescuer-cpr"
     },
     {
       "title": "2-rescuer CPR for adults and children",
       "head": "CPR and AED",
-      "state": "",
-      "url": ""
+      "state": "app.cpr.2RescuerCprForAdultsAndChildren",
+      "url": "/2-rescuer-cpr-for-adults-and-children"
     },
     {
       "title": "2-rescuer CPR for infants",
       "head": "CPR and AED",
-      "state": "",
-      "url": ""
+      "state": "app.cpr.2RescuerCprForInfants",
+      "url": "/2-rescuer-cpr-for-infants"
     },
     {
       "title": "Automated external defibrillator (AED)",
       "head": "CPR and AED",
-      "state": "",
-      "url": ""
+      "state": "app.cpr.usingAnAed",
+      "url": "/using-an-aed"
     },
     {
       "title": "Call first vs. call fast",
       "head": "CPR and AED",
-      "state": "",
-      "url": ""
+      "state": "app.cpr.callFirstVsCallFast",
+      "url": "/call-first-vs-call-fast"
     },
     {
       "title": "Cardiopulmonary resuscitation (CPR)",
       "head": "CPR and AED",
-      "state": "",
-      "url": ""
+      "state": "app.cpr.callFirstVsCallFast",
+      "url": "/call-first-vs-call-fast"
     },
     {
       "title": "CPR, adult, child or infant, 1-rescuer",
       "head": "CPR and AED",
-      "state": "",
-      "url": ""
+      "state": "app.cpr.1RescuerCpr",
+      "url": "/1-rescuer-cpr"
     },
     {
       "title": "CPR, adult or child, 2-rescuer",
       "head": "CPR and AED",
-      "state": "",
-      "url": ""
+      "state": "app.cpr.2RescuerCprForAdultsAndChildren",
+      "url": "/2-rescuer-cpr-for-adults-and-children"
     },
     {
       "title": "CPR, infant, 2-rescuer",
       "head": "CPR and AED",
-      "state": "",
-      "url": ""
+      "state": "app.cpr.2RescuerCprForInfants",
+      "url": "/2-rescuer-cpr-for-infants"
     },
 
 
@@ -1359,9 +1359,9 @@
 
     {
       "title": "Opioid drug overdose",
-      "head": "??",
-      "state": "",
-      "url": ""
+      "head": "Alcohol and Drug Abuse and Overdose Emergencies",
+      "state": "app.alcoholAndDrugAbuse.opioidDrugOverdose",
+      "url": "/opioid-drug-overdose"
     }
   ]
 }

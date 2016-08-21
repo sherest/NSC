@@ -215,6 +215,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
     
+        .state('app.alcoholAndDrugAbuse.opioidDrugOverdose', {
+            url: '/opioid-drug-overdose',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/alcohol-and-drug-abuse/opioid-drug-overdose.html'
+                }
+            }
+        })
+    
         .state('app.allergicReactions', {
             url: '/allergic-reactions',
             abstract:true,
@@ -1498,8 +1507,76 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                     templateUrl: 'js/page/dressing-and-bandages/bandages.html'
                 }
             }
+        })
+
+         .state('app.assessment', {
+            url: '/app/assessment',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/assessment/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.assessment.primaryAssessment', {
+            url: '/primary-assessment',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/assessment/primary-assessment.html'
+                }
+            }
+        })
+
+        .state('app.assessment.secondaryAssessment', {
+            url: '/secondary-assessment',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/assessment/secondary-assessment.html'
+                }
+            }
+        })
+
+        .state('app.assessment.auscultation', {
+            url: '/auscultation',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/assessment/auscultation.html'
+                }
+            }
+        })
+
+        .state('app.assessment.palpation', {
+            url: '/palpation',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/assessment/palpation.html'
+                }
+            }
+        })
+
+        .state('app.assessment.dcapBtls', {
+            url: '/dcap-btls',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/assessment/dcap-btls.html'
+                }
+            }
+        })
+
+        .state('app.assessment.reassessment', {
+            url: '/reassessment',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/assessment/reassessment.html'
+                }
+            }
         });
 
+        
+        
+        
 
     // if none of the above states are matched, use this as the fallback
     $urlRouterProvider.otherwise('/app/home');
