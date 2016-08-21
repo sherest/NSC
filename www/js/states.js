@@ -1290,6 +1290,44 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                     templateUrl: 'js/page/hypothermia/signs-and-symptoms.html'
                 }
             }
+        })
+
+        .state('app.legalEthical', {
+            url: '/app/hypothermia',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/legal-and-ethical-issues/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.legalEthical.consent', {
+            url: '/consent',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/legal-and-ethical-issues/consent.html'
+                }
+            }
+        })
+
+        .state('app.legalEthical.negligence', {
+            url: '/negligence',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/legal-and-ethical-issues/negligence.html'
+                }
+            }
+        })
+
+        .state('app.legalEthical.falsificationOfRecords', {
+            url: '/falsification-of-records',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/legal-and-ethical-issues/falsification-of-records.html'
+                }
+            }
         });
 
 

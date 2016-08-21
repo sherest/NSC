@@ -450,24 +450,15 @@
     {
       "title": "Frostbite",
       "head": "Cold Emergencies, Frostbite",
-<<<<<<< Updated upstream
       "state": "app.frostbite.emergency",
       "url": "/emergency"
-=======
-      "state": "app.coldEmergencies.frostbite",
-      "url": "/frostbite"
->>>>>>> Stashed changes
+
     },
     {
       "title": "Hypothermia",
       "head": "Cold Emergencies, Hypothermia",
-<<<<<<< Updated upstream
-      "state": "app.hypothermia.signsAndSymptoms",
-      "url": "/signs-and-symptoms"
-=======
       "state": "app.coldEmergencies.hypothermia",
       "url": "/hypothermia"
->>>>>>> Stashed changes
     },
 
 
@@ -642,13 +633,8 @@
     {
       "title": "Choking",
       "head": "Foreign Body Airway Obstruction (Fbao )",
-<<<<<<< Updated upstream
       "state": "app.airwayObstruction.fbao",
       "url": "/fbao"
-=======
-      "state": "app.choking.choking",
-      "url": "/choking"
->>>>>>> Stashed changes
     },
     {
       "title": "Foreign body airway obstruction (FBAO)",
@@ -760,86 +746,86 @@
     {
       "title": "Advance directive",
       "head": "Legal and Ethical Issues",
-      "state": "",
-      "url": ""
+      "state": "app.legalEthical.consent",
+      "url": "/consent"
     },
     {
       "title": "Confidentiality",
       "head": "Legal and Ethical Issues",
-      "state": "",
-      "url": ""
+      "state": "app.legalEthical.negligence",
+      "url": "/negligence"
     },
     {
       "title": "Consent",
       "head": "Legal and Ethical Issues",
-      "state": "",
-      "url": ""
+      "state": "app.legalEthical.consent",
+      "url": "/consent"
     },
     {
       "title": "Consent, refusal of",
       "head": "Legal and Ethical Issues",
-      "state": "",
-      "url": ""
+      "state": "app.legalEthical.consent",
+      "url": "/consent"
     },
     {
       "title": "Crime scenes",
       "head": "Legal and Ethical Issues, Scene Safety",
-      "state": "",
-      "url": ""
+      "state": "app.legalEthical.negligence",
+      "url": "/negligence"
     },
     {
       "title": "Ethical issues",
       "head": "Legal and Ethical Issues",
-      "state": "",
-      "url": ""
+      "state": "app.legalEthical.consent",
+      "url": "/consent"
     },
     {
       "title": "Ethical responsibilitie",
       "head": "Legal and Ethical Issues",
-      "state": "",
-      "url": ""
+      "state": "app.legalEthical.falsificationOfRecords",
+      "url": "/falsification-of-records"
     },
     {
       "title": "Expressed consent",
       "head": "Legal and Ethical Issues",
-      "state": "",
-      "url": ""
+      "state": "app.legalEthical.consent",
+      "url": "/consent"
     },
     {
       "title": "Falsification of records",
       "head": "Legal and Ethical Issues",
-      "state": "",
-      "url": ""
+      "state": "app.legalEthical.falsificationOfRecords",
+      "url": "/falsification-of-records"
     },
     {
       "title": "Implied consent",
       "head": "Legal and Ethical Issues",
-      "state": "",
-      "url": ""
+      "state": "app.legalEthical.consent",
+      "url": "/consent"
     },
     {
       "title": "Legal issues",
       "head": "Legal and Ethical Issues",
-      "state": "",
-      "url": ""
+      "state": "app.legalEthical.consent",
+      "url": "/consent"
     },
     {
       "title": "Negligence",
       "head": "Legal and Ethical Issues",
-      "state": "",
-      "url": ""
+      "state": "app.legalEthical.negligence",
+      "url": "/negligence"
     },
     {
       "title": "Refusal of consent",
       "head": "Legal and Ethical Issues",
-      "state": "",
-      "url": ""
+      "state": "app.legalEthical.consent",
+      "url": "/consent"
     },
     {
       "title": "Reportable events",
       "head": "Legal and Ethical Issues",
-      "state": "",
-      "url": ""
+      "state": "app.legalEthical.negligence",
+      "url": "/negligence"
     },
 
 
