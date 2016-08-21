@@ -349,7 +349,7 @@
     },
     {
       "title": "Abdominal injury",
-      "head": "Bleeding",
+      "state": "app.bleeding.bleedingInternal",
       "head": "Bleeding",
       "url": "/bleeding-internal"
     },
@@ -872,140 +872,140 @@
     {
       "title": "1-rescuer assist",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.1rescuerEmergencyCarries",
+      "url": "/1-rescuer-emergency-carries"
     },
     {
       "title": "2-rescuer emergency carries",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.2rescuerEmergencyCarries",
+      "url": "/2-rescuer-emergency-carries"
     },
     {
       "title": "Blanket drag",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
     },
     {
       "title": "Clothing drag",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
     },
     {
       "title": "Cradle carry",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.2rescuerEmergencyCarries",
+      "url": "/2-rescuer-emergency-carries"
     },
     {
       "title": "Direct carry",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.non-emergency-moves",
+      "url": "/non-emergency-moves"
     },
     {
       "title": "Direct ground lift",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.non-emergency-moves",
+      "url": "/non-emergency-moves"
     },
     {
       "title": "Drags, emergency",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
     },
     {
       "title": "Draw sheet transfer",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.non-emergency-moves",
+      "url": "/non-emergency-moves"
     },
     {
       "title": "Emergency carries",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.2rescuerEmergencyCarries",
+      "url": "/2-rescuer-emergency-carries"
     },
     {
       "title": "Emergency drags",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
     },
     {
       "title": "Emergency moves",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
     },
     {
       "title": "Extremity lift",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.non-emergency-moves",
+      "url": "/non-emergency-moves"
     },
     {
       "title": "Firefighter’s carry",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.2rescuerEmergencyCarries",
+      "url": "/2-rescuer-emergency-carries"
     },
     {
       "title": "Firefighter’s drag",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
     },
     {
       "title": "Moves, emergency",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
     },
     {
       "title": "Moving a patient",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
     },
     {
       "title": "Non-emergency moves",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.non-emergency-moves",
+      "url": "/non-emergency-moves"
     },
     {
       "title": "Packstrap carry",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.2rescuerEmergencyCarries",
+      "url": "/2-rescuer-emergency-carries"
     },
     {
       "title": "Piggyback carry",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.2rescuerEmergencyCarries",
+      "url": "/2-rescuer-emergency-carries"
     },
     {
       "title": "Shoulder drag",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
     },
     {
       "title": "Upper extremity drag",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
     },
     {
       "title": "Upper extremity drag for rapid extrication",
       "head": "Moving a Patient",
-      "state": "",
-      "url": ""
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
     },
 
 
@@ -1346,13 +1346,13 @@
     {
       "title": "Soft-tissue injuries",
       "head": "Wounds and Soft-Tissue Injuries",
-      "state": "app.wounds.wounds'",
+      "state": "app.wounds.wounds",
       "url": "/wounds"
     },
     {
       "title": "Wounds",
       "head": "Wounds and Soft-Tissue Injuries",
-      "state": "app.wounds.wounds'",
+      "state": "app.wounds.wounds",
       "url": "/wounds"
     },
 
