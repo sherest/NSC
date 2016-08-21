@@ -1388,6 +1388,27 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                     templateUrl: 'js/page/medication/cardiac-emergency.html'
                 }
             }
+        })
+
+
+        .state('app.musculoskeletalInjuries', {
+            url: '/musculoskeletal-injuries',
+            abstract:true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/musculoskeletal-injuries/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.musculoskeletalInjuries.signsAndSymptoms', {
+            url: '/signs-and-symptoms',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/musculoskeletal-injuries/signs-and-symptoms.html'
+                }
+            }
         });
 
 
