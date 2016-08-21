@@ -526,8 +526,8 @@
     {
       "title": "Diabetic emergencies",
       "head": "Diabetic Emergencies",
-      "state": "",
-      "url": ""
+      "state": "app.diabeticEmergencies.diabeticEmergencies",
+      "url": "/diabetic-emergencies"
     },
     {
       "title": "Glucose paste for diabetic emergenc",
@@ -538,14 +538,14 @@
     {
       "title": "Hyperglycemia",
       "head": "Diabetic Emergencies",
-      "state": "",
-      "url": ""
+      "state": "app.diabeticEmergencies.diabeticEmergencies",
+      "url": "/diabetic-emergencies"
     },
     {
       "title": "Hypoglycemia",
       "head": "Diabetic Emergencies, Medications",
-      "state": "",
-      "url": ""
+      "state": "app.diabeticEmergencies.diabeticEmergencies",
+      "url": "/diabetic-emergencies"
     },
 
 
@@ -555,34 +555,34 @@
     {
       "title": "Documentation tips",
       "head": "Documentation Tips",
-      "state": "",
-      "url": ""
+      "state": "app.documentationTips.documentationTips",
+      "url": "/documentation-tips"
     },
     {
       "title": "Error in report, correcting",
       "head": "Documentation Tips, Legal and Ethical Issues",
-      "state": "",
-      "url": ""
+      "state": "app.documentationTips.documentationTips",
+      "url": "/documentation-tips"
     },
     {
       "title": "Minimal data set in documentation",
       "head": "Documentation Tips",
-      "state": "",
-      "url": ""
+      "state": "app.documentationTips.documentationTips",
+      "url": "/documentation-tips"
     },
 
 
     {
       "title": "Bandages",
       "head": "Dressing and Bandages",
-      "state": "",
-      "url": ""
+      "state": "app.dressingAndBandages.bandages",
+      "url": "/bandages"
     },
     {
       "title": "Dressings",
       "head": "Dressing and Bandages",
-      "state": "",
-      "url": ""
+      "state": "app.dressingAndBandages.dressing",
+      "url": "/dressing"
     },
 
 
