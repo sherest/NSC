@@ -137,8 +137,8 @@
     {
       "title": "Alcohol overdose",
       "head": "Alcohol and Drug Abuse and Overdose Emergencies",
-      "state": "",
-      "url": ""
+      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
+      "url": "/alcohol-and-drug-abuse"
     },
     {
       "title": "Drug abuse",
@@ -149,8 +149,8 @@
     {
       "title": "Drug overdose",
       "head": "Alcohol and Drug Abuse and Overdose Emergencies",
-      "state": "",
-      "url": ""
+      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
+      "url": "/alcohol-and-drug-abuse"
     },
 
 
@@ -350,8 +350,8 @@
     {
       "title": "Abdominal injury",
       "head": "Bleeding",
-      "state": "",
-      "url": ""
+      "head": "Bleeding",
+      "url": "/bleeding-internal"
     },
     {
       "title": "Burns",
@@ -532,8 +532,8 @@
     {
       "title": "Glucose paste for diabetic emergenc",
       "head": "Diabetic Emergencies, Medications",
-      "state": "",
-      "url": ""
+      "state": "app.diabeticEmergencies.diabeticEmergencies",
+      "url": "/diabetic-emergencies"
     },
     {
       "title": "Hyperglycemia",
