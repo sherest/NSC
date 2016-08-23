@@ -14,7 +14,7 @@
     },
     {
       "title": "CPR",
-      "state": "app.cprCallFirstVsCallFast"
+      "state": "app.cpr.callFirstVsCallFast"
     },
     {
       "title": "Respiratory Emergencies",
@@ -22,7 +22,7 @@
     },
     {
       "title": "Scene Safety",
-      "state": ""
+      "state": "app.sceneSafety.sceneSizeUp"
     },
     {
       "title": "Shock",
