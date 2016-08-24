@@ -37,7 +37,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/abbreviations/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -77,7 +77,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/abdominal-pain/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -106,7 +106,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/airway-opening/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -135,7 +135,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/airway-maintenance/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -200,7 +200,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/alcohol-and-drug-abuse/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -229,7 +229,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/allergic-reactions/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -267,7 +267,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/altered-mental-status/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -296,7 +296,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/anatomy/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -352,7 +352,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/apgar/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -372,7 +372,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/behavioral-emergencies/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -401,7 +401,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/bites-and-stings/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -430,7 +430,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/airway-obstruction/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -468,7 +468,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/bleeding/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -506,7 +506,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/stroke/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -526,7 +526,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/burns/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -555,7 +555,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/chemical-burns/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -575,7 +575,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/childbirth/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -640,7 +640,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/choking/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -660,7 +660,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/cold-emergencies/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -689,7 +689,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/electrical-burns/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -709,7 +709,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/fainting/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -729,7 +729,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/cpr/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -785,7 +785,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/respiratory-emergencies/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -824,7 +824,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/oxygen-administration/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -844,7 +844,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/pediatric-problems/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -891,7 +891,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/poisoning/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -911,7 +911,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/reassessment/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -931,7 +931,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/recovery-position-haines/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -952,7 +952,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/scene-safety/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -982,7 +982,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/seizures/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1003,7 +1003,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/shock/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1024,7 +1024,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/spinal-and-head-injuries/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1045,7 +1045,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/splinting/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1074,7 +1074,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/triage/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1104,7 +1104,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/ventilation/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1125,7 +1125,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/vital-signs/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1146,7 +1146,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/wounds-and-soft-tissue-injuries/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1166,7 +1166,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/frostbite/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1186,7 +1186,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/glascow-coma/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1206,7 +1206,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/hazmat/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1226,7 +1226,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/head-injury/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1246,7 +1246,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/heart-attack/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1266,7 +1266,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/heat-emergency/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1286,7 +1286,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/helicopter-landing-zone/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1306,7 +1306,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/hypothermia/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1326,7 +1326,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/legal-and-ethical-issues/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1365,7 +1365,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/mass-casualty-incidents/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1386,7 +1386,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/medication/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1425,7 +1425,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/musculoskeletal-injuries/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1445,7 +1445,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/diabetic-emergencies/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1465,7 +1465,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/documentation-tips/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1485,7 +1485,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/dressing-and-bandages/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1514,7 +1514,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/assessment/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }
@@ -1525,7 +1525,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             abstract: true,
             views: {
                 'menuContent': {
-                    templateUrl: 'js/page/moving-patient/index.html',
+                    templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
                 }
             }

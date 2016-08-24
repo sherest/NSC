@@ -1,36 +1,40 @@
 {
   "data": [
     {
-      "title": "Airway Obstruction",
-      "state": "app.airwayObstruction.fbao"
+      "title": "Memory Aids",
+      "state": "app.abbreviations.aed"
     },
     {
-      "title": "Bleeding Control",
+      "title": "Responder Safety",
+      "state": "app.sceneSafety.hazardsWithinStructures"
+    },
+    {
+      "title": "Assessment",
+      "state": "app.anatomy.directionalTerms"
+    },
+    {
+      "title": "Circulation/ Airway/Breathing",
+      "state": "app.cpr.1RescuerCpr"
+    },
+    {
+      "title": "Medical",
+      "state": "app.abdominalPain.whenEmergencCareNeeded"
+    },
+    {
+      "title": "Trauma",
       "state": "app.bleeding.bleedingExternal"
     },
     {
-      "title": "Burns",
-      "state": "app.burns.burns"
+      "title": "EMS Operations",
+      "state": "app.helicopterLandingZone.helicopterLandingZone"
     },
     {
-      "title": "CPR",
-      "state": "app.cpr.callFirstVsCallFast"
+      "title": "Special Situations",
+      "state": "app.movingPatient.1rescuerEmergencyCarries"
     },
     {
-      "title": "Respiratory Emergencies",
-      "state": "app.respiratoryEmergencies.signAndSymptom"
-    },
-    {
-      "title": "Scene Safety",
-      "state": "app.sceneSafety.sceneSizeUp"
-    },
-    {
-      "title": "Shock",
-      "state": "app.shock.signsAndSymptomsOfShock"
-    },
-    {
-      "title": "Stroke",
-      "state": "app.stroke.fastStroke"
+      "title": "Miscellaneous",
+      "state": "app.dressingAndBandages.bandages"
     }
   ]
 }

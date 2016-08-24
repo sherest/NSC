@@ -6,6 +6,11 @@ nscApp.controller("PageCtrl", function ($scope, $ionicViewSwitcher, $state) {
     $scope.$on('$stateChangeSuccess',function(event, toState, toParams, fromState, fromParams){
         var state = toState.name;
         currentIndex = _.indexOf($scope.uTopicList, state);
+
+        if(currentIndex > -1){
+            var objTopic = _.findWhere($scope.topicList, {state: state});
+            $scope.topicHeading = objTopic.head;
+        }
     });
 
     $scope.$on("SwipeLeftEvent", function(){

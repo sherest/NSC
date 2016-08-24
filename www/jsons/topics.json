@@ -1,224 +1,166 @@
 {
   "topics": [
-      
-      
     {
-      "title": "AED",
-      "head": "Abbreviations and Memory Aids",
-      "state": "app.abbreviations.aed",
-      "url": "/aed"
+      "title": "1-rescuer assist",
+      "head": "Special Situations",
+      "state": "app.movingPatient.1rescuerEmergencyCarries",
+      "url": "/1-rescuer-emergency-carries"
+    },
+    {
+      "title": "1-rescuer CPR for adult, child or infant",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.cpr.1RescuerCpr",
+      "url": "/1-rescuer-cpr"
+    },
+    {
+      "title": "2-rescuer CPR for adults and children",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.cpr.2RescuerCprForAdultsAndChildren",
+      "url": "/2-rescuer-cpr-for-adults-and-children"
+    },
+    {
+      "title": "2-rescuer CPR for infants",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.cpr.2RescuerCprForInfants",
+      "url": "/2-rescuer-cpr-for-infants"
+    },
+    {
+      "title": "2-rescuer emergency carries",
+      "head": "Special Situations",
+      "state": "app.movingPatient.2rescuerEmergencyCarries",
+      "url": "/2-rescuer-emergency-carries"
     },
     {
       "title": "Abbreviations",
-      "head": "Abbreviations and Memory Aids",
+      "head": "Memory Aids",
       "state": "app.abbreviations.aed",
       "url": "/aed"
     },
     {
-      "title": "AVPU responsiveness scale",
-      "head": "Abbreviations and Memory Aids",
-      "state": "app.abbreviations.aed",
-      "url": "/aed"
+      "title": "Abdominal injury",
+      "head": "Trauma",
+      "state": "app.bleeding.bleedingInternal",
+      "url": "/bleeding-internal"
     },
-    {
-      "title": "DCAP-BTLS in physical examination",
-      "head": "Abbreviations and Memory Aids, Assessment",
-      "state": "app.abbreviations.dots",
-      "url": "/dots"
-    },
-    {
-      "title": "DOTS in physical examination",
-      "head": "Abbreviations and Memory Aids, Assessment",
-      "state": "app.abbreviations.dots",
-      "url": "/dots"
-    },
-    {
-      "title": "Memory aids",
-      "head": "Abbreviations and Memory Aids",
-      "state": "app.abbreviations.rpm",
-      "url": "/rpm"
-    },
-    {
-      "title": "OPQRST to evaluate pain/symptoms",
-      "head": "Abbreviations and Memory Aids",
-      "state": "app.abbreviations.rpm",
-      "url": "/rpm"
-    },
-    {
-      "title": "SAMPLE history",
-      "head": "Abbreviations and Memory Aids, Assessment",
-      "state": "app.abbreviations.rpm",
-      "url": "/rpm"
-    },
-
-
-
     {
       "title": "Abdominal pain",
-      "head": "Abdominal Pain",
+      "head": "Medical",
       "state": "app.abdominalPain.whenEmergencCareNeeded",
       "url": "/when-emergenc-care-needed"
     },
-
-
-
-
     {
-      "title": "Airway, opening",
-      "head": "Airway—Opening",
-      "state": "app.airwayOpening.headTiltChinLift",
-      "url": "/head-tilt-chin-lift"
+      "title": "Abuse, alcohol",
+      "head": "Medical",
+      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
+      "url": "/alcohol-and-drug-abuse"
     },
     {
-      "title": "Head tilt–chin lift",
-      "head": "Airway—Opening",
-      "state": "app.airwayOpening.headTiltChinLift",
-      "url": "/head-tilt-chin-lift"
+      "title": "Abuse, child",
+      "head": "Special Situations",
+      "state": "app.pediatricProblems.abuseIsSuspected",
+      "url": "/abuse-is-suspected"
     },
     {
-      "title": "Jaw thrust",
-      "head": "Airway—Opening",
-      "state": "app.airwayOpening.jawThrust",
-      "url": "/jaw-thrust"
+      "title": "Abuse, drug",
+      "head": "Medical",
+      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
+      "url": "/alcohol-and-drug-abuse"
     },
-
-
+    {
+      "title": "Advance directive",
+      "head": "Special Situations",
+      "state": "app.legalEthical.consent",
+      "url": "/consent"
+    },
+    {
+      "title": "AED",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.abbreviations.aed",
+      "url": "/aed"
+    },
     {
       "title": "Airway maintenance",
-      "head": "Airway Maintenance",
+      "head": "Circulation/Airway/Breathing",
       "state": "app.airwayMaintenance.safetyPrecautionsWhenSuctioning",
       "url": "/safety-precautions-when-suctioning"
     },
     {
-      "title": "Nasal airway insertion",
-      "head": "Airway Maintenance",
-      "state": "app.airwayMaintenance.nasalAirwayInsertionInAdults",
-      "url": "/nasal-airway-insertion-in-adults"
+      "title": "Airway obstruction, responsive adult or child",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.airwayObstruction.fbaoAdult",
+      "url": "/fbao-adult"
     },
     {
-      "title": "Oral airway insertion",
-      "head": "Airway Maintenance",
-      "state": "app.airwayMaintenance.oralAirwayInsertionInAdults",
-      "url": "/oral-airway-insertion-in-adults"
+      "title": "Airway obstruction, responsive infant",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.airwayObstruction.fbaoInfant",
+      "url": "/fbao-infant"
     },
     {
-      "title": "Suctioning, adult or child",
-      "head": "Airway Maintenance",
-      "state": "app.airwayMaintenance.suctioningAdultOrChild",
-      "url": "/suctioning-adult-or-child"
+      "title": "Airway obstruction, unresponsive patient",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.airwayObstruction.fbaoInfant",
+      "url": "/fbao-infant"
     },
     {
-      "title": "Suctioning, infant",
-      "head": "Airway Maintenance",
-      "state": "app.airwayMaintenance.suctioningInAnInfant",
-      "url": "/suctioning-in-an-infant"
-    },
-
-
-
-    {
-      "title": "Abuse, alcohol",
-      "head": "Alcohol and Drug Abuse and Overdose Emergencies",
-      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
-      "url": "/alcohol-and-drug-abuse"
-    },
-    {
-      "title": "Abuse, drug",
-      "head": "Alcohol and Drug Abuse and Overdose Emergencies",
-      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
-      "url": "/alcohol-and-drug-abuse"
+      "title": "Airway, opening",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.airwayOpening.headTiltChinLift",
+      "url": "/head-tilt-chin-lift"
     },
     {
       "title": "Alcohol abuse",
-      "head": "Alcohol and Drug Abuse and Overdose Emergencies",
+      "head": "Medical",
       "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
       "url": "/alcohol-and-drug-abuse"
     },
     {
       "title": "Alcohol overdose",
-      "head": "Alcohol and Drug Abuse and Overdose Emergencies",
+      "head": "Medical",
       "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
       "url": "/alcohol-and-drug-abuse"
     },
-    {
-      "title": "Drug abuse",
-      "head": "Alcohol and Drug Abuse and Overdose Emergencies",
-      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
-      "url": "/alcohol-and-drug-abuse"
-    },
-    {
-      "title": "Drug overdose",
-      "head": "Alcohol and Drug Abuse and Overdose Emergencies",
-      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
-      "url": "/alcohol-and-drug-abuse"
-    },
-
-
-
     {
       "title": "Allergic reactions (severe)",
-      "head": "Allergic Reactions (Severe), Medications",
+      "head": "Medical",
       "state": "app.allergicReactions.earlySignsAndSymptoms",
       "url": "/early-signs-and-symptoms"
     },
     {
-      "title": "Anaphylaxis – see Allergic reactions (severe)",
-      "head": "Allergic Reactions (Severe), Medications",
+      "title": "Altered mental status",
+      "head": "Medical",
+      "state": "app.alteredMentalStatus.commonCausesOfAlteredMentalStatus",
+      "url": "/common-causes-of-altered-mental-status"
+    },
+    {
+      "title": "Anaphylaxis â€“ see Allergic reactions (severe)",
+      "head": "Medical",
       "state": "app.allergicReactions.developingSignsAndSymptoms",
       "url": "/developing-signs-and-symptoms"
     },
     {
-      "title": "Epinephrine auto-injector for severe allergic reaction",
-      "head": "Allergic Reactions (Severe), Medications",
-      "state": "app.allergicReactions.emergencyCareForAllergicReactions",
-      "url": "/emergency-care-for-allergic-reactions"
-    },
-
-
-
-
-
-    {
-      "title": "Altered mental status",
-      "head": "Altered Mental Status",
-      "state": "app.alteredMentalStatus.commonCausesOfAlteredMentalStatus",
-      "url": "/common-causes-of-altered-mental-status"
-    },
-
-
-
-    {
       "title": "Anatomy",
-      "head": "Anatomy Review",
+      "head": "Assessment",
       "state": "app.anatomy.directionalTerms",
       "url": "/directional-terms"
     },
-
-
-
-
     {
       "title": "APGAR score",
-      "head": "Apgar Score for Newborn Assessment",
+      "head": "Assessment",
       "state": "app.apgar.apgar",
       "url": "/apgar"
-
     },
-
-
-
-
+    {
+      "title": "Aspirin for heart attack",
+      "head": "Medical",
+      "state": "app.heartAttack.signs",
+      "url": "/signs"
+    },
     {
       "title": "Assessment, primary",
       "head": "Assessment",
       "state": "app.assessment.primaryAssessment",
       "url": "/primary-assessment"
-    },
-    {
-      "title": "Assessments, comparing",
-      "head": "Assessment, Reassessment",
-      "state": "app.assessment.reassessment",
-      "url": "/reassessment"
     },
     {
       "title": "Assessment, secondary",
@@ -227,16 +169,88 @@
       "url": "/secondary-assessment"
     },
     {
+      "title": "Assessments, comparing",
+      "head": "Assessment",
+      "state": "app.assessment.reassessment",
+      "url": "/reassessment"
+    },
+    {
+      "title": "Asthma attack",
+      "head": "Medical",
+      "state": "app.respiratoryEmergencies.emergencyCareForAnAsthama",
+      "url": "/emergency-care-for-an-asthama"
+    },
+    {
       "title": "Auscultation, measuring blood pressure by",
       "head": "Assessment",
       "state": "app.assessment.auscultation",
       "url": "/auscultation"
     },
     {
+      "title": "Automated external defibrillator (AED)",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.cpr.usingAnAed",
+      "url": "/using-an-aed"
+    },
+    {
+      "title": "AVPU responsiveness scale",
+      "head": "Assessment",
+      "state": "app.abbreviations.aed",
+      "url": "/aed"
+    },
+    {
+      "title": "Bag mask (BVM) for ventilation",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.ventilation.ventilation",
+      "url": "/ventilation"
+    },
+    {
+      "title": "Bandages",
+      "head": "Miscellaneous",
+      "state": "app.dressingAndBandages.bandages",
+      "url": "/bandages"
+    },
+    {
+      "title": "Behavioral emergencies",
+      "head": "Medical",
+      "state": "app.behavioralEmergencies.assessingBehavioralEmergencies",
+      "url": "/assessing-behavioral-emergencies"
+    },
+    {
+      "title": "Bites",
+      "head": "Medical",
+      "state": "app.bitesAndStings.careForAnimalBites",
+      "url": "/care-for-animal-bites"
+    },
+    {
+      "title": "Blanket drag",
+      "head": "Special Situations",
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
+    },
+    {
+      "title": "Bleeding after childbirth",
+      "head": "Medical",
+      "state": "app.childbirth.careForMaternalBleedingAfterDelivery",
+      "url": "/care-for-maternal-bleeding-after-delivery"
+    },
+    {
       "title": "Bleeding, checking for serious",
       "head": "Assessment",
       "state": "app.assessment.primaryAssessment",
       "url": "/primary-assessment"
+    },
+    {
+      "title": "Bleeding, External",
+      "head": "Trauma",
+      "state": "app.bleeding.bleedingExternal",
+      "url": "/bleeding-external"
+    },
+    {
+      "title": "Bleeding, Internal",
+      "head": "Trauma",
+      "state": "app.bleeding.bleedingInternal",
+      "url": "/bleeding-internal"
     },
     {
       "title": "Blood pressure, auscultation",
@@ -251,10 +265,640 @@
       "url": "/palpation"
     },
     {
+      "title": "Blow-by oxygen for pediatric respiratory distress",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.pediatricProblems.blowByOxygen",
+      "url": "/blow-by-oxygen"
+    },
+    {
+      "title": "Breathing, inadequate",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.respiratoryEmergencies.inadequateBreathing",
+      "url": "/inadequate-breathing"
+    },
+    {
       "title": "Breathing, looking for normal",
-      "head": "Assessment",
+      "head": "Circulation/Airway/Breathing",
       "state": "app.assessment.primaryAssessment",
       "url": "/primary-assessment"
+    },
+    {
+      "title": "Bronchodilator (inhaler) for asthma attack",
+      "head": "Medical",
+      "state": "app.medication.aspirinForHeartAttack",
+      "url": "/aspirin-for-heart-attack"
+    },
+    {
+      "title": "Burns",
+      "head": "Trauma",
+      "state": "app.burns.burns",
+      "url": "/burns"
+    },
+    {
+      "title": "Burns, chemical",
+      "head": "Trauma",
+      "state": "app.chemicalBurns.burnsChemical",
+      "url": "/burns-chemical"
+    },
+    {
+      "title": "Burns, electrical",
+      "head": "Trauma",
+      "state": "app.electricalBurns.burnsElectrical",
+      "url": "/burns-electrical"
+    },
+    {
+      "title": "Burns, heat",
+      "head": "Trauma",
+      "state": "app.burns.burnsHeat",
+      "url": "/burns-heat"
+    },
+    {
+      "title": "BVM (bag-valve-mask) ventilation",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.ventilation.ventilation",
+      "url": "/ventilation"
+    },
+    {
+      "title": "Call first vs. call fast",
+      "head": "Assessment",
+      "state": "app.cpr.callFirstVsCallFast",
+      "url": "/call-first-vs-call-fast"
+    },
+    {
+      "title": "Cardiopulmonary resuscitation (CPR)",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.cpr.callFirstVsCallFast",
+      "url": "/call-first-vs-call-fast"
+    },
+    {
+      "title": "Chemical burns",
+      "head": "Trauma",
+      "state": "app.chemicalBurns.burnsChemical",
+      "url": "/burns-chemical"
+    },
+    {
+      "title": "Child abuse",
+      "head": "Special Situations",
+      "state": "app.pediatricProblems.abuseIsSuspected",
+      "url": "/abuse-is-suspected"
+    },
+    {
+      "title": "Childbirth",
+      "head": "Medical",
+      "state": "app.childbirth.prepareForChildbirth",
+      "url": "/prepare-for-childbirth"
+    },
+    {
+      "title": "Childbirth imminence, assessing",
+      "head": "Medical",
+      "state": "app.childbirth.assessingChildbirthImminence",
+      "url": "/assessing-childbirth-imminence"
+    },
+    {
+      "title": "Childbirth, assisting with delivery",
+      "head": "Medical",
+      "state": "app.childbirth.assistingWithDelivery",
+      "url": "/assisting-with-delivery"
+    },
+    {
+      "title": "Childbirth, preparing for",
+      "head": "Medical",
+      "state": "app.childbirth.prepareForChildbirth",
+      "url": "/prepare-for-childbirth"
+    },
+    {
+      "title": "Choking",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.airwayObstruction.fbao",
+      "url": "/fbao"
+    },
+    {
+      "title": "Clothing drag",
+      "head": "Special Situations",
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
+    },
+    {
+      "title": "Cold emergencies",
+      "head": "Medical",
+      "state": "app.coldEmergencies.frostbite",
+      "url": "/frostbite"
+    },
+    {
+      "title": "Confidentiality",
+      "head": "Miscellaneous",
+      "state": "app.legalEthical.negligence",
+      "url": "/negligence"
+    },
+    {
+      "title": "Consent",
+      "head": "Miscellaneous",
+      "state": "app.legalEthical.consent",
+      "url": "/consent"
+    },
+    {
+      "title": "Consent, refusal of",
+      "head": "Miscellaneous",
+      "state": "app.legalEthical.consent",
+      "url": "/consent"
+    },
+    {
+      "title": "CPR, adult or child, 2-rescuer",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.cpr.2RescuerCprForAdultsAndChildren",
+      "url": "/2-rescuer-cpr-for-adults-and-children"
+    },
+    {
+      "title": "CPR, adult, child or infant, 1-rescuer",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.cpr.1RescuerCpr",
+      "url": "/1-rescuer-cpr"
+    },
+    {
+      "title": "CPR, infant, 2-rescuer",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.cpr.2RescuerCprForInfants",
+      "url": "/2-rescuer-cpr-for-infants"
+    },
+    {
+      "title": "Cradle carry",
+      "head": "Special Situations",
+      "state": "app.movingPatient.2rescuerEmergencyCarries",
+      "url": "/2-rescuer-emergency-carries"
+    },
+    {
+      "title": "Crime scenes",
+      "head": "Special Situations",
+      "state": "app.legalEthical.negligence",
+      "url": "/negligence"
+    },
+    {
+      "title": "DCAP-BTLS in physical examination",
+      "head": "Assessment",
+      "state": "app.abbreviations.dots",
+      "url": "/dots"
+    },
+    {
+      "title": "Delivery, assisting with",
+      "head": "Medical",
+      "state": "app.childbirth.assistingWithDelivery",
+      "url": "/assisting-with-delivery"
+    },
+    {
+      "title": "Diabetic emergencies",
+      "head": "Medical",
+      "state": "app.diabeticEmergencies.diabeticEmergencies",
+      "url": "/diabetic-emergencies"
+    },
+    {
+      "title": "Direct carry",
+      "head": "Special Situations",
+      "state": "app.movingPatient.non-emergency-moves",
+      "url": "/non-emergency-moves"
+    },
+    {
+      "title": "Direct ground lift",
+      "head": "Special Situations",
+      "state": "app.movingPatient.non-emergency-moves",
+      "url": "/non-emergency-moves"
+    },
+    {
+      "title": "Documentation tips",
+      "head": "Miscellaneous",
+      "state": "app.documentationTips.documentationTips",
+      "url": "/documentation-tips"
+    },
+    {
+      "title": "DOTS in physical examination",
+      "head": "Assessment",
+      "state": "app.abbreviations.dots",
+      "url": "/dots"
+    },
+    {
+      "title": "Drags, emergency",
+      "head": "Special Situations",
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
+    },
+    {
+      "title": "Draw sheet transfer",
+      "head": "Special Situations",
+      "state": "app.movingPatient.non-emergency-moves",
+      "url": "/non-emergency-moves"
+    },
+    {
+      "title": "Dressings",
+      "head": "Trauma",
+      "state": "app.dressingAndBandages.dressing",
+      "url": "/dressing"
+    },
+    {
+      "title": "Drug abuse",
+      "head": "Medical",
+      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
+      "url": "/alcohol-and-drug-abuse"
+    },
+    {
+      "title": "Drug overdose",
+      "head": "Medical",
+      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
+      "url": "/alcohol-and-drug-abuse"
+    },
+    {
+      "title": "Electrical burns",
+      "head": "Trauma",
+      "state": "app.electricalBurns.burnsElectrical",
+      "url": "/burns-electrical"
+    },
+    {
+      "title": "Emergency carries",
+      "head": "Special Situations",
+      "state": "app.movingPatient.2rescuerEmergencyCarries",
+      "url": "/2-rescuer-emergency-carries"
+    },
+    {
+      "title": "Emergency drags",
+      "head": "Special Situations",
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
+    },
+    {
+      "title": "Emergency moves",
+      "head": "Special Situations",
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
+    },
+    {
+      "title": "Environmental danger",
+      "head": "Medical",
+      "state": "app.sceneSafety.sceneSizeUp",
+      "url": "/scene-size-up"
+    },
+    {
+      "title": "Epinephrine auto-injector for severe allergic reaction",
+      "head": "Medical",
+      "state": "app.allergicReactions.emergencyCareForAllergicReactions",
+      "url": "/emergency-care-for-allergic-reactions"
+    },
+    {
+      "title": "Error in report, correcting",
+      "head": "Miscellaneous",
+      "state": "app.documentationTips.documentationTips",
+      "url": "/documentation-tips"
+    },
+    {
+      "title": "Ethical issues",
+      "head": "Special Situations",
+      "state": "app.legalEthical.consent",
+      "url": "/consent"
+    },
+    {
+      "title": "Ethical responsibilitie",
+      "head": "Miscellaneous",
+      "state": "app.legalEthical.falsificationOfRecords",
+      "url": "/falsification-of-records"
+    },
+    {
+      "title": "Expressed consent",
+      "head": "Assessment",
+      "state": "app.legalEthical.consent",
+      "url": "/consent"
+    },
+    {
+      "title": "Extremity lift",
+      "head": "Special Situations",
+      "state": "app.movingPatient.non-emergency-moves",
+      "url": "/non-emergency-moves"
+    },
+    {
+      "title": "Fainting",
+      "head": "Medical",
+      "state": "app.fainting.fainting",
+      "url": "/fainting"
+    },
+    {
+      "title": "Falsification of records",
+      "head": "Miscellaneous",
+      "state": "app.legalEthical.falsificationOfRecords",
+      "url": "/falsification-of-records"
+    },
+    {
+      "title": "FAST Stroke Assessment",
+      "head": "Medical",
+      "state": "app.stroke.fastStroke",
+      "url": "/FAST-stroke"
+    },
+    {
+      "title": "Firefighterâ€™s carry",
+      "head": "Special Situations",
+      "state": "app.movingPatient.2rescuerEmergencyCarries",
+      "url": "/2-rescuer-emergency-carries"
+    },
+    {
+      "title": "Firefighterâ€™s drag",
+      "head": "Special Situations",
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
+    },
+    {
+      "title": "Foreign body airway obstruction (FBAO)",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.airwayObstruction.fbao",
+      "url": "/fbao"
+    },
+    {
+      "title": "Foreign body airway obstruction, responsive adult or child",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.airwayObstruction.fbaoAdult",
+      "url": "/fbao-adult"
+    },
+    {
+      "title": "Foreign body airway obstruction, responsive infant",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.airwayObstruction.fbaoInfant",
+      "url": "/fbao-infant"
+    },
+    {
+      "title": "Foreign body airway obstruction, unresponsive patient",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.airwayObstruction.fbaoAdult",
+      "url": "/fbao-adult"
+    },
+    {
+      "title": "Frostbite",
+      "head": "Trauma",
+      "state": "app.frostbite.emergency",
+      "url": "/emergency"
+    },
+    {
+      "title": "Glasgow Coma Scale",
+      "head": "Assessment",
+      "state": "app.glascow.glascowComaScale",
+      "url": "/glascow-coma-scale"
+    },
+    {
+      "title": "Glucose paste for diabetic emergenc",
+      "head": "Medical",
+      "state": "app.diabeticEmergencies.diabeticEmergencies",
+      "url": "/diabetic-emergencies"
+    },
+    {
+      "title": "HAINES recovery position",
+      "head": "Recovery Position (HAINES)",
+      "state": "app.recoverPosition.recoverPosition",
+      "url": "/recover-position"
+    },
+    {
+      "title": "Hazards within structures",
+      "head": "Responder Safety",
+      "state": "app.sceneSafety.hazardsWithinStructures",
+      "url": "/hazards-within-structures"
+    },
+    {
+      "title": "HAZMAT scenes",
+      "head": "Responder Safety",
+      "state": "app.hazmat.hazmat",
+      "url": "/hazmat"
+    },
+    {
+      "title": "Head injuries",
+      "head": "Trauma",
+      "state": "app.headInjury.emergency",
+      "url": "/emergency"
+    },
+    {
+      "title": "Head tiltâ€“chin lift",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.airwayOpening.headTiltChinLift",
+      "url": "/head-tilt-chin-lift"
+    },
+    {
+      "title": "Heart attack",
+      "head": "Medical",
+      "state": "app.heartAttack.signs",
+      "url": "/signs"
+    },
+    {
+      "title": "Heat burns",
+      "head": "Trauma",
+      "state": "app.burns.burnsHeat",
+      "url": "/burns-heat"
+    },
+    {
+      "title": "Heat emergencies",
+      "head": "Medical",
+      "state": "app.heatEmergency.signsAndSymptoms",
+      "url": "/signs-and-symptoms"
+    },
+    {
+      "title": "Heat exhaustion",
+      "head": "Medical",
+      "state": "app.heatEmergency.signsAndSymptoms",
+      "url": "/signs-and-symptoms"
+    },
+    {
+      "title": "Heatstroke",
+      "head": "Medical",
+      "state": "app.heatEmergency.signsAndSymptoms",
+      "url": "/signs-and-symptoms"
+    },
+    {
+      "title": "Helicopter landing zone",
+      "head": "EMS Operations",
+      "state": "app.helicopterLandingZone.helicopterLandingZone",
+      "url": "/helicopter-landing-zone"
+    },
+    {
+      "title": "Hyperglycemia",
+      "head": "Medical",
+      "state": "app.diabeticEmergencies.diabeticEmergencies",
+      "url": "/diabetic-emergencies"
+    },
+    {
+      "title": "Hypoglycemia",
+      "head": "Medical",
+      "state": "app.diabeticEmergencies.diabeticEmergencies",
+      "url": "/diabetic-emergencies"
+    },
+    {
+      "title": "Hypoperfusion",
+      "head": "Medical",
+      "state": "app.shock.signsAndSymptomsOfShock",
+      "url": "/signs-and-symptoms-of-shock"
+    },
+    {
+      "title": "Hypothermia",
+      "head": "Medical",
+      "state": "app.coldEmergencies.hypothermia",
+      "url": "/hypothermia"
+    },
+    {
+      "title": "Implied consent",
+      "head": "Assessment",
+      "state": "app.legalEthical.consent",
+      "url": "/consent"
+    },
+    {
+      "title": "Inadequate breathing",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.respiratoryEmergencies.inadequateBreathing",
+      "url": "/inadequate-breathing"
+    },
+    {
+      "title": "Inhaled poisoning",
+      "head": "Medical",
+      "state": "app.poisoning.emergencyCare",
+      "url": "/emergency-care"
+    },
+    {
+      "title": "Inhaler for asthma attack",
+      "head": "Medical",
+      "state": "app.medication.aspirinForHeartAttack",
+      "url": "/aspirin-for-heart-attack"
+    },
+    {
+      "title": "Jaw thrust",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.airwayOpening.jawThrust",
+      "url": "/jaw-thrust"
+    },
+    {
+      "title": "JumpSTART triage for pediatric patients",
+      "head": "Assessment",
+      "state": "app.triage.jumpStart",
+      "url": "/jump-start"
+    },
+    {
+      "title": "Labor, care during",
+      "head": "Medical",
+      "state": "app.childbirth.supportiveCareDuringLabor",
+      "url": "/supportive-care-during-labor"
+    },
+    {
+      "title": "Landing zone, helicopter",
+      "head": "EMS Operations",
+      "state": "app.helicopterLandingZone.helicopterLandingZone",
+      "url": "/helicopter-landing-zone"
+    },
+    {
+      "title": "Legal issues",
+      "head": "Miscellaneous",
+      "state": "app.legalEthical.consent",
+      "url": "/consent"
+    },
+    {
+      "title": "Mass-casualty incidents (MCIs)",
+      "head": "EMS Operations",
+      "state": "app.massCasualtyIncidents.roleOfEmergency",
+      "url": "/role-of-emergency"
+    },
+    {
+      "title": "Medications",
+      "head": "Medical",
+      "state": "app.medication.aspirinForHeartAttack",
+      "url": "/aspirin-for-heart-attack"
+    },
+    {
+      "title": "Memory aids",
+      "head": "Memory Aids",
+      "state": "app.abbreviations.rpm",
+      "url": "/rpm"
+    },
+    {
+      "title": "Minimal data set in documentation",
+      "head": "Miscellaneous",
+      "state": "app.documentationTips.documentationTips",
+      "url": "/documentation-tips"
+    },
+    {
+      "title": "Mouth-to-mask ventilation",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.ventilation.ventilation",
+      "url": "/ventilation"
+    },
+    {
+      "title": "Moves, emergency",
+      "head": "Special Situations",
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
+    },
+    {
+      "title": "Moving a patient",
+      "head": "Special Situations",
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
+    },
+    {
+      "title": "Musculoskeletal injuries",
+      "head": "Trauma",
+      "state": "app.musculoskeletalInjuries.signsAndSymptoms",
+      "url": "/signs-and-symptoms"
+    },
+    {
+      "title": "Nasal airway insertion",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.airwayMaintenance.nasalAirwayInsertionInAdults",
+      "url": "/nasal-airway-insertion-in-adults"
+    },
+    {
+      "title": "Negligence",
+      "head": "Miscellaneous",
+      "state": "app.legalEthical.negligence",
+      "url": "/negligence"
+    },
+    {
+      "title": "Newborn care",
+      "head": "Medical",
+      "state": "app.childbirth.careOfTheNewborn",
+      "url": "/care-of-the-newborn"
+    },
+    {
+      "title": "Nitroglycerin for heart attack",
+      "head": "Medical",
+      "state": "app.medication.cardiacEmergency",
+      "url": "/cardiac-emergency"
+    },
+    {
+      "title": "Non-emergency moves",
+      "head": "Special Situations",
+      "state": "app.movingPatient.non-emergency-moves",
+      "url": "/non-emergency-moves"
+    },
+    {
+      "title": "Opioid drug overdose",
+      "head": "Medical",
+      "state": "app.alcoholAndDrugAbuse.opioidDrugOverdose",
+      "url": "/opioid-drug-overdose"
+    },
+    {
+      "title": "OPQRST to evaluate pain/symptoms",
+      "head": "Assessment",
+      "state": "app.abbreviations.rpm",
+      "url": "/rpm"
+    },
+    {
+      "title": "Oral airway insertion",
+      "head": "Medical",
+      "state": "app.airwayMaintenance.oralAirwayInsertionInAdults",
+      "url": "/oral-airway-insertion-in-adults"
+    },
+    {
+      "title": "Oxygen administration",
+      "head": "Medical",
+      "state": "app.oxygen.administration",
+      "url": "/administration"
+    },
+    {
+      "title": "Oxygen cylinder volumes",
+      "head": "Miscellaneous",
+      "state": "app.oxygen.administration",
+      "url": "/administration"
+    },
+    {
+      "title": "Packstrap carry",
+      "head": "Special Situations",
+      "state": "app.movingPatient.2rescuerEmergencyCarries",
+      "url": "/2-rescuer-emergency-carries"
     },
     {
       "title": "Palpation, measuring blood pressure by",
@@ -263,10 +907,40 @@
       "url": "/palpation"
     },
     {
+      "title": "Pediatric problems",
+      "head": "Medical",
+      "state": "app.pediatricProblems.blowByOxygen",
+      "url": "/blow-by-oxygen"
+    },
+    {
       "title": "Physical examination",
       "head": "Assessment",
       "state": "app.assessment.dcapBtls",
       "url": "/dcap-btls"
+    },
+    {
+      "title": "Piggyback carry",
+      "head": "Special Situations",
+      "state": "app.movingPatient.2rescuerEmergencyCarries",
+      "url": "/2-rescuer-emergency-carries"
+    },
+    {
+      "title": "Poison Control Centers",
+      "head": "Miscellaneous",
+      "state": "app.poisoning.emergencyCare",
+      "url": "/emergency-care"
+    },
+    {
+      "title": "Poisoning, inhaled",
+      "head": "Medical",
+      "state": "app.poisoning.emergencyCare",
+      "url": "/emergency-care"
+    },
+    {
+      "title": "Poisoning, swallowed",
+      "head": "Medical",
+      "state": "app.poisoning.emergencyCare",
+      "url": "/emergency-care"
     },
     {
       "title": "Primary assessment",
@@ -282,9 +956,39 @@
     },
     {
       "title": "Reassessment",
-      "head": "Reassessment, Assessment",
+      "head": "Assessment",
       "state": "app.reassessment.reassessment",
       "url": "/reassessment"
+    },
+    {
+      "title": "Recovery position (HAINES)",
+      "head": "Miscellaneous",
+      "state": "app.recoverPosition.recoverPosition",
+      "url": "/recover-position"
+    },
+    {
+      "title": "Refusal of consent",
+      "head": "Miscellaneous",
+      "state": "app.legalEthical.consent",
+      "url": "/consent"
+    },
+    {
+      "title": "Reportable events",
+      "head": "EMS Operations",
+      "state": "app.legalEthical.negligence",
+      "url": "/negligence"
+    },
+    {
+      "title": "Respiratory distress",
+      "head": "Medical",
+      "state": "app.respiratoryEmergencies.inadequateBreathing",
+      "url": "/emergency-care"
+    },
+    {
+      "title": "Respiratory emergencies",
+      "head": "Medical",
+      "state": "app.respiratoryEmergencies.signAndSymptom",
+      "url": "/sign-and-symptom"
     },
     {
       "title": "Responsiveness, assessing",
@@ -293,1075 +997,208 @@
       "url": "/primary-assessment"
     },
     {
+      "title": "Rigid splint",
+      "head": "Trauma",
+      "state": "app.splinting.examples",
+      "url": "/examples"
+    },
+    {
+      "title": "Rule of Nines for burns",
+      "head": "Trauma",
+      "state": "app.burns.burns",
+      "url": "/burns"
+    },
+    {
+      "title": "SAMPLE history",
+      "head": "Assessment",
+      "state": "app.abbreviations.rpm",
+      "url": "/rpm"
+    },
+    {
+      "title": "Scene safety",
+      "head": "Responder Safety",
+      "state": "app.sceneSafety.sceneSizeUp",
+      "url": "/scene-size-up"
+    },
+    {
+      "title": "Scene size-up",
+      "head": "Responder Safety",
+      "state": "app.sceneSafety.sceneSizeUp",
+      "url": "/scene-size-up"
+    },
+    {
       "title": "Secondary assessment",
       "head": "Assessment",
       "state": "app.assessment.secondaryAssessment",
       "url": "/secondary-assessment"
     },
     {
-      "title": "Vital signs",
-      "head": " Vital Signs, Assessment",
-      "state": "app.vitalSigns.vitalSigns",
-      "url": "/vital-signs"
-    },
-
-
-    
-    {
-      "title": "Behavioral emergencies",
-      "head": "Behavioral Emergencies",
-      "state": "app.behavioralEmergencies.assessingBehavioralEmergencies",
-      "url": "/assessing-behavioral-emergencies"
-    },
-
-
-    {
-      "title": "Bites",
-      "head": "Bites and Stings",
-      "state": "app.bitesAndStings.careForAnimalBites",
-      "url": "/care-for-animal-bites"
-    },
-    {
-      "title": "Sting",
-      "head": "Bites and Stings",
-      "state": "app.bitesAndStings.careForOtherBitesAndStings",
-      "url": "/care-for-other-bites-and-stings"
-    },
-
-
-    {
-      "title": "Bleeding, External",
-      "head": "Bleeding",
-      "state": "app.bleeding.bleedingExternal",
-      "url": "/bleeding-external"
-    },
-    {
-      "title": "Tourniquet to control bleeding",
-      "head": "Bleeding",
-      "state": "app.bleeding.controlBleedingUsingTourniquet",
-      "url": "/control-bleeding-using-tourniquet"
-    },
-    {
-      "title": "Bleeding, Internal",
-      "state": "app.bleeding.bleedingInternal",
-      "head": "Bleeding",
-      "url": "/bleeding-internal"
-    },
-    {
-      "title": "Abdominal injury",
-      "state": "app.bleeding.bleedingInternal",
-      "head": "Bleeding",
-      "url": "/bleeding-internal"
-    },
-    {
-      "title": "Burns",
-      "head": "Burns",
-      "state": "app.burns.burns",
-      "url": "/burns"
-    },
-    {
-      "title": "Burns, heat",
-      "head": "Burns",
-      "state": "app.burns.burnsHeat",
-      "url": "/burns-heat"
-    },
-    {
-      "title": "Heat burns",
-      "head": "Burns",
-      "state": "app.burns.burnsHeat",
-      "url": "/burns-heat"
-    },
-    {
-      "title": "Rule of Nines for burns",
-      "head": "Burns",
-      "state": "app.burns.burns",
-      "url": "/burns"
-    },    
-    {
-      "title": "Burns, chemical",
-      "head": "Chemical Burns",
-      "state": "app.chemicalBurns.burnsChemical",
-      "url": "/burns-chemical"
-    },
-    {
-      "title": "Chemical burns",
-      "head": "Chemical Burns",
-      "state": "app.chemicalBurns.burnsChemical",
-      "url": "/burns-chemical"
-    },
-    {
-      "title": "Bleeding after childbirth",
-      "head": "Childbirth",
-      "state": "app.childbirth.careForMaternalBleedingAfterDelivery",
-      "url": "/care-for-maternal-bleeding-after-delivery"
-    },
-    {
-      "title": "Childbirth",
-      "head": "Childbirth",
-      "state": "app.childbirth.prepareForChildbirth",
-      "url": "/prepare-for-childbirth"
-    },
-    {
-      "title": "Childbirth imminence, assessing",
-      "head": "Childbirth",
-      "state": "app.childbirth.assessingChildbirthImminence",
-      "url": "/assessing-childbirth-imminence"
-    },
-    {
-      "title": "Childbirth, assisting with delivery",
-      "head": "Childbirth",
-      "state": "app.childbirth.assistingWithDelivery",
-      "url": "/assisting-with-delivery"
-    },
-    {
-      "title": "Childbirth, preparing for",
-      "head": "Childbirth",
-      "state": "app.childbirth.prepareForChildbirth",
-      "url": "/prepare-for-childbirth"
-    },
-    {
-      "title": "Delivery, assisting with",
-      "head": "Childbirth",
-      "state": "app.childbirth.assistingWithDelivery",
-      "url": "/assisting-with-delivery"
-    },
-    {
-      "title": "Labor, care during",
-      "head": "Childbirth",
-      "state": "app.childbirth.supportiveCareDuringLabor",
-      "url": "/supportive-care-during-labor"
-    },
-    {
-      "title": "Newborn care",
-      "head": "Childbirth",
-      "state": "app.childbirth.careOfTheNewborn",
-      "url": "/care-of-the-newborn"
-    },
-
-
-
-
-    {
-      "title": "Cold emergencies",
-      "head": "Cold Emergencies",
-      "state": "app.coldEmergencies.frostbite",
-      "url": "/frostbite"
-    },
-    {
-      "title": "Frostbite",
-      "head": "Cold Emergencies, Frostbite",
-      "state": "app.frostbite.emergency",
-      "url": "/emergency"
-
-    },
-    {
-      "title": "Hypothermia",
-      "head": "Cold Emergencies, Hypothermia",
-      "state": "app.coldEmergencies.hypothermia",
-      "url": "/hypothermia"
-    },
-
-
-
-
-    {
-      "title": "1-rescuer CPR for adult, child or infant",
-      "head": "CPR and AED",
-      "state": "app.cpr.1RescuerCpr",
-      "url": "/1-rescuer-cpr"
-    },
-    {
-      "title": "2-rescuer CPR for adults and children",
-      "head": "CPR and AED",
-      "state": "app.cpr.2RescuerCprForAdultsAndChildren",
-      "url": "/2-rescuer-cpr-for-adults-and-children"
-    },
-    {
-      "title": "2-rescuer CPR for infants",
-      "head": "CPR and AED",
-      "state": "app.cpr.2RescuerCprForInfants",
-      "url": "/2-rescuer-cpr-for-infants"
-    },
-    {
-      "title": "Automated external defibrillator (AED)",
-      "head": "CPR and AED",
-      "state": "app.cpr.usingAnAed",
-      "url": "/using-an-aed"
-    },
-    {
-      "title": "Call first vs. call fast",
-      "head": "CPR and AED",
-      "state": "app.cpr.callFirstVsCallFast",
-      "url": "/call-first-vs-call-fast"
-    },
-    {
-      "title": "Cardiopulmonary resuscitation (CPR)",
-      "head": "CPR and AED",
-      "state": "app.cpr.callFirstVsCallFast",
-      "url": "/call-first-vs-call-fast"
-    },
-    {
-      "title": "CPR, adult, child or infant, 1-rescuer",
-      "head": "CPR and AED",
-      "state": "app.cpr.1RescuerCpr",
-      "url": "/1-rescuer-cpr"
-    },
-    {
-      "title": "CPR, adult or child, 2-rescuer",
-      "head": "CPR and AED",
-      "state": "app.cpr.2RescuerCprForAdultsAndChildren",
-      "url": "/2-rescuer-cpr-for-adults-and-children"
-    },
-    {
-      "title": "CPR, infant, 2-rescuer",
-      "head": "CPR and AED",
-      "state": "app.cpr.2RescuerCprForInfants",
-      "url": "/2-rescuer-cpr-for-infants"
-    },
-
-
-
-
-    
-    {
-      "title": "Diabetic emergencies",
-      "head": "Diabetic Emergencies",
-      "state": "app.diabeticEmergencies.diabeticEmergencies",
-      "url": "/diabetic-emergencies"
-    },
-    {
-      "title": "Glucose paste for diabetic emergenc",
-      "head": "Diabetic Emergencies, Medications",
-      "state": "app.diabeticEmergencies.diabeticEmergencies",
-      "url": "/diabetic-emergencies"
-    },
-    {
-      "title": "Hyperglycemia",
-      "head": "Diabetic Emergencies",
-      "state": "app.diabeticEmergencies.diabeticEmergencies",
-      "url": "/diabetic-emergencies"
-    },
-    {
-      "title": "Hypoglycemia",
-      "head": "Diabetic Emergencies, Medications",
-      "state": "app.diabeticEmergencies.diabeticEmergencies",
-      "url": "/diabetic-emergencies"
-    },
-
-
-
-
-
-    {
-      "title": "Documentation tips",
-      "head": "Documentation Tips",
-      "state": "app.documentationTips.documentationTips",
-      "url": "/documentation-tips"
-    },
-    {
-      "title": "Error in report, correcting",
-      "head": "Documentation Tips, Legal and Ethical Issues",
-      "state": "app.documentationTips.documentationTips",
-      "url": "/documentation-tips"
-    },
-    {
-      "title": "Minimal data set in documentation",
-      "head": "Documentation Tips",
-      "state": "app.documentationTips.documentationTips",
-      "url": "/documentation-tips"
-    },
-
-
-    {
-      "title": "Bandages",
-      "head": "Dressing and Bandages",
-      "state": "app.dressingAndBandages.bandages",
-      "url": "/bandages"
-    },
-    {
-      "title": "Dressings",
-      "head": "Dressing and Bandages",
-      "state": "app.dressingAndBandages.dressing",
-      "url": "/dressing"
-    },
-
-
-
-    
-    {
-      "title": "Burns, electrical",
-      "head": "Electrical Burns",
-      "state": "app.electricalBurns.burnsElectrical",
-      "url": "/burns-electrical"
-    },
-    {
-      "title": "Electrical burns",
-      "head": "Electrical Burns",
-      "state": "app.electricalBurns.burnsElectrical",
-      "url": "/burns-electrical"
-    },
-
-
-
-    
-    {
-      "title": "Fainting",
-      "head": "Fainting",
-      "state": "app.fainting.fainting",
-      "url": "/fainting"
-    },
-
-
-    {
-      "title": "Airway obstruction, responsive adult or child",
-      "head": "Foreign Body Airway Obstruction (Fbao )",
-      "state": "app.airwayObstruction.fbaoAdult",
-      "url": "/fbao-adult"
-    },
-    {
-      "title": "Airway obstruction, responsive infant",
-      "head": "Foreign Body Airway Obstruction (Fbao )",
-      "state": "app.airwayObstruction.fbaoInfant",
-      "url": "/fbao-infant"
-    },
-    {
-      "title": "Airway obstruction, unresponsive patient",
-      "head": "Foreign Body Airway Obstruction (Fbao )",
-      "state": "app.airwayObstruction.fbaoInfant",
-      "url": "/fbao-infant"
-    },
-    {
-      "title": "Choking",
-      "head": "Foreign Body Airway Obstruction (Fbao )",
-      "state": "app.airwayObstruction.fbao",
-      "url": "/fbao"
-    },
-    {
-      "title": "Foreign body airway obstruction (FBAO)",
-      "head": "Foreign Body Airway Obstruction (Fbao )",
-      "state": "app.airwayObstruction.fbao",
-      "url": "/fbao"
-    },
-    {
-      "title": "Foreign body airway obstruction, responsive adult or child",
-      "head": "Foreign Body Airway Obstruction (Fbao )",
-      "state": "app.airwayObstruction.fbaoAdult",
-      "url": "/fbao-adult"
-    },
-    {
-      "title": "Foreign body airway obstruction, responsive infant",
-      "head": "Foreign Body Airway Obstruction (Fbao )",
-      "state": "app.airwayObstruction.fbaoInfant",
-      "url": "/fbao-infant"
-    },
-    {
-      "title": "Foreign body airway obstruction, unresponsive patient",
-      "head": "Foreign Body Airway Obstruction (Fbao )",
-      "state": "app.airwayObstruction.fbaoAdult",
-      "url": "/fbao-adult"
-    },
-
-
-    {
-      "title": "Glasgow Coma Scale",
-      "head": "Glasgow Coma Scale to Assess Head Injury",
-      "state": "app.glascow.glascowComaScale",
-      "url": "/glascow-coma-scale"
-    },
-
-
-
-    
-    {
-      "title": "HAZMAT scenes",
-      "head": "Hazmat Scenes",
-      "state": "app.hazmat.hazmat",
-      "url": "/hazmat"
-    },
-
-
-
-    {
-      "title": "Head injuries",
-      "head": "Head Injuries, Spinal and Head Injuries",
-      "state": "app.headInjury.emergency",
-      "url": "/emergency"
-    },
-
-
-
-    {
-      "title": "Aspirin for heart attack",
-      "head": "Heart Attack, Medications",
-      "state": "app.heartAttack.signs",
-      "url": "/signs"
-    },
-    {
-      "title": "Heart attack",
-      "head": "Heart Attack, Medications",
-      "state": "app.heartAttack.signs",
-      "url": "/signs"
-    },
-
-
-
-    {
-      "title": "Heat emergencies",
-      "head": "Heat Emergencies",
-      "state": "app.heatEmergency.signsAndSymptoms",
-      "url": "/signs-and-symptoms"
-    },
-    {
-      "title": "Heat exhaustion",
-      "head": "Heat Emergencies",
-      "state": "app.heatEmergency.signsAndSymptoms",
-      "url": "/signs-and-symptoms"
-    },
-    {
-      "title": "Heatstroke",
-      "head": "Heat Emergencies",
-      "state": "app.heatEmergency.signsAndSymptoms",
-      "url": "/signs-and-symptoms"
-    },
-
-
-
-    {
-      "title": "Helicopter landing zone",
-      "head": "Helicopter Landing Zone",
-      "state": "app.helicopterLandingZone.helicopterLandingZone",
-      "url": "/helicopter-landing-zone"
-    },
-
-    {
-      "title": "Landing zone, helicopter",
-      "head": "Helicopter Landing Zone",
-      "state": "app.helicopterLandingZone.helicopterLandingZone",
-      "url": "/helicopter-landing-zone"
-    },
-
-
-
-
-    {
-      "title": "Advance directive",
-      "head": "Legal and Ethical Issues",
-      "state": "app.legalEthical.consent",
-      "url": "/consent"
-    },
-    {
-      "title": "Confidentiality",
-      "head": "Legal and Ethical Issues",
-      "state": "app.legalEthical.negligence",
-      "url": "/negligence"
-    },
-    {
-      "title": "Consent",
-      "head": "Legal and Ethical Issues",
-      "state": "app.legalEthical.consent",
-      "url": "/consent"
-    },
-    {
-      "title": "Consent, refusal of",
-      "head": "Legal and Ethical Issues",
-      "state": "app.legalEthical.consent",
-      "url": "/consent"
-    },
-    {
-      "title": "Crime scenes",
-      "head": "Legal and Ethical Issues, Scene Safety",
-      "state": "app.legalEthical.negligence",
-      "url": "/negligence"
-    },
-    {
-      "title": "Ethical issues",
-      "head": "Legal and Ethical Issues",
-      "state": "app.legalEthical.consent",
-      "url": "/consent"
-    },
-    {
-      "title": "Ethical responsibilitie",
-      "head": "Legal and Ethical Issues",
-      "state": "app.legalEthical.falsificationOfRecords",
-      "url": "/falsification-of-records"
-    },
-    {
-      "title": "Expressed consent",
-      "head": "Legal and Ethical Issues",
-      "state": "app.legalEthical.consent",
-      "url": "/consent"
-    },
-    {
-      "title": "Falsification of records",
-      "head": "Legal and Ethical Issues",
-      "state": "app.legalEthical.falsificationOfRecords",
-      "url": "/falsification-of-records"
-    },
-    {
-      "title": "Implied consent",
-      "head": "Legal and Ethical Issues",
-      "state": "app.legalEthical.consent",
-      "url": "/consent"
-    },
-    {
-      "title": "Legal issues",
-      "head": "Legal and Ethical Issues",
-      "state": "app.legalEthical.consent",
-      "url": "/consent"
-    },
-    {
-      "title": "Negligence",
-      "head": "Legal and Ethical Issues",
-      "state": "app.legalEthical.negligence",
-      "url": "/negligence"
-    },
-    {
-      "title": "Refusal of consent",
-      "head": "Legal and Ethical Issues",
-      "state": "app.legalEthical.consent",
-      "url": "/consent"
-    },
-    {
-      "title": "Reportable events",
-      "head": "Legal and Ethical Issues",
-      "state": "app.legalEthical.negligence",
-      "url": "/negligence"
-    },
-
-
-
-
-    
-    {
-      "title": "Mass-casualty incidents (MCIs)",
-      "head": "Mass Casualty Incidents",
-      "state": "app.massCasualtyIncidents.roleOfEmergency",
-      "url": "/role-of-emergency"
-    },
-
-
-
-    {
-      "title": "Bronchodilator (inhaler) for asthma attack",
-      "head": "Medications",
-      "state": "app.medication.aspirinForHeartAttack",
-      "url": "/aspirin-for-heart-attack"
-    },
-
-    {
-      "title": "Inhaler for asthma attack",
-      "head": "Medications",
-      "state": "app.medication.aspirinForHeartAttack",
-      "url": "/aspirin-for-heart-attack"
-    },
-    {
-      "title": "Medications",
-      "head": "Medications",
-      "state": "app.medication.aspirinForHeartAttack",
-      "url": "/aspirin-for-heart-attack"
-    },
-    {
-      "title": "Nitroglycerin for heart attack",
-      "head": "Medications",
-      "state": "app.medication.cardiacEmergency",
-      "url": "/cardiac-emergency"
-    },
-
-
-
-    {
-      "title": "1-rescuer assist",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.1rescuerEmergencyCarries",
-      "url": "/1-rescuer-emergency-carries"
-    },
-    {
-      "title": "2-rescuer emergency carries",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.2rescuerEmergencyCarries",
-      "url": "/2-rescuer-emergency-carries"
-    },
-    {
-      "title": "Blanket drag",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.1rescuerEmergencyDrags",
-      "url": "/1-rescuer-emergency-drags"
-    },
-    {
-      "title": "Clothing drag",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.1rescuerEmergencyDrags",
-      "url": "/1-rescuer-emergency-drags"
-    },
-    {
-      "title": "Cradle carry",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.2rescuerEmergencyCarries",
-      "url": "/2-rescuer-emergency-carries"
-    },
-    {
-      "title": "Direct carry",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.non-emergency-moves",
-      "url": "/non-emergency-moves"
-    },
-    {
-      "title": "Direct ground lift",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.non-emergency-moves",
-      "url": "/non-emergency-moves"
-    },
-    {
-      "title": "Drags, emergency",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.1rescuerEmergencyDrags",
-      "url": "/1-rescuer-emergency-drags"
-    },
-    {
-      "title": "Draw sheet transfer",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.non-emergency-moves",
-      "url": "/non-emergency-moves"
-    },
-    {
-      "title": "Emergency carries",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.2rescuerEmergencyCarries",
-      "url": "/2-rescuer-emergency-carries"
-    },
-    {
-      "title": "Emergency drags",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.1rescuerEmergencyDrags",
-      "url": "/1-rescuer-emergency-drags"
-    },
-    {
-      "title": "Emergency moves",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.1rescuerEmergencyDrags",
-      "url": "/1-rescuer-emergency-drags"
-    },
-    {
-      "title": "Extremity lift",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.non-emergency-moves",
-      "url": "/non-emergency-moves"
-    },
-    {
-      "title": "Firefighter’s carry",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.2rescuerEmergencyCarries",
-      "url": "/2-rescuer-emergency-carries"
-    },
-    {
-      "title": "Firefighter’s drag",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.1rescuerEmergencyDrags",
-      "url": "/1-rescuer-emergency-drags"
-    },
-    {
-      "title": "Moves, emergency",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.1rescuerEmergencyDrags",
-      "url": "/1-rescuer-emergency-drags"
-    },
-    {
-      "title": "Moving a patient",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.1rescuerEmergencyDrags",
-      "url": "/1-rescuer-emergency-drags"
-    },
-    {
-      "title": "Non-emergency moves",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.non-emergency-moves",
-      "url": "/non-emergency-moves"
-    },
-    {
-      "title": "Packstrap carry",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.2rescuerEmergencyCarries",
-      "url": "/2-rescuer-emergency-carries"
-    },
-    {
-      "title": "Piggyback carry",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.2rescuerEmergencyCarries",
-      "url": "/2-rescuer-emergency-carries"
-    },
-    {
-      "title": "Shoulder drag",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.1rescuerEmergencyDrags",
-      "url": "/1-rescuer-emergency-drags"
-    },
-    {
-      "title": "Upper extremity drag",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.1rescuerEmergencyDrags",
-      "url": "/1-rescuer-emergency-drags"
-    },
-    {
-      "title": "Upper extremity drag for rapid extrication",
-      "head": "Moving a Patient",
-      "state": "app.movingPatient.1rescuerEmergencyDrags",
-      "url": "/1-rescuer-emergency-drags"
-    },
-
-
-
-    {
-      "title": "Musculoskeletal injuries",
-      "head": "Musculoskeletal Injuries",
-      "state": "app.musculoskeletalInjuries.signsAndSymptoms",
-      "url": "/signs-and-symptoms"
-    },
-    
-
-    
-    {
-      "title": "Oxygen administration",
-      "head": "Oxygen Administration",
-      "state": "app.oxygen.administration",
-      "url": "/administration"
-    },
-    {
-      "title": "Oxygen cylinder volumes",
-      "head": "Oxygen Administration",
-      "state": "app.oxygen.administration",
-      "url": "/administration"
-    },
-
-
-
-    
-    {
-      "title": "Pediatric problems",
-      "head": "Pediatric Problems",
-      "state": "app.pediatricProblems.blowByOxygen",
-      "url": "/blow-by-oxygen"
-    },
-    {
-      "title": "Abuse, child",
-      "head": "Pediatric Problems",
-      "state": "app.pediatricProblems.abuseIsSuspected",
-      "url": "/abuse-is-suspected"
-    },
-    {
-      "title": "Blow-by oxygen for pediatric respiratory distress",
-      "head": "Pediatric Problems",
-      "state": "app.pediatricProblems.blowByOxygen",
-      "url": "/blow-by-oxygen"
-    },
-    {
-      "title": "Child abuse",
-      "head": "Pediatric Problems",
-      "state": "app.pediatricProblems.abuseIsSuspected",
-      "url": "/abuse-is-suspected"
-    },
-    {
-      "title": "Seizures, pediatric",
-      "head": "Pediatric Problems",
-      "state": "app.pediatricProblems.seizures",
-      "url": "/seizures"
-    },
-    {
-      "title": "SIDS",
-      "head": "Pediatric Problems",
-      "state": "app.pediatricProblems.SUID",
-      "url": "/SUID"
-    },
-    {
-      "title": "Sudden unexpected infant death (SIUD)",
-      "head": "Pediatric Problems",
-      "state": "app.pediatricProblems.seizures",
-      "url": "/seizures"
-    },
-    {
-      "title": "Trauma in pediatric patients",
-      "head": "Pediatric Problems",
-      "state": "app.pediatricProblems.SUID",
-      "url": "/SUID"
-    },
-
-
-
-
-    {
-      "title": "Inhaled poisoning",
-      "head": "Poisoning",
-      "state": "app.poisoning.emergencyCare",
-      "url": "/emergency-care"
-    },
-    {
-      "title": "Poison Control Centers",
-      "head": "Poisoning",
-      "state": "app.poisoning.emergencyCare",
-      "url": "/emergency-care"
-    },
-    {
-      "title": "Poisoning, inhaled",
-      "head": "Poisoning",
-      "state": "app.poisoning.emergencyCare",
-      "url": "/emergency-care"
-    },
-    {
-      "title": "Poisoning, swallowed",
-      "head": "Poisoning",
-      "state": "app.poisoning.emergencyCare",
-      "url": "/emergency-care"
-    },
-    {
-      "title": "Swallowed poison",
-      "head": "Poisoning",
-      "state": "app.poisoning.emergencyCare",
-      "url": "/emergency-care"
-    },
-
-
-    
-    {
-      "title": "Recovery position (HAINES)",
-      "head": "Recovery Position (HAINES)",
-      "state": "app.recoverPosition.recoverPosition",
-      "url": "/recover-position"
-    },
-    {
-      "title": "HAINES recovery position",
-      "head": "Recovery Position (HAINES)",
-      "state": "app.recoverPosition.recoverPosition",
-      "url": "/recover-position"
-    },
-
-
-    {
-      "title": "Respiratory emergencies",
-      "head": "Respiratory Emergencies",
-      "state": "app.respiratoryEmergencies.signAndSymptom",
-      "url": "/sign-and-symptom"
-    },
-    {
-      "title": "Breathing, inadequate",
-      "head": "Respiratory Emergencies",
-      "state": "app.respiratoryEmergencies.inadequateBreathing",
-      "url": "/inadequate-breathing"
-    },
-    {
-      "title": "Inadequate breathing",
-      "head": "Respiratory Emergencies",
-      "state": "app.respiratoryEmergencies.inadequateBreathing",
-      "url": "/inadequate-breathing"
-    },
-    {
-      "title": "Respiratory distress",
-      "head": "Respiratory Emergencies",
-      "state": "app.respiratoryEmergencies.inadequateBreathing",
-      "url": "/emergency-care"
-    },
-    {
-      "title": "Asthma attack",
-      "head": "Respiratory Emergencies, Medications",
-      "state": "app.respiratoryEmergencies.emergencyCareForAnAsthama",
-      "url": "/emergency-care-for-an-asthama"
-    },
-
-
-
-
-
-    
-    {
-      "title": "Environmental danger",
-      "head": "Scene Safety",
-      "state": "app.sceneSafety.sceneSizeUp",
-      "url": "/scene-size-up"
-    },
-    {
-      "title": "Hazards within structures",
-      "head": "Scene Safety",
-      "state": "app.sceneSafety.hazardsWithinStructures",
-      "url": "/hazards-within-structures"
-    },
-    {
-      "title": "Scene safety",
-      "head": "Scene Safety",
-      "state": "app.sceneSafety.sceneSizeUp",
-      "url": "/scene-size-up"
-    },
-    {
-      "title": "Scene size-up",
-      "head": "Scene Safety",
-      "state": "app.sceneSafety.sceneSizeUp",
-      "url": "/scene-size-up"
-    },
-    {
-      "title": "Vehicle crash hazards",
-      "head": "Scene Safety",
-      "state": "app.sceneSafety.sceneSizeUp",
-      "url": "/scene-size-up"
-    },
-    {
-      "title": "Violence",
-      "head": "Scene Safety",
-      "state": "app.sceneSafety.sceneSizeUp",
-      "url": "/scene-size-up"
-    },
-
-
-
-    {
       "title": "Seizures",
-      "head": "Seizures",
+      "head": "Medical",
       "state": "app.seizures.causesOfSeizures",
       "url": "/causes-of-seizures"
     },
-
-
-
     {
-      "title": "Hypoperfusion",
-      "head": "Shock (Hypoperfusion)",
-      "state": "app.shock.signsAndSymptomsOfShock",
-      "url": "/signs-and-symptoms-of-shock"
+      "title": "Seizures, pediatric",
+      "head": "Medical",
+      "state": "app.pediatricProblems.seizures",
+      "url": "/seizures"
     },
     {
       "title": "Shock",
-      "head": "Shock (Hypoperfusion)",
+      "head": "Medical",
       "state": "app.shock.signsAndSymptomsOfShock",
       "url": "/signs-and-symptoms-of-shock"
     },
-
-
-
     {
-      "title": "Spinal injuries",
-      "head": "Spinal and Head Injuries",
-      "state": "app.spinalHeadInjury.suspect",
-      "url": "/suspect"
+      "title": "Shoulder drag",
+      "head": "Special Situations",
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
     },
-
-
-
     {
-      "title": "Rigid splint",
-      "head": "Splinting",
-      "state": "app.splinting.examples",
-      "url": "/examples"
+      "title": "SIDS",
+      "head": "Medical",
+      "state": "app.pediatricProblems.SUID",
+      "url": "/SUID"
     },
     {
       "title": "Sling and binder",
-      "head": "Splinting",
+      "head": "Trauma",
       "state": "app.splinting.examples",
       "url": "/examples"
     },
     {
+      "title": "Soft-tissue injuries",
+      "head": "Trauma",
+      "state": "app.wounds.wounds",
+      "url": "/wounds"
+    },
+    {
+      "title": "Spinal injuries",
+      "head": "Trauma",
+      "state": "app.spinalHeadInjury.suspect",
+      "url": "/suspect"
+    },
+    {
       "title": "Splinting",
-      "head": "Splinting",
+      "head": "Trauma",
       "state": "app.splinting.splinting",
       "url": "/splinting"
     },
-
-
-    {
-      "title": "Stroke",
-      "head": "Stroke",
-      "state": "app.stroke.fastStroke",
-      "url": "/FAST-stroke"
-    },
-    {
-      "title": "FAST Stroke Assessment",
-      "head": "Stroke",
-      "state": "app.stroke.fastStroke",
-      "url": "/FAST-stroke"
-    },
-
-
-    
-    {
-      "title": "JumpSTART triage for pediatric patients",
-      "head": "Triage",
-      "state": "app.triage.jumpStart",
-      "url": "/jump-start"
-    },
     {
       "title": "START triage assessment",
-      "head": "Triage",
+      "head": "Assessment",
       "state": "app.triage.triage",
       "url": "/triage"
     },
     {
+      "title": "Sting",
+      "head": "Medical",
+      "state": "app.bitesAndStings.careForOtherBitesAndStings",
+      "url": "/care-for-other-bites-and-stings"
+    },
+    {
+      "title": "Stroke",
+      "head": "Medical",
+      "state": "app.stroke.fastStroke",
+      "url": "/FAST-stroke"
+    },
+    {
+      "title": "Suctioning, adult or child",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.airwayMaintenance.suctioningAdultOrChild",
+      "url": "/suctioning-adult-or-child"
+    },
+    {
+      "title": "Suctioning, infant",
+      "head": "Circulation/Airway/Breathing",
+      "state": "app.airwayMaintenance.suctioningInAnInfant",
+      "url": "/suctioning-in-an-infant"
+    },
+    {
+      "title": "Sudden unexpected infant death (SIUD)",
+      "head": "Medical",
+      "state": "app.pediatricProblems.seizures",
+      "url": "/seizures"
+    },
+    {
+      "title": "Swallowed poison",
+      "head": "Medical",
+      "state": "app.poisoning.emergencyCare",
+      "url": "/emergency-care"
+    },
+    {
+      "title": "Tourniquet to control bleeding",
+      "head": "Trauma",
+      "state": "app.bleeding.controlBleedingUsingTourniquet",
+      "url": "/control-bleeding-using-tourniquet"
+    },
+    {
+      "title": "Trauma in pediatric patients",
+      "head": "Trauma",
+      "state": "app.pediatricProblems.SUID",
+      "url": "/SUID"
+    },
+    {
       "title": "Triage",
-      "head": "Triage",
+      "head": "Assessment",
       "state": "app.triage.triage",
       "url": "/triage"
     },
     {
       "title": "Triage assessment",
-      "head": "Triage",
+      "head": "Assessment",
       "state": "app.triage.triage",
       "url": "/triage"
     },
     {
       "title": "Triage categories",
-      "head": "Triage",
+      "head": "Assessment",
       "state": "app.triage.triage",
       "url": "/triage"
     },
-
-
-
-    
-
-
-
-    
     {
-      "title": "Bag mask (BVM) for ventilation",
-      "head": "Ventilation",
-      "state": "app.ventilation.ventilation",
-      "url": "/ventilation"
+      "title": "Upper extremity drag",
+      "head": "Special Situations",
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
     },
     {
-      "title": "BVM (bag-valve-mask) ventilation",
-      "head": "Ventilation",
-      "state": "app.ventilation.ventilation",
-      "url": "/ventilation"
+      "title": "Upper extremity drag for rapid extrication",
+      "head": "Special Situations",
+      "state": "app.movingPatient.1rescuerEmergencyDrags",
+      "url": "/1-rescuer-emergency-drags"
     },
     {
-      "title": "Mouth-to-mask ventilation",
-      "head": "Ventilation",
-      "state": "app.ventilation.ventilation",
-      "url": "/ventilation"
+      "title": "Vehicle crash hazards",
+      "head": "Responder Safety",
+      "state": "app.sceneSafety.sceneSizeUp",
+      "url": "/scene-size-up"
     },
     {
       "title": "Ventilation",
-      "head": "Ventilation",
+      "head": "Circulation/Airway/Breathing",
       "state": "app.ventilation.ventilation",
       "url": "/ventilation"
     },
-
-
-
-    
     {
-      "title": "Soft-tissue injuries",
-      "head": "Wounds and Soft-Tissue Injuries",
-      "state": "app.wounds.wounds",
-      "url": "/wounds"
+      "title": "Violence",
+      "head": "Responder Safety",
+      "state": "app.sceneSafety.sceneSizeUp",
+      "url": "/scene-size-up"
+    },
+    {
+      "title": "Vital signs",
+      "head": "Assessment",
+      "state": "app.vitalSigns.vitalSigns",
+      "url": "/vital-signs"
     },
     {
       "title": "Wounds",
-      "head": "Wounds and Soft-Tissue Injuries",
+      "head": "Trauma",
       "state": "app.wounds.wounds",
       "url": "/wounds"
-    },
-
-
-    {
-      "title": "Opioid drug overdose",
-      "head": "Alcohol and Drug Abuse and Overdose Emergencies",
-      "state": "app.alcoholAndDrugAbuse.opioidDrugOverdose",
-      "url": "/opioid-drug-overdose"
     }
   ]
 }
