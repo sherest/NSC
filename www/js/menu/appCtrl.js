@@ -1,7 +1,7 @@
-nscApp.controller('AppCtrl', function ($scope, indexList, topicList, $timeout, $ionicFilterBar, $ionicModal, $state, $ionicHistory, $ionicViewSwitcher, $ionicSideMenuDelegate, $state, $window) {
+nscApp.controller('AppCtrl', function ($scope, topicList, $timeout, $ionicFilterBar, $ionicModal, $state, $ionicHistory, $ionicViewSwitcher, $ionicSideMenuDelegate, $state, $window) {
 
     $scope.myWidth = $window.innerWidth;
-    $scope.indexList = indexList.data.data;
+
     $scope.topicList = topicList.data.topics;
     $scope.uTopicList = _.uniq(_.pluck(topicList.data.topics, "state"));
 

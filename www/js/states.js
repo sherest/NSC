@@ -7,10 +7,6 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             templateUrl: 'js/menu/menu.html',
             controller: 'AppCtrl',
             resolve: {
-                indexList: ["$http", function ($http) {
-                    return $http.get("jsons/index.json");
-                }],
-
                 topicList: ["$http", function ($http) {
                     return $http.get("jsons/topics.json");
                 }]
