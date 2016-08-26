@@ -801,7 +801,7 @@
     {
       "title": "Memory aids",
       "head": "Memory Aids",
-      "state": "app.abbreviations.rpm",
+      "state": "app.abbreviations.aed",
       "url": "/rpm"
     },
     {
@@ -873,7 +873,7 @@
     {
       "title": "OPQRST to evaluate pain/symptoms",
       "head": "Assessment",
-      "state": "app.abbreviations.rpm",
+      "state": "app.abbreviations.dots",
       "url": "/rpm"
     },
     {
@@ -1113,8 +1113,8 @@
     {
       "title": "Suctioning, infant",
       "head": "Circulation/Airway/Breathing",
-      "state": "app.airwayMaintenance.suctioningInAnInfant",
-      "url": "/suctioning-in-an-infant"
+      "state": "app.airwayMaintenance.suctioningAdultOrChild",
+      "url": "/suctioning-adult-or-child"
     },
     {
       "title": "Sudden unexpected infant death (SIUD)",

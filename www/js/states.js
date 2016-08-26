@@ -88,15 +88,6 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.abdominalPain.emergencyCareForSevereAbdominalPain', {
-            url: '/emergency-care-for-severe-abdominal-pain',
-            views: {
-                'subContent': {
-                    templateUrl: 'js/page/abdominal-pain/emergency-care-for-severe-abdominal-pain.html'
-                }
-            }
-        })
-
         .state('app.airwayOpening', {
             url: '/airway-opening',
             abstract: true,
@@ -146,15 +137,6 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.airwayMaintenance.suctioningInAnInfant', {
-            url: '/suctioning-in-an-infant',
-            views: {
-                'subContent': {
-                    templateUrl: 'js/page/airway-maintenance/suctioning-in-an-infant.html'
-                }
-            }
-        })
-
         .state('app.airwayMaintenance.suctioningAdultOrChild', {
             url: '/suctioning-adult-or-child',
             views: {
@@ -169,15 +151,6 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             views: {
                 'subContent': {
                     templateUrl: 'js/page/airway-maintenance/oral-airway-insertion-in-adults.html'
-                }
-            }
-        })
-
-        .state('app.airwayMaintenance.oralAirwayInChildrenAndInfants', {
-            url: '/oral-airway-in-children-and-infants',
-            views: {
-                'subContent': {
-                    templateUrl: 'js/page/airway-maintenance/oral-airway-in-children-and-infants.html'
                 }
             }
         })
