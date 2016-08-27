@@ -187,6 +187,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.airwayOpening.airwayOpening', {
+            url: '/airway_opening',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/airway-opening/airway_opening.html'
+                }
+            }
+        })
+
         .state('app.airwayOpening.headTiltChinLift', {
             url: '/head-tilt-chin-lift',
             views: {

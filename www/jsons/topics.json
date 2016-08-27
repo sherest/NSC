@@ -105,8 +105,8 @@
     {
       "title": "Airway, opening",
       "head": "Circulation/Airway/Breathing",
-      "state": "app.airwayOpening.headTiltChinLift",
-      "url": "/head-tilt-chin-lift"
+      "state": "app.airwayOpening.airwayOpening",
+      "url": "/airway-opening"
     },
     {
       "title": "Alcohol abuse",
