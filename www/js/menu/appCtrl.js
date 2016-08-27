@@ -40,10 +40,21 @@ nscApp.controller('AppCtrl', function ($scope, topicList, $timeout, $ionicFilter
             filterBarInstance(); //hide filter-bar instance
         }
 
-        console.log(selectedTopic);
+
+        $scope.topicsGroup = _.where($scope.topicList, {head: selectedTopic.head}).sort(compare)
+        $scope.uTopicList = _.uniq(_.pluck($scope.topicsGroup, "state"));
+
         $scope.toState(selectedTopic.state || "app.bleeding.bleedingExternal");
 
     };
+
+    function compare(a,b){
+        if (a["title"].toLowerCase() < b["title"].toLowerCase())
+            return -1;
+        if (a["title"].toLowerCase() > b["title"].toLowerCase())
+            return 1;
+        return 0;
+    }
 
     angular.element($window).bind("resize", function () {
 

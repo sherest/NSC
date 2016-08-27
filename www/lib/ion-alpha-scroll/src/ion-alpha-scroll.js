@@ -50,12 +50,21 @@ angular.module('ion-alpha-scroll', [])
                         var hide = ['C', 'D', 'E', 'F', 'J', 'K', "L", "M", 'Q', 'R', 'V', 'W'];
                         var ionicScroll = scrollContainer.controller('$ionicScroll');
 
+
+                        function compare(a,b){
+                            if (a[attrs.key].toLowerCase() < b[attrs.key].toLowerCase())
+                                return -1;
+                            if (a[attrs.key].toLowerCase() > b[attrs.key].toLowerCase())
+                                return 1;
+                            return 0;
+                        }
+
                         // do nothing if the model is not set
                         if (!ngModel) return;
 
                         ngModel.$render = function () {
                             scope.items = [];
-                            scope.items = _.sortBy(ngModel.$viewValue, attrs.key);
+                            scope.items = ngModel.$viewValue.sort(compare);
                             scope.alphabet = iterateAlphabet();
                             scope.checkoutletter = function (letter) {
 

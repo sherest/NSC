@@ -2,38 +2,47 @@
   "data": [
     {
       "title": "Memory Aids",
+      "head": "Memory Aids",
       "state": "app.abbreviations.aed"
     },
     {
       "title": "Responder Safety",
+      "head": "Responder Safety",
       "state": "app.sceneSafety.hazardsWithinStructures"
     },
     {
       "title": "Assessment",
+      "head": "Assessment",
       "state": "app.anatomy.directionalTerms"
     },
     {
       "title": "Circulation/ Airway/Breathing",
+      "head": "Circulation/Airway/Breathing",
       "state": "app.cpr.1RescuerCpr"
     },
     {
       "title": "Medical",
+      "head": "Medical",
       "state": "app.abdominalPain.whenEmergencCareNeeded"
     },
     {
       "title": "Trauma",
+      "head": "Trauma",
       "state": "app.bleeding.bleedingExternal"
     },
     {
       "title": "EMS Operations",
+      "head": "EMS Operations",
       "state": "app.helicopterLandingZone.helicopterLandingZone"
     },
     {
       "title": "Special Situations",
+      "head": "Special Situations",
       "state": "app.movingPatient.1rescuerEmergencyCarries"
     },
     {
       "title": "Miscellaneous",
+      "head": "Miscellaneous",
       "state": "app.dressingAndBandages.bandages"
     }
   ]
