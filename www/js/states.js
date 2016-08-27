@@ -191,7 +191,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             url: '/airway_opening',
             views: {
                 'subContent': {
-                    templateUrl: 'js/page/airway-opening/airway_opening.html'
+                    templateUrl: 'js/page/airway-opening/airway-opening.html'
                 }
             }
         })
