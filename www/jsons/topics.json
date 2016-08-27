@@ -33,8 +33,8 @@
     {
       "title": "Abbreviations",
       "head": "Memory Aids",
-      "state": "app.abbreviations.aed",
-      "url": "/aed"
+      "state": "app.abbreviations.abbreviations",
+      "url": "/abbreviations"
     },
     {
       "title": "Abdominal injury",
@@ -195,8 +195,8 @@
     {
       "title": "AVPU responsiveness scale",
       "head": "Assessment",
-      "state": "app.abbreviations.aed",
-      "url": "/aed"
+      "state": "app.abbreviations.avpuScale",
+      "url": "/app.abbreviations.avpu_scale"
     },
     {
       "title": "Bag mask (BVM) for ventilation",
@@ -435,8 +435,8 @@
     {
       "title": "DCAP-BTLS in physical examination",
       "head": "Assessment",
-      "state": "app.abbreviations.dots",
-      "url": "/dots"
+      "state": "app.abbreviations.dcapBtls",
+      "url": "/dcap_btls"
     },
     {
       "title": "Delivery, assisting with",
@@ -873,8 +873,8 @@
     {
       "title": "OPQRST to evaluate pain/symptoms",
       "head": "Assessment",
-      "state": "app.abbreviations.dots",
-      "url": "/rpm"
+      "state": "app.abbreviations.opqrst",
+      "url": "/opqrst"
     },
     {
       "title": "Oral airway insertion",
@@ -1011,8 +1011,8 @@
     {
       "title": "SAMPLE history",
       "head": "Assessment",
-      "state": "app.abbreviations.rpm",
-      "url": "/rpm"
+      "state": "app.abbreviations.smapleHistory",
+      "url": "/smaple_history"
     },
     {
       "title": "Scene safety",

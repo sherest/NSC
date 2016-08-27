@@ -39,6 +39,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.abbreviations.abbreviations', {
+            url: '/abbreviations',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/abbreviations/abbreviations.html'
+                }
+            }
+        })
+
         .state('app.abbreviations.aed', {
             url: '/aed',
             views: {
@@ -48,6 +57,41 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.abbreviations.apgar', {
+            url: '/apgar',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/abbreviations/apgar.html'
+                }
+            }
+        })
+
+        .state('app.abbreviations.avpuScale', {
+            url: '/avpu_scale',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/abbreviations/avpu_scale.html'
+                }
+            }
+        })
+
+        .state('app.abbreviations.bvm', {
+            url: '/bvm',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/abbreviations/bvm.html'
+                }
+            }
+        })
+
+        .state('app.abbreviations.csm', {
+            url: '/csm',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/abbreviations/csm.html'
+                }
+            }
+        })
 
         .state('app.abbreviations.dots', {
             url: '/dots',
@@ -58,12 +102,56 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.abbreviations.dcapBtls', {
+            url: '/dcap_btls',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/abbreviations/dcap_btls.html'
+                }
+            }
+        })
+
+        .state('app.abbreviations.fbao', {
+            url: '/fbao',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/abbreviations/fbao.html'
+                }
+            }
+        })
+
+        .state('app.abbreviations.mci', {
+            url: '/mci',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/abbreviations/mci.html'
+                }
+            }
+        })
+
+        .state('app.abbreviations.opqrst', {
+            url: '/opqrst',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/abbreviations/opqrst.html'
+                }
+            }
+        })
 
         .state('app.abbreviations.rpm', {
             url: '/rpm',
             views: {
                 'subContent': {
                     templateUrl: 'js/page/abbreviations/rpm.html'
+                }
+            }
+        })
+
+        .state('app.abbreviations.smapleHistory', {
+            url: '/smaple_history',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/abbreviations/smaple_history.html'
                 }
             }
         })
