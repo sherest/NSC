@@ -189,8 +189,8 @@
     {
       "title": "Automated external defibrillator (AED)",
       "head": "Circulation/Airway/Breathing",
-      "state": "app.cpr.usingAnAed",
-      "url": "/using-an-aed"
+      "state": "app.abbreviations.aed",
+      "url": "/aed"
     },
     {
       "title": "AVPU responsiveness scale",
