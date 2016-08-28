@@ -990,11 +990,20 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.poisoning.emergencyCare', {
-            url: '/emergency-care',
+        .state('app.poisoning.swallowedPoison', {
+            url: '/swallowed-poison',
             views: {
                 'subContent': {
-                    templateUrl: 'js/page/poisoning/poisoning.html'
+                    templateUrl: 'js/page/poisoning/swallowed-poison.html'
+                }
+            }
+        })
+
+        .state('app.poisoning.inhaledPoison', {
+            url: '/inhaled-poison',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/poisoning/inhaled-poison.html'
                 }
             }
         })

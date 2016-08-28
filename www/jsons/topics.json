@@ -747,8 +747,8 @@
     {
       "title": "Inhaled poisoning",
       "head": "Medical",
-      "state": "app.poisoning.emergencyCare",
-      "url": "/emergency-care"
+      "state": "app.poisoning.inhaledPoison",
+      "url": "/inhaled-poison"
     },
     {
       "title": "Inhaler for asthma attack",
@@ -933,14 +933,14 @@
     {
       "title": "Poisoning, inhaled",
       "head": "Medical",
-      "state": "app.poisoning.emergencyCare",
-      "url": "/emergency-care"
+      "state": "app.poisoning.inhaledPoison",
+      "url": "/inhaled-poison"
     },
     {
       "title": "Poisoning, swallowed",
       "head": "Medical",
-      "state": "app.poisoning.emergencyCare",
-      "url": "/emergency-care"
+      "state": "app.poisoning.swallowedPoison",
+      "url": "/swallowed-poison"
     },
     {
       "title": "Primary assessment",
@@ -1125,8 +1125,8 @@
     {
       "title": "Swallowed poison",
       "head": "Medical",
-      "state": "app.poisoning.emergencyCare",
-      "url": "/emergency-care"
+      "state": "app.poisoning.swallowedPoison",
+      "url": "/swallowed-poison"
     },
     {
       "title": "Tourniquet to control bleeding",
