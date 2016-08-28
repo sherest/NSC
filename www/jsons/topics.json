@@ -279,8 +279,8 @@
     {
       "title": "Breathing, looking for normal",
       "head": "Circulation/Airway/Breathing",
-      "state": "app.assessment.primaryAssessment",
-      "url": "/primary-assessment"
+      "state": "app.assessment.pulseChecking",
+      "url": "/pulse-checking"
     },
     {
       "title": "Bronchodilator (inhaler) for asthma attack",
@@ -1000,8 +1000,8 @@
     {
       "title": "Rule of Nines for burns",
       "head": "Trauma",
-      "state": "app.burns.burns",
-      "url": "/burns"
+      "state": "app.burns.ruleOfNineBurns",
+      "url": "/rule-of-nine-burns"
     },
     {
       "title": "SAMPLE history",

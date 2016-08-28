@@ -643,6 +643,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.burns.ruleOfNineBurns', {
+            url: '/rule-of-nine-burns',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/burns/rule-of-nine-burns.html'
+                }
+            }
+        })        
+
         .state('app.burns.burnsHeat', {
             url: '/burns-heat',
             views: {
@@ -1918,6 +1927,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.assessment.pulseChecking', {
+            url: '/pulse-checking',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/assessment/pulse-checking.html'
+                }
+            }
+        })
+
 
         .state('app.assessment.assessingResponsiveness', {
             url: '/assessing-responsiveness',
@@ -1942,15 +1960,6 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             views: {
                 'subContent': {
                     templateUrl: 'js/page/assessment/sample-history.html'
-                }
-            }
-        })
-
-        .state('app.assessment.pulseChecking', {
-            url: '/pulse-checking',
-            views: {
-                'subContent': {
-                    templateUrl: 'js/page/assessment/pulse-checking.html'
                 }
             }
         })
