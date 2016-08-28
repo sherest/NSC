@@ -1281,6 +1281,25 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.triage.assessMentalStatusChild', {
+            url: '/assess-mental-status-child',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/triage/assess-mental-status-child.html'
+                }
+            }
+        })
+        
+        .state('app.triage.assessMentalStatus', {
+            url: '/assess-mental-status',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/triage/assess-mental-status.html'
+                }
+            }
+        })
+        
+
         .state('app.triage.triage', {
             url: '/triage',
             views: {
