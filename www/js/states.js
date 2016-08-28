@@ -596,11 +596,20 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.stroke.stroke', {
+            url: '/stroke',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/stroke/stroke.html'
+                }
+            }
+        })
+
         .state('app.stroke.fastStroke', {
             url: '/FAST-stroke',
             views: {
                 'subContent': {
-                    templateUrl: 'js/page/stroke/stroke.html'
+                    templateUrl: 'js/page/stroke/fast-stroke.html'
                 }
             }
         })
@@ -1069,6 +1078,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.sceneSafety.sceneSafety', {
+            url: '/scene-safety',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/scene-safety/scene-safety.html'
+                }
+            }
+        })
+
         .state('app.sceneSafety.potentialViolence', {
             url: '/potential-violence',
             views: {
@@ -1092,6 +1110,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             views: {
                 'subContent': {
                     templateUrl: 'js/page/scene-safety/scene-size-up.html'
+                }
+            }
+        })
+
+        .state('app.sceneSafety.environmentalDangers', {
+            url: '/environmental-dangers',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/scene-safety/environmental-dangers.html'
                 }
             }
         })
@@ -1571,6 +1598,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             views: {
                 'subContent': {
                     templateUrl: 'js/page/medication/severe-allergic-reation.html'
+                }
+            }
+        })
+
+        .state('app.medication.autoInjectorSevereAllergicReaction', {
+            url: '/auto-injector-for-severe-allergic-reaction',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/medication/auto-injector-for-severe-allergic-reaction.html'
                 }
             }
         })

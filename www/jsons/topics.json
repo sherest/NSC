@@ -531,14 +531,14 @@
     {
       "title": "Environmental danger",
       "head": "Medical",
-      "state": "app.sceneSafety.sceneSizeUp",
-      "url": "/scene-size-up"
+      "state": "app.sceneSafety.environmentalDangers",
+      "url": "/environmental-dangers"
     },
     {
       "title": "Epinephrine auto-injector for severe allergic reaction",
       "head": "Medical",
-      "state": "app.allergicReactions.emergencyCareForAllergicReactions",
-      "url": "/emergency-care-for-allergic-reactions"
+      "state": "app.medication.autoInjectorSevereAllergicReaction",
+      "url": "/auto-injector-for-severe-allergic-reaction"
     },
     {
       "title": "Error in report, correcting",
@@ -1017,8 +1017,8 @@
     {
       "title": "Scene safety",
       "head": "Responder Safety",
-      "state": "app.sceneSafety.sceneSizeUp",
-      "url": "/scene-size-up"
+      "state": "app.sceneSafety.sceneSafety",
+      "url": "/scene-safety"
     },
     {
       "title": "Scene size-up",
@@ -1101,8 +1101,8 @@
     {
       "title": "Stroke",
       "head": "Medical",
-      "state": "app.stroke.fastStroke",
-      "url": "/FAST-stroke"
+      "state": "app.stroke.stroke",
+      "url": "/stroke"
     },
     {
       "title": "Suctioning, adult or child",
