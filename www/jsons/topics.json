@@ -621,8 +621,8 @@
     {
       "title": "Foreign body airway obstruction, unresponsive patient",
       "head": "Circulation/Airway/Breathing",
-      "state": "app.airwayObstruction.fbaoAdult",
-      "url": "/fbao-adult"
+      "state": "app.airwayObstruction.airwayObstructionUnresponsive",
+      "url": "/airway-obstruction-unresponsive"
     },
     {
       "title": "Frostbite",
