@@ -111,8 +111,8 @@
     {
       "title": "Alcohol abuse",
       "head": "Medical",
-      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
-      "url": "/alcohol-and-drug-abuse"
+      "state": "app.alcoholAndDrugAbuse.alcoholAbuse",
+      "url": "/alcohol-abuse"
     },
     {
       "title": "Alcohol overdose",

@@ -281,6 +281,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.alcoholAndDrugAbuse.alcoholAbuse', {
+            url: '/alcohol-abuse',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/alcohol-and-drug-abuse/alcohol-abuse.html'
+                }
+            }
+        })
+
         .state('app.alcoholAndDrugAbuse.alcoholAndDrugAbuse', {
             url: '/alcohol-and-drug-abuse',
             views: {
