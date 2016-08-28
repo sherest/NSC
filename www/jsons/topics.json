@@ -988,8 +988,8 @@
     {
       "title": "Responsiveness, assessing",
       "head": "Assessment",
-      "state": "app.assessment.primaryAssessment",
-      "url": "/primary-assessment"
+      "state": "app.assessment.assessingResponsiveness",
+      "url": "/assessing-responsiveness"
     },
     {
       "title": "Rigid splint",

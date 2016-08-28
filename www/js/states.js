@@ -1899,6 +1899,16 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+
+        .state('app.assessment.assessingResponsiveness', {
+            url: '/assessing-responsiveness',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/assessment/assessing-responsiveness.html'
+                }
+            }
+        })
+
         .state('app.assessment.secondaryAssessment', {
             url: '/secondary-assessment',
             views: {
