@@ -1780,6 +1780,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.assessment.sampleHistory', {
+            url: '/sample-history',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/assessment/sample-history.html'
+                }
+            }
+        })
+
         .state('app.assessment.auscultation', {
             url: '/auscultation',
             views: {

@@ -1011,7 +1011,7 @@
     {
       "title": "SAMPLE history",
       "head": "Assessment",
-      "state": "app.abbreviations.smapleHistory",
+      "state": "app.assessment.sampleHistory",
       "url": "/smaple_history"
     },
     {
