@@ -1093,7 +1093,7 @@
       "url": "/start-triage-assessment"
     },
     {
-      "title": "Sting",
+      "title": "Stings",
       "head": "Medical",
       "state": "app.bitesAndStings.careForOtherBitesAndStings",
       "url": "/care-for-other-bites-and-stings"
@@ -1117,7 +1117,7 @@
       "url": "/suctioning-infant"
     },
     {
-      "title": "Sudden unexpected infant death (SIUD)",
+      "title": "Sudden unexpected infant death (SUID)",
       "head": "Medical",
       "state": "app.pediatricProblems.SUID",
       "url": "/SUID"
