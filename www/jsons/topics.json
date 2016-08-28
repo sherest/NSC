@@ -453,14 +453,14 @@
     {
       "title": "Direct carry",
       "head": "Special Situations",
-      "state": "app.movingPatient.non-emergency-moves",
-      "url": "/non-emergency-moves"
+      "state": "app.movingPatient.directCarry",
+      "url": "direct-carry"
     },
     {
       "title": "Direct ground lift",
       "head": "Special Situations",
-      "state": "app.movingPatient.non-emergency-moves",
-      "url": "/non-emergency-moves"
+      "state": "app.movingPatient.directGroundLift",
+      "url": "/direct-ground-lift"
     },
     {
       "title": "Documentation tips",
@@ -567,8 +567,8 @@
     {
       "title": "Extremity lift",
       "head": "Special Situations",
-      "state": "app.movingPatient.non-emergency-moves",
-      "url": "/non-emergency-moves"
+      "state": "app.movingPatient.extremityLift",
+      "url": "/extremity-lift"
     },
     {
       "title": "Fainting",
@@ -637,10 +637,10 @@
       "url": "/glascow-coma-scale"
     },
     {
-      "title": "Glucose paste for diabetic emergenc",
+      "title": "Glucose paste for diabetic emergency",
       "head": "Medical",
-      "state": "app.diabeticEmergencies.diabeticEmergencies",
-      "url": "/diabetic-emergencies"
+      "state": "app.medication.glucosePasteForHypoglycemia",
+      "url": "/glucose-paste-for-hypoglycemia"
     },
 
     {
@@ -706,8 +706,8 @@
     {
       "title": "Hyperglycemia",
       "head": "Medical",
-      "state": "app.diabeticEmergencies.diabeticEmergencies",
-      "url": "/diabetic-emergencies"
+      "state": "app.diabeticEmergencies.hyperglycemia",
+      "url": "/hyperglycemia"
     },
     {
       "title": "Hypoglycemia",

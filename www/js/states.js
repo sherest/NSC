@@ -1740,6 +1740,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.medication.glucosePasteForHypoglycemia', {
+            url: '/glucose-paste-for-hypoglycemia',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/medication/glucose-paste-for-hypoglycemia.html'
+                }
+            }
+        })
+
         .state('app.medication.bronchodilatorInhalerAsthmaAttack', {
             url: '/bronchodilator-inhaler-asthma-attack',
             views: {
@@ -1804,6 +1813,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                 'menuContent': {
                     templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.diabeticEmergencies.hyperglycemia', {
+            url: '/hypothermia',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/diabetic-emergencies/hyperglycemia.html'
                 }
             }
         })
@@ -2173,6 +2191,36 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             views: {
                 'subContent': {
                     templateUrl: 'js/page/reassessment/reassessment-comparing.html'
+                }
+            }
+        })
+
+        .state('app.movingPatient.directCarry', {
+            url: '/direct-carry',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/moving-patient/direct-carry.html'
+
+                }
+            }
+        })
+
+        .state('app.movingPatient.directGroundLift', {
+            url: '/direct-ground-lift',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/moving-patient/direct-ground-lift.html'
+
+                }
+            }
+        })
+
+        .state('app.movingPatient.extremityLift', {
+            url: '/extremity-lift',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/moving-patient/extremity-lift.html'
+
                 }
             }
         })
