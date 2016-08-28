@@ -135,8 +135,8 @@
     {
       "title": "Anaphylaxis - see Allergic reactions (severe)",
       "head": "Medical",
-      "state": "app.allergicReactions.developingSignsAndSymptoms",
-      "url": "/developing-signs-and-symptoms"
+      "state": "app.allergicReactions.earlySignsAndSymptoms",
+      "url": "/early-signs-and-symptoms"
     },
     {
       "title": "Anatomy",
