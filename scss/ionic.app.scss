@@ -493,6 +493,11 @@ body {
     font-family: "Helvetica Neue LT Std Bold Condensed";
     font-size: 1.4em;
     margin: 10px 0 5px 10px;
+    text-transform: capitalize;
+
+    &.main-heading{
+
+    }
   }
 
   h2 {

@@ -2,6 +2,8 @@
 /platforms
 /plugins
 /node_modules
+www/_gsdata_/
+
 www/jsons.zip
 
 www/jsons/temp.json
@@ -10,4 +12,3 @@ www/jsons/topics_n.json
 
 www/jsons/topics_n_order.json
 
-www/_gsdata_/lock.gsl
