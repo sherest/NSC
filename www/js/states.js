@@ -502,6 +502,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.airwayObstruction.airwayObstructionUnresponsive', {
+            url: '/airway-obstruction-unresponsive',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/airway-obstruction/airway-obstruction-unresponsive.html'
+                }
+            }
+        })
+
         .state('app.airwayObstruction.fbao', {
             url: '/fbao',
             views: {
@@ -1020,6 +1029,24 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                 'menuContent': {
                     templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.sceneSafety.potentialViolence', {
+            url: '/potential-violence',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/scene-safety/potential-violence.html'
+                }
+            }
+        })
+
+        .state('app.sceneSafety.vehicleCrashHazards', {
+            url: '/vehicle-crash-hazards',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/scene-safety/vehicle-crash-hazards.html'
                 }
             }
         })
@@ -1646,11 +1673,95 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
 
+        .state('app.movingPatient.clothingDrag', {
+            url: '/clothing-drag',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/moving-patient/clothing-drag.html'
+
+                }
+            }
+        })
+
+
+        .state('app.movingPatient.blanketDrag', {
+            url: '/blanket-drag',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/moving-patient/blanket-drag.html'
+
+                }
+            }
+        })
+
+
+        .state('app.movingPatient.shoulderDrag', {
+            url: '/shoulder-drag',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/moving-patient/shoulder-drag.html'
+
+                }
+            }
+        })
+
+
+        .state('app.movingPatient.firefighterDrag', {
+            url: '/firefighter-drag',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/moving-patient/firefighter-drag.html'
+
+                }
+            }
+        })
+
+
+        .state('app.movingPatient.upperExtremityDrag', {
+            url: '/upper-extremity-drag',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/moving-patient/upper-extremity-drag.html'
+
+                }
+            }
+        })
+
+
+        .state('app.movingPatient.upperExtremityDragForRapidExtrication', {
+            url: '/upper-extremity-drag-for-rapid-extrication',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/moving-patient/upper-extremity-drag-for-rapid-extrication.html'
+
+                }
+            }
+        })
+
         .state('app.movingPatient.1rescuerEmergencyDrags', {
-            url: '/1-rescuer-emergency-drags',
+            url: '/emergency-moves',
             views: {
                 'subContent': {
                     templateUrl: 'js/page/moving-patient/1-rescuer-emergency-drags.html'
+                }
+            }
+        })
+
+        .state('app.movingPatient.emergencyMoves', {
+            url: '/1-rescuer-emergency-drags',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/moving-patient/emergency-moves.html'
+
+                }
+            }
+        })
+
+        .state('app.movingPatient.movingPatient', {
+            url: '/moving-patient',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/moving-patient/moving-patient.html'
 
                 }
             }
@@ -1662,6 +1773,56 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             views: {
                 'subContent': {
                     templateUrl: 'js/page/assessment/palpation.html'
+                }
+            }
+        })
+
+        .state('app.movingPatient.1RescuerAssist', {
+            url: '/1-rescuer-assist',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/moving-patient/walking-assist.html'
+
+                }
+            }
+        })
+
+        .state('app.movingPatient.packstrapCarry', {
+            url: '/packstrap-carry',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/moving-patient/packstrap-carry.html'
+
+                }
+            }
+        })
+
+        .state('app.movingPatient.cradleCarry', {
+            url: '/cradle-carry',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/moving-patient/cradle-carry.html'
+
+                }
+            }
+        })
+
+        .state('app.movingPatient.piggybackCarry', {
+            url: '/piggyback-carry',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/moving-patient/piggyback-carry.html'
+
+                }
+            }
+        })
+
+        .state('app.movingPatient.firefighterCarry', {
+            url: '/firefighter-carry',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/moving-patient/firefighter-carry.html'
+
                 }
             }
         })

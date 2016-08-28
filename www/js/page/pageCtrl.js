@@ -4,11 +4,15 @@ nscApp.controller("PageCtrl", function ($scope, $ionicViewSwitcher, $state) {
     var currentIndex = 0;
 
     $scope.$on('$stateChangeSuccess',function(event, toState, toParams, fromState, fromParams){
+        var objTopic;
         var state = toState.name;
         currentIndex = _.indexOf($scope.uTopicList, state);
 
         if(currentIndex > -1){
-            var objTopic = _.findWhere($scope.topicsGroup, {state: state});
+            objTopic = _.findWhere($scope.topicsGroup, {state: state});
+            $scope.topicHeading = objTopic.head;
+        }else{
+            objTopic = _.findWhere($scope.topicList, {state: state});
             $scope.topicHeading = objTopic.head;
         }
     });

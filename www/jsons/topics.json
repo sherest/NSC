@@ -3,8 +3,8 @@
     {
       "title": "1-rescuer assist",
       "head": "Special Situations",
-      "state": "app.movingPatient.1rescuerEmergencyCarries",
-      "url": "/1-rescuer-emergency-carries"
+      "state": "app.movingPatient.1RescuerAssist",
+      "url": "/1-rescuer-assist"
     },
     {
       "title": "1-rescuer CPR for adult, child or infant",
@@ -99,8 +99,8 @@
     {
       "title": "Airway obstruction, unresponsive patient",
       "head": "Circulation/Airway/Breathing",
-      "state": "app.airwayObstruction.fbaoInfant",
-      "url": "/fbao-infant"
+      "state": "app.airwayObstruction.airwayObstructionUnresponsive",
+      "url": "/airway-obstruction-unresponsive"
     },
     {
       "title": "Airway, opening",
@@ -133,7 +133,7 @@
       "url": "/common-causes-of-altered-mental-status"
     },
     {
-      "title": "Anaphylaxis â€“ see Allergic reactions (severe)",
+      "title": "Anaphylaxis - “see Allergic reactions (severe)",
       "head": "Medical",
       "state": "app.allergicReactions.developingSignsAndSymptoms",
       "url": "/developing-signs-and-symptoms"
@@ -225,8 +225,8 @@
     {
       "title": "Blanket drag",
       "head": "Special Situations",
-      "state": "app.movingPatient.1rescuerEmergencyDrags",
-      "url": "/1-rescuer-emergency-drags"
+      "state": "app.movingPatient.blanketDrag",
+      "url": "/blanket-drag"
     },
     {
       "title": "Bleeding after childbirth",
@@ -375,8 +375,8 @@
     {
       "title": "Clothing drag",
       "head": "Special Situations",
-      "state": "app.movingPatient.1rescuerEmergencyDrags",
-      "url": "/1-rescuer-emergency-drags"
+      "state": "app.movingPatient.clothingDrag",
+      "url": "/clothing-drags"
     },
     {
       "title": "Cold emergencies",
@@ -423,8 +423,8 @@
     {
       "title": "Cradle carry",
       "head": "Special Situations",
-      "state": "app.movingPatient.2rescuerEmergencyCarries",
-      "url": "/2-rescuer-emergency-carries"
+      "state": "app.movingPatient.cradleCarry",
+      "url": "/cradle-carry"
     },
     {
       "title": "Crime scenes",
@@ -525,8 +525,8 @@
     {
       "title": "Emergency moves",
       "head": "Special Situations",
-      "state": "app.movingPatient.1rescuerEmergencyDrags",
-      "url": "/1-rescuer-emergency-drags"
+      "state": "app.movingPatient.emergencyMoves",
+      "url": "/emergency-moves"
     },
     {
       "title": "Environmental danger",
@@ -589,16 +589,16 @@
       "url": "/FAST-stroke"
     },
     {
-      "title": "Firefighterâ€™s carry",
+      "title": "Firefighter's carry",
       "head": "Special Situations",
-      "state": "app.movingPatient.2rescuerEmergencyCarries",
-      "url": "/2-rescuer-emergency-carries"
+      "state": "app.movingPatient.firefighterCarry",
+      "url": "/firefighter-carry"
     },
     {
-      "title": "Firefighterâ€™s drag",
+      "title": "Firefighter's drag",
       "head": "Special Situations",
-      "state": "app.movingPatient.1rescuerEmergencyDrags",
-      "url": "/1-rescuer-emergency-drags"
+      "state": "app.movingPatient.firefighterDrag",
+      "url": "/firefighter-drag"
     },
     {
       "title": "Foreign body airway obstruction (FBAO)",
@@ -667,7 +667,7 @@
       "url": "/emergency"
     },
     {
-      "title": "Head tiltâ€“chin lift",
+      "title": "Head tilt-“chin lift",
       "head": "Circulation/Airway/Breathing",
       "state": "app.airwayOpening.headTiltChinLift",
       "url": "/head-tilt-chin-lift"
@@ -819,14 +819,14 @@
     {
       "title": "Moves, emergency",
       "head": "Special Situations",
-      "state": "app.movingPatient.1rescuerEmergencyDrags",
-      "url": "/1-rescuer-emergency-drags"
+      "state": "app.movingPatient.emergencyMoves",
+      "url": "/emergency-moves"
     },
     {
       "title": "Moving a patient",
       "head": "Special Situations",
-      "state": "app.movingPatient.1rescuerEmergencyDrags",
-      "url": "/1-rescuer-emergency-drags"
+      "state": "app.movingPatient.movingPatient",
+      "url": "/moving-patient"
     },
     {
       "title": "Musculoskeletal injuries",
@@ -897,8 +897,8 @@
     {
       "title": "Packstrap carry",
       "head": "Special Situations",
-      "state": "app.movingPatient.2rescuerEmergencyCarries",
-      "url": "/2-rescuer-emergency-carries"
+      "state": "app.movingPatient.packstrapCarry",
+      "url": "/packstrap-Carry"
     },
     {
       "title": "Palpation, measuring blood pressure by",
@@ -921,8 +921,8 @@
     {
       "title": "Piggyback carry",
       "head": "Special Situations",
-      "state": "app.movingPatient.2rescuerEmergencyCarries",
-      "url": "/2-rescuer-emergency-carries"
+      "state": "app.movingPatient.piggybackCarry",
+      "url": "/piggyback-carry"
     },
     {
       "title": "Poison Control Centers",
@@ -1053,8 +1053,8 @@
     {
       "title": "Shoulder drag",
       "head": "Special Situations",
-      "state": "app.movingPatient.1rescuerEmergencyDrags",
-      "url": "/1-rescuer-emergency-drags"
+      "state": "app.movingPatient.shoulderDrag",
+      "url": "/shoulder-drag"
     },
     {
       "title": "SIDS",
@@ -1161,20 +1161,20 @@
     {
       "title": "Upper extremity drag",
       "head": "Special Situations",
-      "state": "app.movingPatient.1rescuerEmergencyDrags",
-      "url": "/1-rescuer-emergency-drags"
+      "state": "app.movingPatient.upperExtremityDrag",
+      "url": "/upper-extremity-drag"
     },
     {
       "title": "Upper extremity drag for rapid extrication",
       "head": "Special Situations",
-      "state": "app.movingPatient.1rescuerEmergencyDrags",
-      "url": "/1-rescuer-emergency-drags"
+      "state": "app.movingPatient.upperExtremityDragForRapidExtrication",
+      "url": "/upper-extremity-drag-for-rapid-extrication"
     },
     {
       "title": "Vehicle crash hazards",
       "head": "Responder Safety",
-      "state": "app.sceneSafety.sceneSizeUp",
-      "url": "/scene-size-up"
+      "state": "app.sceneSafety.vehicleCrashHazards",
+      "url": "/vehicle-crash-hazards"
     },
     {
       "title": "Ventilation",
@@ -1185,8 +1185,8 @@
     {
       "title": "Violence",
       "head": "Responder Safety",
-      "state": "app.sceneSafety.sceneSizeUp",
-      "url": "/scene-size-up"
+      "state": "app.sceneSafety.potentialViolence",
+      "url": "/potential-violence"
     },
     {
       "title": "Vital signs",
