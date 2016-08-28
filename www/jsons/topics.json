@@ -909,8 +909,8 @@
     {
       "title": "Pediatric problems",
       "head": "Medical",
-      "state": "app.pediatricProblems.blowByOxygen",
-      "url": "/blow-by-oxygen"
+      "state": "app.pediatricProblems.pediatricProblems",
+      "url": "/pediatric-problems"
     },
     {
       "title": "Physical examination",
@@ -1042,7 +1042,7 @@
       "title": "Seizures, pediatric",
       "head": "Medical",
       "state": "app.pediatricProblems.seizures",
-      "url": "/seizures"
+      "url": "/seizures-pediatric"
     },
     {
       "title": "Shock",
@@ -1057,7 +1057,7 @@
       "url": "/shoulder-drag"
     },
     {
-      "title": "SIDS",
+      "title": "SUID",
       "head": "Medical",
       "state": "app.pediatricProblems.SUID",
       "url": "/SUID"
@@ -1119,8 +1119,8 @@
     {
       "title": "Sudden unexpected infant death (SIUD)",
       "head": "Medical",
-      "state": "app.pediatricProblems.seizures",
-      "url": "/seizures"
+      "state": "app.pediatricProblems.SUID",
+      "url": "/SUID"
     },
     {
       "title": "Swallowed poison",
@@ -1137,8 +1137,8 @@
     {
       "title": "Trauma in pediatric patients",
       "head": "Trauma",
-      "state": "app.pediatricProblems.SUID",
-      "url": "/SUID"
+      "state": "app.pediatricProblems.traumaPediatricPatients",
+      "url": "/trauma-in-pediatric-patients"
     },
     {
       "title": "Triage",

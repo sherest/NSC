@@ -925,6 +925,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.pediatricProblems.pediatricProblems', {
+            url: '/pediatric-problems',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/pediatric-problems/pediatric-problems.html'
+                }
+            }
+        })
+
         .state('app.pediatricProblems.blowByOxygen', {
             url: '/blow-by-oxygen',
             views: {
@@ -935,7 +944,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.pediatricProblems.seizures', {
-            url: '/seizures',
+            url: '/seizures-pediatric',
             views: {
                 'subContent': {
                     templateUrl: 'js/page/pediatric-problems/seizures.html'
@@ -948,6 +957,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             views: {
                 'subContent': {
                     templateUrl: 'js/page/pediatric-problems/SUID.html'
+                }
+            }
+        })
+
+        .state('app.pediatricProblems.traumaPediatricPatients', {
+            url: '/trauma-in-pediatric-patients',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/pediatric-problems/trauma-in-pediatric-patients.html'
                 }
             }
         })
