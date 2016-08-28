@@ -893,6 +893,24 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.respiratoryEmergencies.respiratoryEmergencies', {
+            url: '/respiratory-emergencies',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/respiratory-emergencies/respiratory-emergency.html'
+                }
+            }
+        })
+
+        .state('app.respiratoryEmergencies.respiratoryDistress', {
+            url: '/respiratory-distress',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/respiratory-emergencies/respiratory-distress.html'
+                }
+            }
+        })
+
         .state('app.respiratoryEmergencies.inadequateBreathing', {
             url: '/inadequate-breathing',
             views: {
@@ -1598,6 +1616,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             views: {
                 'subContent': {
                     templateUrl: 'js/page/medication/aspirin-for-heart-attack.html'
+                }
+            }
+        })
+
+        .state('app.medication.bronchodilatorInhalerAsthmaAttack', {
+            url: '/bronchodilator-inhaler-asthma-attack',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/medication/bronchodilator-inhaler-asthma-attack.html'
                 }
             }
         })

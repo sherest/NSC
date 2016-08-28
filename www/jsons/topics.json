@@ -285,8 +285,8 @@
     {
       "title": "Bronchodilator (inhaler) for asthma attack",
       "head": "Medical",
-      "state": "app.medication.aspirinForHeartAttack",
-      "url": "/aspirin-for-heart-attack"
+      "state": "app.medication.bronchodilatorInhalerAsthmaAttack",
+      "url": "/bronchodilator-inhaler-asthma-attack"
     },
     {
       "title": "Burns",
@@ -753,8 +753,8 @@
     {
       "title": "Inhaler for asthma attack",
       "head": "Medical",
-      "state": "app.medication.aspirinForHeartAttack",
-      "url": "/aspirin-for-heart-attack"
+      "state": "app.medication.bronchodilatorInhalerAsthmaAttack",
+      "url": "/bronchodilator-inhaler-asthma-attack"
     },
     {
       "title": "Jaw thrust",
@@ -981,14 +981,14 @@
     {
       "title": "Respiratory distress",
       "head": "Medical",
-      "state": "app.respiratoryEmergencies.inadequateBreathing",
-      "url": "/emergency-care"
+      "state": "app.respiratoryEmergencies.respiratoryDistress",
+      "url": "/respiratory-distress"
     },
     {
       "title": "Respiratory emergencies",
       "head": "Medical",
-      "state": "app.respiratoryEmergencies.signAndSymptom",
-      "url": "/sign-and-symptom"
+      "state": "app.respiratoryEmergencies.respiratoryEmergencies",
+      "url": "/respiratory-emergencies"
     },
     {
       "title": "Responsiveness, assessing",
