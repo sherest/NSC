@@ -1182,11 +1182,38 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.triage.jumpStart', {
-            url: '/jump-start',
+        .state('app.triage.startTriageAssessment', {
+            url: '/start-triage-assessment',
             views: {
                 'subContent': {
-                    templateUrl: 'js/page/triage/jump-start.html'
+                    templateUrl: 'js/page/triage/triage-start-assessment.html'
+                }
+            }
+        })
+
+        .state('app.triage.triageAssessment', {
+            url: '/triage-assessment',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/triage/triage-assessment.html'
+                }
+            }
+        })
+
+        .state('app.triage.triageCategories', {
+            url: '/triage-categories',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/triage/triage-categories.html'
+                }
+            }
+        })
+
+        .state('app.triage.triageJumpStart', {
+            url: '/triage-jump-start',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/triage/triage-jump-start.html'
                 }
             }
         })
