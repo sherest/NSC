@@ -1557,6 +1557,26 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.dressingAndBandagesStatic', {
+            url: '/app/dressing-and-bandages',
+            abstract: true,
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/page/dressing-and-bandages/index.html',
+                    controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.dressingAndBandagesStatic.dressingAndBandages', {
+            url: '/dressingAndBandages',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/dressing-and-bandages/full-page.html'
+                }
+            }
+        })
+
         .state('app.dressingAndBandages.dressing', {
             url: '/dressing',
             views: {
