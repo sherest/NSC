@@ -1367,6 +1367,25 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
 
+        .state('app.ventilation.mouthToMaskVentilation', {
+            url: '/mouth-to-mask-ventilation',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/ventilation/mouth-to-mask-ventilation.html'
+                }
+            }
+        })
+
+
+        .state('app.ventilation.bvmVentilation', {
+            url: '/bvm-ventilation',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/ventilation/bvm-ventilation.html'
+                }
+            }
+        })
+
         .state('app.vitalSigns', {
             url: '/vital-signs',
             abstract: true,

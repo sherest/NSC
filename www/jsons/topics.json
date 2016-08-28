@@ -201,8 +201,8 @@
     {
       "title": "Bag mask (BVM) for ventilation",
       "head": "Circulation/Airway/Breathing",
-      "state": "app.ventilation.ventilation",
-      "url": "/ventilation"
+      "state": "app.ventilation.bvmVentilation",
+      "url": "/bvm-ventilation"
     },
     {
       "title": "Bandages",
@@ -315,8 +315,8 @@
     {
       "title": "BVM (bag-valve-mask) ventilation",
       "head": "Circulation/Airway/Breathing",
-      "state": "app.ventilation.ventilation",
-      "url": "/ventilation"
+      "state": "app.ventilation.bvmVentilation",
+      "url": "/bvm-ventilation"
     },
     {
       "title": "Call first vs. call fast",
@@ -808,8 +808,8 @@
     {
       "title": "Mouth-to-mask ventilation",
       "head": "Circulation/Airway/Breathing",
-      "state": "app.ventilation.ventilation",
-      "url": "/ventilation"
+      "state": "app.ventilation.mouthToMaskVentilation",
+      "url": "/mouth-to-mask-ventilation"
     },
     {
       "title": "Moves, emergency",
