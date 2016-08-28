@@ -133,7 +133,7 @@
       "url": "/common-causes-of-altered-mental-status"
     },
     {
-      "title": "Anaphylaxis - “see Allergic reactions (severe)",
+      "title": "Anaphylaxis - see Allergic reactions (severe)",
       "head": "Medical",
       "state": "app.allergicReactions.developingSignsAndSymptoms",
       "url": "/developing-signs-and-symptoms"
@@ -667,7 +667,7 @@
       "url": "/emergency"
     },
     {
-      "title": "Head tilt-“chin lift",
+      "title": "Head tilt-chin lift",
       "head": "Circulation/Airway/Breathing",
       "state": "app.airwayOpening.headTiltChinLift",
       "url": "/head-tilt-chin-lift"
