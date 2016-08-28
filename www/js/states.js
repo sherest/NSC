@@ -1159,11 +1159,11 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.spinalHeadInjury.suspect', {
-            url: '/suspect',
+        .state('app.spinalHeadInjury.spinalInjuries', {
+            url: '/spinal-injuries',
             views: {
                 'subContent': {
-                    templateUrl: 'js/page/spinal-and-head-injuries/suspect.html'
+                    templateUrl: 'js/page/spinal-and-head-injuries/spinal-injuries.html'
                 }
             }
         })
@@ -1189,11 +1189,20 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.splinting.examples', {
-            url: '/examples',
+        .state('app.splinting.rigidSplint', {
+            url: '/rigid-splint',
             views: {
                 'subContent': {
-                    templateUrl: 'js/page/splinting/examples.html'
+                    templateUrl: 'js/page/splinting/rigid-splint.html'
+                }
+            }
+        })
+
+        .state('app.splinting.slingAndBinder', {
+            url: '/sling-and-binder',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/splinting/sling-and-binder.html'
                 }
             }
         })

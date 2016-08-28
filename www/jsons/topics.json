@@ -999,8 +999,8 @@
     {
       "title": "Rigid splint",
       "head": "Trauma",
-      "state": "app.splinting.examples",
-      "url": "/examples"
+      "state": "app.splinting.rigidSplint",
+      "url": "/rigid-splint"
     },
     {
       "title": "Rule of Nines for burns",
@@ -1065,8 +1065,8 @@
     {
       "title": "Sling and binder",
       "head": "Trauma",
-      "state": "app.splinting.examples",
-      "url": "/examples"
+      "state": "app.splinting.slingAndBinder",
+      "url": "/sling-and-binder"
     },
     {
       "title": "Soft-tissue injuries",
@@ -1077,8 +1077,8 @@
     {
       "title": "Spinal injuries",
       "head": "Trauma",
-      "state": "app.spinalHeadInjury.suspect",
-      "url": "/suspect"
+      "state": "app.spinalHeadInjury.spinalInjuries",
+      "url": "/spinal-injuries"
     },
     {
       "title": "Splinting",
