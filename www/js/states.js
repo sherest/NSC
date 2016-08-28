@@ -1927,6 +1927,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.assessment.pulseChecking', {
+            url: '/pulse-checking',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/assessment/pulse-checking.html'
+                }
+            }
+        })
+
         .state('app.assessment.auscultation', {
             url: '/auscultation',
             views: {

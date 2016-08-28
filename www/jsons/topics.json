@@ -946,8 +946,8 @@
     {
       "title": "Pulse, checking",
       "head": "Assessment",
-      "state": "app.assessment.primaryAssessment",
-      "url": "/primary-assessment"
+      "state": "app.assessment.pulseChecking",
+      "url": "/pulse-checking"
     },
     {
       "title": "Reassessment",
