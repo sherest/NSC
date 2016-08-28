@@ -243,6 +243,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.airwayMaintenance.suctioningInfant', {
+            url: '/suctioning-infant',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/airway-maintenance/suctioning-infant.html'
+                }
+            }
+        })
+
         .state('app.airwayMaintenance.oralAirwayInsertionInAdults', {
             url: '/oral-airway-insertion-in-adults',
             views: {

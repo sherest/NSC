@@ -1113,8 +1113,8 @@
     {
       "title": "Suctioning, infant",
       "head": "Circulation/Airway/Breathing",
-      "state": "app.airwayMaintenance.suctioningAdultOrChild",
-      "url": "/suctioning-adult-or-child"
+      "state": "app.airwayMaintenance.suctioningInfant",
+      "url": "/suctioning-infant"
     },
     {
       "title": "Sudden unexpected infant death (SIUD)",
