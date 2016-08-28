@@ -1008,6 +1008,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.poisoning.poisioningControlCenters', {
+            url: '/poisioning-control-centers',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/poisoning/poisioning-control-centers.html'
+                }
+            }
+        })
+
         .state('app.poisoning.swallowedPoison', {
             url: '/swallowed-poison',
             views: {

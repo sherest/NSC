@@ -927,8 +927,8 @@
     {
       "title": "Poison Control Centers",
       "head": "Miscellaneous",
-      "state": "app.poisoning.emergencyCare",
-      "url": "/emergency-care"
+      "state": "app.poisoning.poisioningControlCenters",
+      "url": "/poisioning-control-centers"
     },
     {
       "title": "Poisoning, inhaled",
