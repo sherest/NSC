@@ -1568,6 +1568,70 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                 }
             }
         })
+        .state('app.legalEthical.refusesConsent', {
+            url: '/refuses-consent',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/legal-and-ethical-issues/victim-refuses-consent.html'
+                }
+            }
+        })
+        .state('app.legalEthical.advanceDirective', {
+            url: '/advance-directive',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/legal-and-ethical-issues/advance-directive.html'
+                }
+            }
+        })
+        .state('app.legalEthical.impliedConsent', {
+            url: '/implied-consent',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/legal-and-ethical-issues/implied-consent.html'
+                }
+            }
+        })
+        .state('app.legalEthical.legalIssues', {
+            url: '/legal-issues',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/legal-and-ethical-issues/legal-issues.html'
+                }
+            }
+        })
+        .state('app.legalEthical.ethicalResponsibilities', {
+            url: '/ethical-responsibilities',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/legal-and-ethical-issues/ethical-responsibilities.html'
+                }
+            }
+        })
+        .state('app.legalEthical.expressConsent', {
+            url: '/express-consent',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/legal-and-ethical-issues/express-consent.html'
+                }
+            }
+        })
+        .state('app.legalEthical.reportableEvents', {
+            url: '/reportable-events',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/legal-and-ethical-issues/reportable-events.html'
+                }
+            }
+        })
+        .state('app.legalEthical.confidentiality', {
+            url: '/confidentiality',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/legal-and-ethical-issues/confidentiality.html'
+                }
+            }
+        })
 
         .state('app.legalEthical.negligence', {
             url: '/negligence',
@@ -1722,6 +1786,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             views: {
                 'subContent': {
                     templateUrl: 'js/page/documentation-tips/documentation-tips.html'
+                }
+            }
+        })
+
+        .state('app.documentationTips.correctingErrorInReports', {
+            url: '/correcting-error-in-reports',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/documentation-tips/correcting-error-in-reports.html'
                 }
             }
         })
@@ -2024,6 +2097,16 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             views: {
                 'subContent': {
                     templateUrl: 'js/page/assessment/reassessment.html'
+                }
+            }
+        })
+
+
+        .state('app.assessment.reassessmentComparing', {
+            url: '/reassessment-comparing',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/reassessment/reassessment-comparing.html'
                 }
             }
         })

@@ -12741,10 +12741,11 @@ body .ion-search:before {
   font-size: 1.4em;
   margin: 0 0 10px 10px; }
 
-.page p {
+.page p, .page blockquote {
   font-family: "Helvetica Neue LT Std Condensed";
   font-size: 1.2em;
-  margin: 10px 0 10px 10px; }
+  margin: 10px 0 10px 10px;
+  border: none; }
 
 .page ol {
   list-style: decimal;

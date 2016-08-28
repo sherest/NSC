@@ -69,8 +69,8 @@
     {
       "title": "Advance directive",
       "head": "Special Situations",
-      "state": "app.legalEthical.consent",
-      "url": "/consent"
+      "state": "app.legalEthical.advanceDirective",
+      "url": "/advance-directive"
     },
     {
       "title": "AED",
@@ -153,8 +153,8 @@
     {
       "title": "Aspirin for heart attack",
       "head": "Medical",
-      "state": "app.heartAttack.signs",
-      "url": "/signs"
+      "state": "app.medication.aspirinForHeartAttack",
+      "url": "/aspirin-for-heart-attack"
     },
     {
       "title": "Assessment, primary",
@@ -171,8 +171,8 @@
     {
       "title": "Assessments, comparing",
       "head": "Assessment",
-      "state": "app.assessment.reassessment",
-      "url": "/reassessment"
+      "state": "app.assessment.reassessmentComparing",
+      "url": "/reassessment-comparing"
     },
     {
       "title": "Asthma attack",
@@ -387,8 +387,8 @@
     {
       "title": "Confidentiality",
       "head": "Miscellaneous",
-      "state": "app.legalEthical.negligence",
-      "url": "/negligence"
+      "state": "app.legalEthical.confidentiality",
+      "url": "/confidentiality"
     },
     {
       "title": "Consent",
@@ -399,8 +399,8 @@
     {
       "title": "Consent, refusal of",
       "head": "Miscellaneous",
-      "state": "app.legalEthical.consent",
-      "url": "/consent"
+      "state": "app.legalEthical.refusesConsent",
+      "url": "/refuses-consent"
     },
     {
       "title": "CPR, adult or child, 2-rescuer",
@@ -543,26 +543,26 @@
     {
       "title": "Error in report, correcting",
       "head": "Miscellaneous",
-      "state": "app.documentationTips.documentationTips",
-      "url": "/documentation-tips"
+      "state": "app.documentationTips.correctingErrorInReports",
+      "url": "/correcting-error-in-reports"
     },
     {
       "title": "Ethical issues",
       "head": "Special Situations",
-      "state": "app.legalEthical.consent",
-      "url": "/consent"
+      "state": "app.legalEthical.legalIssues",
+      "url": "/legal-issues"
     },
     {
-      "title": "Ethical responsibilitie",
+      "title": "Ethical responsibilities",
       "head": "Miscellaneous",
-      "state": "app.legalEthical.falsificationOfRecords",
+      "state": "app.legalEthical.ethicalResponsibilities",
       "url": "/falsification-of-records"
     },
     {
       "title": "Expressed consent",
       "head": "Assessment",
-      "state": "app.legalEthical.consent",
-      "url": "/consent"
+      "state": "app.legalEthical.expressConsent",
+      "url": "/express-consent"
     },
     {
       "title": "Extremity lift",
@@ -642,12 +642,7 @@
       "state": "app.diabeticEmergencies.diabeticEmergencies",
       "url": "/diabetic-emergencies"
     },
-    {
-      "title": "HAINES recovery position",
-      "head": "Recovery Position (HAINES)",
-      "state": "app.recoverPosition.recoverPosition",
-      "url": "/recover-position"
-    },
+
     {
       "title": "Hazards within structures",
       "head": "Responder Safety",
@@ -735,8 +730,8 @@
     {
       "title": "Implied consent",
       "head": "Assessment",
-      "state": "app.legalEthical.consent",
-      "url": "/consent"
+      "state": "app.legalEthical.impliedConsent",
+      "url": "/implied-consent"
     },
     {
       "title": "Inadequate breathing",
@@ -783,8 +778,8 @@
     {
       "title": "Legal issues",
       "head": "Miscellaneous",
-      "state": "app.legalEthical.consent",
-      "url": "/consent"
+      "state": "app.legalEthical.legalIssues",
+      "url": "/legal-issues"
     },
     {
       "title": "Mass-casualty incidents (MCIs)",
@@ -969,14 +964,14 @@
     {
       "title": "Refusal of consent",
       "head": "Miscellaneous",
-      "state": "app.legalEthical.consent",
-      "url": "/consent"
+      "state": "app.legalEthical.refusesConsent",
+      "url": "/refuses-consent"
     },
     {
       "title": "Reportable events",
       "head": "EMS Operations",
-      "state": "app.legalEthical.negligence",
-      "url": "/negligence"
+      "state": "app.legalEthical.reportableEvents",
+      "url": "/reportable-events"
     },
     {
       "title": "Respiratory distress",

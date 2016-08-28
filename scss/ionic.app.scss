@@ -507,11 +507,13 @@ body {
     margin: 0 0 10px 10px;
   }
 
-  p {
+  p,blockquote{
 
     font-family: "Helvetica Neue LT Std Condensed";
     font-size: 1.2em;
     margin: 10px 0 10px 10px;
+
+    border: none;
   }
 
   ol {
