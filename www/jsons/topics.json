@@ -956,7 +956,7 @@
       "url": "/reassessment"
     },
     {
-      "title": "Recovery position (HAINES)",
+      "title": "Recovery position",
       "head": "Miscellaneous",
       "state": "app.recoverPosition.recoverPosition",
       "url": "/recover-position"
