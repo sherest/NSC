@@ -12747,6 +12747,9 @@ body .ion-search:before {
   margin: 10px 0 10px 10px;
   border: none; }
 
+.page a:link, .page a:visited, .page a:active {
+  font-family: "Helvetica Neue LT Std Condensed"; }
+
 .page ol {
   list-style: decimal;
   margin: 20px 0 20px 20px; }

@@ -516,6 +516,13 @@ body {
     border: none;
   }
 
+  a{
+
+    &:link, &:visited, &:active{
+      font-family: "Helvetica Neue LT Std Condensed";
+    }
+  }
+
   ol {
 
     list-style: decimal;
