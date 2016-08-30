@@ -51,8 +51,8 @@
     {
       "title": "Abuse, alcohol",
       "head": "Medical",
-      "state": "app.alcoholAndDrugAbuse.alcoholAbuse",
-      "url": "/alcohol-abuse"
+      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
+      "url": "/alcohol-and-drug-abuse"
     },
     {
       "title": "Abuse, child",
@@ -111,14 +111,14 @@
     {
       "title": "Alcohol abuse",
       "head": "Medical",
-      "state": "app.alcoholAndDrugAbuse.alcoholAbuse",
-      "url": "/alcohol-abuse"
+      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
+      "url": "/alcohol-and-drug-abuse"
     },
     {
       "title": "Alcohol overdose",
       "head": "Medical",
-      "state": "app.alcoholAndDrugAbuse.alcoholAbuse",
-      "url": "/alcohol-abuse"
+      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
+      "url": "/alcohol-and-drug-abuse"
     },
     {
       "title": "Allergic reactions (severe)",
@@ -497,6 +497,7 @@
       "head": "Medical",
       "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
       "url": "/alcohol-and-drug-abuse"
+
     },
     {
       "title": "Drug overdose",
