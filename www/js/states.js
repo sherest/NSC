@@ -1491,7 +1491,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             url: '/hazmat',
             views: {
                 'subContent': {
-                    templateUrl: 'js/page/hazmat/hazmat.html'
+                    templateUrl: 'js/page/hazmat_n/hazmat.html'
                 }
             }
         })
