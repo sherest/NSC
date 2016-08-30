@@ -12778,7 +12778,8 @@ body .ion-search:before {
       display: block;
       margin-bottom: 10px; }
     .page dl dd:last-child:after {
-      margin-bottom: 0px; }
+      margin-bottom: 0px;
+      display: none; }
 
 .page ul {
   list-style: disc;
