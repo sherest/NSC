@@ -483,8 +483,8 @@
     {
       "title": "Draw sheet transfer",
       "head": "Special Situations",
-      "state": "app.movingPatient.non-emergency-moves",
-      "url": "/non-emergency-moves"
+      "state": "app.movingPatient.dragsheetTransfer",
+      "url": "/dragsheet-transfer"
     },
     {
       "title": "Dressings",
@@ -688,14 +688,14 @@
     {
       "title": "Heat exhaustion",
       "head": "Medical",
-      "state": "app.heatEmergency.signsAndSymptoms",
-      "url": "/signs-and-symptoms"
+      "state": "app.heatEmergency.heatExhaustion",
+      "url": "/heat-exhaustion"
     },
     {
       "title": "Heatstroke",
       "head": "Medical",
-      "state": "app.heatEmergency.signsAndSymptoms",
-      "url": "/signs-and-symptoms"
+      "state": "app.heatEmergency.heatStroke",
+      "url": "/heat-stroke"
     },
     {
       "title": "Helicopter landing zone",
@@ -712,8 +712,8 @@
     {
       "title": "Hypoglycemia",
       "head": "Medical",
-      "state": "app.diabeticEmergencies.diabeticEmergencies",
-      "url": "/diabetic-emergencies"
+      "state": "app.diabeticEmergencies.hypoglycemia",
+      "url": "/hypoglycemia"
     },
     {
       "title": "Hypoperfusion",
@@ -790,8 +790,8 @@
     {
       "title": "Medications",
       "head": "Medical",
-      "state": "app.medication.aspirinForHeartAttack",
-      "url": "/aspirin-for-heart-attack"
+      "state": "app.medication.medication",
+      "url": "/medication"
     },
     {
       "title": "Memory aids",

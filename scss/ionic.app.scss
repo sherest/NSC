@@ -475,6 +475,12 @@ body {
 
 .page {
 
+  .scroll:after {
+    content: ' ';
+    display: block;
+    padding-bottom: 10px;
+  }
+
   .bar-greeny {
     background-color: #a3d65c;
 

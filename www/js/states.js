@@ -1583,6 +1583,24 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.heatEmergency.heatStroke', {
+            url: '/heat-stroke',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/heat-emergency/heat-stroke.html'
+                }
+            }
+        })
+
+        .state('app.heatEmergency.heatExhaustion', {
+            url: '/heat-exhaustion',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/heat-emergency/heat-exhaustion.html'
+                }
+            }
+        })
+
         .state('app.helicopterLandingZone', {
             url: '/helicopter-landing-zone',
             abstract: true,
@@ -1758,6 +1776,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.medication.medication', {
+            url: '/medication',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/medication/medication.html'
+                }
+            }
+        })
+
         .state('app.medication.aspirinForHeartAttack', {
             url: '/aspirin-for-heart-attack',
             views: {
@@ -1845,10 +1872,19 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('app.diabeticEmergencies.hyperglycemia', {
-            url: '/hypothermia',
+            url: '/hyperglycemia',
             views: {
                 'subContent': {
                     templateUrl: 'js/page/diabetic-emergencies/hyperglycemia.html'
+                }
+            }
+        })
+
+        .state('app.diabeticEmergencies.hypoglycemia', {
+            url: '/hypoglycemia',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/diabetic-emergencies/hypoglycemia.html'
                 }
             }
         })
@@ -2055,6 +2091,17 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             views: {
                 'subContent': {
                     templateUrl: 'js/page/moving-patient/shoulder-drag.html'
+
+                }
+            }
+        })
+
+
+        .state('app.movingPatient.dragsheetTransfer', {
+            url: '/dragsheet-transfer',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/moving-patient/dragsheet-transfer.html'
 
                 }
             }

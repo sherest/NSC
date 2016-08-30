@@ -12720,6 +12720,11 @@ body .ion-search:before {
 
 /* Page Styling
 **********************************/
+.page .scroll:after {
+  content: ' ';
+  display: block;
+  padding-bottom: 10px; }
+
 .page .bar-greeny {
   background-color: #a3d65c; }
   .page .bar-greeny h2 {
