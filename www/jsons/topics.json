@@ -886,7 +886,7 @@
     {
       "title": "Oxygen cylinder volumes",
       "head": "Miscellaneous",
-      "state": "app.oxygen.administration",
+      "state": "app.oxygen.oxygenCylinderVolumes",
       "url": "/administration"
     },
     {

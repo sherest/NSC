@@ -968,6 +968,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.oxygen.oxygenCylinderVolumes', {
+            url: '/oxygen-cylinder-volumes',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/oxygen-administration/oxygen-cylinder-volumes.html'
+                }
+            }
+        })
+
         .state('app.pediatricProblems', {
             url: '/pediatric-problems',
             abstract: true,
