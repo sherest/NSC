@@ -522,6 +522,11 @@ body {
     border: none;
   }
 
+  em{
+    font-family: "Helvetica Neue LT Std Condensed";
+    font-style: oblique;
+  }
+
   a{
 
     &:link, &:visited, &:active{
