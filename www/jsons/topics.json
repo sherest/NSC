@@ -327,8 +327,8 @@
     {
       "title": "Cardiopulmonary resuscitation (CPR)",
       "head": "Circulation/Airway/Breathing",
-      "state": "app.cpr.callFirstVsCallFast",
-      "url": "/call-first-vs-call-fast"
+      "state": "app.cpr.cprAed",
+      "url": "/cpr-aed"
     },
     {
       "title": "Chemical burns",
@@ -429,14 +429,14 @@
     {
       "title": "Crime scenes",
       "head": "Special Situations",
-      "state": "app.legalEthical.negligence",
-      "url": "/negligence"
+      "state": "app.legalEthical.crimeScenes",
+      "url": "/crime-scenes"
     },
     {
       "title": "DCAP-BTLS in physical examination",
       "head": "Assessment",
-      "state": "app.abbreviations.dcapBtls",
-      "url": "/dcap_btls"
+      "state": "app.assessment.dcapBtls",
+      "url": "/dcap-btls"
     },
     {
       "title": "Delivery, assisting with",

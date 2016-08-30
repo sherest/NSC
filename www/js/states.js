@@ -873,6 +873,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.cpr.cprAed', {
+            url: '/cpr-aed',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/cpr/cpr-aed.html'
+                }
+            }
+        })
+
         .state('app.cpr.1RescuerCpr', {
             url: '/1-rescuer-cpr',
             views: {
@@ -1660,6 +1669,16 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                 }
             }
         })
+
+        .state('app.legalEthical.crimeScenes', {
+            url: '/crime-scenes',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/legal-and-ethical-issues/crime-scenes.html'
+                }
+            }
+        })
+
         .state('app.legalEthical.refusesConsent', {
             url: '/refuses-consent',
             views: {
