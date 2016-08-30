@@ -308,6 +308,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.alcoholAndDrugAbuse.drugOverdose', {
+            url: '/drug-overdose',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/alcohol-and-drug-abuse/drug-overdose.html'
+                }
+            }
+        })
+
         .state('app.allergicReactions', {
             url: '/allergic-reactions',
             abstract: true,
@@ -697,6 +706,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             views: {
                 'subContent': {
                     templateUrl: 'js/page/childbirth/supportive-care-during-labor.html'
+                }
+            }
+        })
+
+        .state('app.childbirth.childbirth', {
+            url: '/childbirth',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/childbirth/childbirth.html'
                 }
             }
         })
@@ -1954,6 +1972,16 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.assessment.bleedingSerious', {
+            url: '/bleeding-serious',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/assessment/bleeding-serious.html'
+                }
+            }
+        })
+
+
         .state('app.assessment.pulseChecking', {
             url: '/pulse-checking',
             views: {
@@ -1962,7 +1990,6 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                 }
             }
         })
-
 
         .state('app.assessment.assessingResponsiveness', {
             url: '/assessing-responsiveness',

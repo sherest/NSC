@@ -51,8 +51,8 @@
     {
       "title": "Abuse, alcohol",
       "head": "Medical",
-      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
-      "url": "/alcohol-and-drug-abuse"
+      "state": "app.alcoholAndDrugAbuse.alcoholAbuse",
+      "url": "/alcohol-abuse"
     },
     {
       "title": "Abuse, child",
@@ -117,8 +117,8 @@
     {
       "title": "Alcohol overdose",
       "head": "Medical",
-      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
-      "url": "/alcohol-and-drug-abuse"
+      "state": "app.alcoholAndDrugAbuse.alcoholAbuse",
+      "url": "/alcohol-abuse"
     },
     {
       "title": "Allergic reactions (severe)",
@@ -237,8 +237,8 @@
     {
       "title": "Bleeding, checking for serious",
       "head": "Assessment",
-      "state": "app.assessment.primaryAssessment",
-      "url": "/primary-assessment"
+      "state": "app.assessment.bleedingSerious",
+      "url": "/bleeding-serious"
     },
     {
       "title": "Bleeding, External",
@@ -345,8 +345,8 @@
     {
       "title": "Childbirth",
       "head": "Medical",
-      "state": "app.childbirth.prepareForChildbirth",
-      "url": "/prepare-for-childbirth"
+      "state": "app.childbirth.childbirth",
+      "url": "/childbirth"
     },
     {
       "title": "Childbirth imminence, assessing",
@@ -501,8 +501,8 @@
     {
       "title": "Drug overdose",
       "head": "Medical",
-      "state": "app.alcoholAndDrugAbuse.alcoholAndDrugAbuse",
-      "url": "/alcohol-and-drug-abuse"
+      "state": "app.alcoholAndDrugAbuse.drugOverdose",
+      "url": "/drug-overdose"
     },
     {
       "title": "Electrical burns",
