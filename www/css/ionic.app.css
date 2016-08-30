@@ -12770,6 +12770,10 @@ body .ion-search:before {
     font-size: 1.2em; }
   .page dl dt {
     display: inline-block; }
+    .page dl dt:after {
+      content: '-';
+      display: inline-block;
+      padding: 0  0 0 10px; }
   .page dl dd {
     display: inline;
     padding-left: 10px; }
