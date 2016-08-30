@@ -41,10 +41,16 @@ nscApp.controller('AppCtrl', function ($scope, topicList, $timeout, $ionicFilter
         }
 
 
-        $scope.topicsGroup = _.where($scope.topicList, {head: selectedTopic.head}).sort(compare)
-        $scope.uTopicList = _.uniq(_.pluck($scope.topicsGroup, "state"));
+        $scope.topicsGroup = _.where($scope.topicList, {head: selectedTopic.head}).sort(compare); //all topics as object array
+        $scope.uTopicList = _.uniq(_.pluck($scope.topicsGroup, "state")); //all states of selected topic as string of array
 
-        $scope.toState(selectedTopic.state || "app.bleeding.bleedingExternal");
+        //if state is not defined then get borrow it from uTopicList and show its first state.
+        if(!selectedTopic.state){
+            $scope.toState($scope.uTopicList[0]);
+        }else{
+            $scope.toState(selectedTopic.state);
+        }
+
 
     };
 
