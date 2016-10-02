@@ -659,7 +659,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                     templateUrl: 'js/page/burns/rule-of-nine-burns.html'
                 }
             }
-        })        
+        })
 
         .state('app.burns.burnsHeat', {
             url: '/burns-heat',
@@ -791,6 +791,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                 'menuContent': {
                     templateUrl: 'js/page/page.html',
                     controller: "PageCtrl"
+                }
+            }
+        })
+
+        .state('app.coldEmergencies.coldEmergencies', {
+            url: '/cold-emergencies',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/cold-emergencies/cold-emergencies.html'
                 }
             }
         })
@@ -1334,7 +1343,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                 }
             }
         })
-        
+
         .state('app.triage.assessMentalStatus', {
             url: '/assess-mental-status',
             views: {
@@ -1343,7 +1352,7 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
                 }
             }
         })
-        
+
 
         .state('app.triage.triage', {
             url: '/triage',

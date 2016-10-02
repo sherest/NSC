@@ -1,6 +1,8 @@
 nscApp.config(function ($ionicConfigProvider, $ionicFilterBarConfigProvider) {
   $ionicConfigProvider.backButton.previousTitleText(false);
   $ionicConfigProvider.views.swipeBackEnabled(false);
+  //$ionicConfigProvider.scrolling.jsScrolling(false);
+  $ionicConfigProvider.backButton.text('').icon('ion-ios-arrow-back');
 
   $ionicFilterBarConfigProvider.placeholder("search...");
 });

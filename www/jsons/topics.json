@@ -381,8 +381,8 @@
     {
       "title": "Cold emergencies",
       "head": "Medical",
-      "state": "app.coldEmergencies.frostbite",
-      "url": "/frostbite"
+      "state": "app.coldEmergencies.coldEmergencies",
+      "url": "/cold-emergencies"
     },
     {
       "title": "Confidentiality",
@@ -693,7 +693,7 @@
       "url": "/heat-exhaustion"
     },
     {
-      "title": "Heatstroke",
+      "title": "Heat Stroke",
       "head": "Medical",
       "state": "app.heatEmergency.heatStroke",
       "url": "/heat-stroke"

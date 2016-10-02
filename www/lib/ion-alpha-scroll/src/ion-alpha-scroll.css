@@ -12,9 +12,22 @@
 }
 .ion_alpha_sidebar li{
 	line-height: 1.1;
+	position: relative;
+}
+.ion_alpha_sidebar li:before {
+	content: ' ';
+	display: block;
+	background: transparent;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	z-index: -1;
+	right: 0;
+	top: -3px;
 }
 .ion_alpha_list_outer #alpha-scroll{
 	height: calc(100vh - 44px);
 	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 	overflow-x: hidden;
 }

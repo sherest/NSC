@@ -15,7 +15,7 @@ $royal:                           #886aea !default;
 $dark:                            #444 !default;
 */
 
-$balanced: #01a1e1 !default;
+$balanced: #03644e !default;
 
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
@@ -59,6 +59,9 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 /* Global Rules
 ********************/
 
+
+
+
 body {
   &.platform-ios {
     .ion-search:before {
@@ -88,7 +91,7 @@ body {
       .item-input-wrapper {
 
         border: none;
-        background: #01a1e1;
+        background: #03644e;
 
         input[type="search"] {
           font-family: "Helvetica Neue LT Std Condensed";
@@ -127,6 +130,16 @@ body {
     pointer-events: auto !important;
   }
 }
+
+.platform-ios{
+  .modal-backdrop{
+    top:64px !important;
+
+    .modal-backdrop-bg{
+      top:64px !important;
+    }
+  }
+}
 .filter-bar {
   z-index: 100 !important;
   pointer-events: auto !important;
@@ -141,7 +154,7 @@ body {
 
     button.button-icon{
       &:before{
-        font-size: 24px !important;
+        font-size: 20px !important;
       }
     }
 
@@ -221,7 +234,7 @@ body {
 
   .ion_alpha_sidebar {
     margin: 5px 2px;
-    overflow: hidden;
+    overflow: visible;
     z-index: 99999999;
 
     width: 20px;
@@ -257,6 +270,7 @@ body {
     margin: auto;
 
     overflow-y: scroll;
+    //-webkit-overflow-scrolling: touch;
     overflow-x: hidden;
 
     padding: 10px 0;
@@ -279,6 +293,7 @@ body {
     height: 240px;
 
     overflow-x: scroll;
+    //-webkit-overflow-scrolling: touch;
     overflow-y: hidden;
 
     top: 50%;
@@ -718,6 +733,7 @@ body {
     font-size: 1.1em;
     padding: 15px 10px 10px 40px;
     border-bottom: 1px solid #c7c7c7;
+    text-transform: capitalize;
   }
 }
 
@@ -1089,7 +1105,7 @@ and (orientation: portrait) {
       img {
         width: 50%;
         height: 60px;
-        padding: 10px 10px 0px;
+        padding: 10px 10px 0;
 
       }
     }
@@ -1132,4 +1148,16 @@ and (max-device-width: 736px)
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: landscape) {
 
+}
+
+
+
+[nav-view-transition="ios"][nav-view-direction="forward"], [nav-view-transition="ios"][nav-view-direction="back"] {
+  background-color: transparent;
+}
+
+.custom-home{
+  &:before{
+    font-size: 25px !important;
+  }
 }
