@@ -7,7 +7,8 @@ nscApp.config(function ($ionicConfigProvider, $ionicFilterBarConfigProvider) {
   $ionicFilterBarConfigProvider.placeholder("search...");
 });
 
-nscApp.run(function ($ionicPlatform) {
+nscApp.run(function ($ionicPlatform, $rootScope) {
+  $rootScope.bPopupModal = false;
   $ionicPlatform.ready(function () {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)

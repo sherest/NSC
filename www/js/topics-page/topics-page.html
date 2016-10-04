@@ -1,0 +1,21 @@
+<ion-view view-title="" class="topics-page" cache-view="false">
+    <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear custom-home ion-home" ui-sref="app.home">
+        </button>
+    </ion-nav-buttons>
+
+    <div class="bar bar-subheader bar-greeny">
+        <h2 class="title">{{topicHeading}}</h2>
+    </div>
+
+    <ion-content has-bouncing="false" class="has-subheader has-footer">
+        <ul class="search-list">
+            <li ng-repeat="topic in topicsGroup" class="animated"
+                ng-bind-html="topic.title"
+                ng-click="openPage(topic)"></li>
+        </ul>
+    </ion-content>
+
+    <div class="my-footer" ng-include="'js/common/templates/footer.html'">
+    </div>
+</ion-view>

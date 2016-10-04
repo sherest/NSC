@@ -28,6 +28,39 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.topics', {
+            url: '/topics',
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/topics-page/topics-page.html',
+                    controller: 'TopicsCtrl'
+                }
+            },
+            resolve: {
+                tiles: ["$http", function ($http) {
+                    return $http.get("jsons/home_page_tile.json");
+                }]
+            }
+        })
+
+        .state('app.about', {
+            url: '/about',
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/about/about.html'
+                }
+            }
+        })
+
+        .state('app.disclaimer', {
+            url: '/disclaimer',
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/disclaimer/disclaimer.html'
+                }
+            }
+        })
+
         .state('app.abbreviations', {
             url: '/abbreviations',
             abstract: true,
