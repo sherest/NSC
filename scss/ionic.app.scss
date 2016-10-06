@@ -1368,13 +1368,13 @@ ion-content.padding.has-subheader.has-footer.scroll-content.ionic-scroll.has-hea
 .popupModalMain {
   &.platform-ios {
     .modal-backdrop, .modal-backdrop-bg {
-      top: 0px !important;
+      top: 64px !important;
     }
 
   }
 
   .modal-backdrop, .modal-backdrop-bg {
-    top: 0px !important;
+    top: 44px !important;
   }
 
   .popupModal {
@@ -1512,5 +1512,14 @@ a[href^="tel:"] {
   .button.button-icon.button-clear{
     padding-left: 5px;
     padding-right: 5px;
+  }
+}
+.page.about-disclaimer{
+  .scroll-content{
+    padding: 10px 25px 10px 20px !important;
+
+    p{
+      text-align: justify;
+    }
   }
 }

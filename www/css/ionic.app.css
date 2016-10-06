@@ -13247,10 +13247,10 @@ ion-content.padding.has-subheader.has-footer.scroll-content.ionic-scroll.has-hea
   font-size: 25px; }
 
 .popupModalMain.platform-ios .modal-backdrop, .popupModalMain.platform-ios .modal-backdrop-bg {
-  top: 0px !important; }
+  top: 64px !important; }
 
 .popupModalMain .modal-backdrop, .popupModalMain .modal-backdrop-bg {
-  top: 0px !important; }
+  top: 44px !important; }
 
 .popupModalMain .popupModal {
   width: 200px;
@@ -13352,3 +13352,8 @@ a[href^="tel:"] {
 .left-buttons .button.button-icon.button-clear, .right-buttons .button.button-icon.button-clear {
   padding-left: 5px;
   padding-right: 5px; }
+
+.page.about-disclaimer .scroll-content {
+  padding: 10px 25px 10px 20px !important; }
+  .page.about-disclaimer .scroll-content p {
+    text-align: justify; }
