@@ -4,7 +4,7 @@ nscApp.config(function ($ionicConfigProvider, $ionicFilterBarConfigProvider) {
   //$ionicConfigProvider.scrolling.jsScrolling(false);
   $ionicConfigProvider.backButton.text('').icon('ion-ios-arrow-back');
 
-  $ionicFilterBarConfigProvider.placeholder("search...");
+  $ionicFilterBarConfigProvider.placeholder("Search...");
 });
 
 nscApp.run(function ($ionicPlatform, $rootScope) {

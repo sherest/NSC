@@ -12526,8 +12526,13 @@ body .ion-search:before {
 *************************/
 .menu.menu-right {
   background: #17649d; }
-  .menu.menu-right button.button-icon:before {
-    font-size: 20px !important; }
+  .menu.menu-right button.button-icon {
+    padding-left: 10px;
+    padding-right: 10px; }
+    .menu.menu-right button.button-icon.ion-close-round:before {
+      font-size: 22px !important; }
+    .menu.menu-right button.button-icon:before {
+      font-size: 24px !important; }
 
 .ion_alpha_list_outer .list {
   padding-right: 0px; }
@@ -12613,6 +12618,8 @@ body .ion-search:before {
 
 .landscape .landscape {
   display: block !important; }
+  .landscape .landscape.ng-hide {
+    display: none !important; }
 
 .landscape .f-box {
   position: absolute;
@@ -12620,8 +12627,8 @@ body .ion-search:before {
   overflow-x: scroll;
   overflow-y: hidden;
   top: 50%;
-  right: 10px;
-  left: 20px;
+  right: 40px;
+  left: 40px;
   transform: translateY(-50%); }
   .landscape .f-box .f-box-child {
     position: absolute; }
@@ -12652,6 +12659,29 @@ body .ion-search:before {
     .landscape .f-box .f-box-child:nth-child(9) {
       top: 0px;
       left: 600px; }
+    .landscape .f-box .f-box-child.icon-only {
+      width: 110px; }
+      .landscape .f-box .f-box-child.icon-only:nth-child(3) {
+        top: 0px;
+        left: 120px; }
+      .landscape .f-box .f-box-child.icon-only:nth-child(4) {
+        top: 50%;
+        left: 120px; }
+      .landscape .f-box .f-box-child.icon-only:nth-child(5) {
+        top: 0px;
+        left: 240px; }
+      .landscape .f-box .f-box-child.icon-only:nth-child(6) {
+        top: 50%;
+        left: 240px; }
+      .landscape .f-box .f-box-child.icon-only:nth-child(7) {
+        top: 0px;
+        left: 360px; }
+      .landscape .f-box .f-box-child.icon-only:nth-child(8) {
+        top: 50%;
+        left: 360px; }
+      .landscape .f-box .f-box-child.icon-only:nth-child(9) {
+        top: 0px;
+        left: 480px; }
 
 .right-buttons .button {
   margin-right: 5px; }
@@ -12735,6 +12765,16 @@ body .ion-search:before {
       margin: auto; }
       .f-box .f-box-child img.selected {
         display: none; }
+    .f-box .f-box-child.icon-only {
+      background: transparent !important; }
+      .f-box .f-box-child.icon-only.activated img {
+        display: block; }
+      .f-box .f-box-child.icon-only img {
+        width: auto;
+        height: 105px;
+        display: block;
+        padding: 0;
+        box-sizing: border-box; }
 
 /* Page Styling
 **********************************/
@@ -12938,7 +12978,17 @@ body .ion-search:before {
     .f-box .f-box-child img {
       width: 50%;
       height: 60px;
-      padding: 10px 10px 0px; } }
+      padding: 10px 10px 0px; }
+    .f-box .f-box-child.icon-only {
+      background: transparent !important; }
+      .f-box .f-box-child.icon-only.activated img {
+        display: block; }
+      .f-box .f-box-child.icon-only img {
+        width: auto;
+        height: 110px;
+        display: block;
+        padding: 0;
+        box-sizing: border-box; } }
 
 /* Landscape */
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
@@ -12952,7 +13002,17 @@ body .ion-search:before {
     .f-box .f-box-child img {
       width: 40%;
       height: 40px;
-      padding: 10px 10px 0px; } }
+      padding: 10px 10px 0px; }
+    .f-box .f-box-child.icon-only {
+      background: transparent !important; }
+      .f-box .f-box-child.icon-only.activated img {
+        display: block; }
+      .f-box .f-box-child.icon-only img {
+        width: auto;
+        height: 90px;
+        display: block;
+        padding: 0;
+        box-sizing: border-box; } }
 
 /* ----------- Galaxy S4 ----------- */
 /* Portrait and Landscape */
@@ -12973,7 +13033,17 @@ body .ion-search:before {
     .f-box .f-box-child img {
       width: 40%;
       height: 40px;
-      padding: 10px 10px 0px; } }
+      padding: 10px 10px 0px; }
+    .f-box .f-box-child.icon-only {
+      background: transparent !important; }
+      .f-box .f-box-child.icon-only.activated img {
+        display: block; }
+      .f-box .f-box-child.icon-only img {
+        width: auto;
+        height: 90px;
+        display: block;
+        padding: 0;
+        box-sizing: border-box; } }
 
 /* ----------- iPhone 4 and 4S ----------- */
 /* Portrait and Landscape */
@@ -12988,7 +13058,17 @@ body .ion-search:before {
     .f-box .f-box-child img {
       width: 50%;
       height: 60px;
-      padding: 10px 10px 0px; } }
+      padding: 10px 10px 0px; }
+    .f-box .f-box-child.icon-only {
+      background: transparent !important; }
+      .f-box .f-box-child.icon-only.activated img {
+        display: block; }
+      .f-box .f-box-child.icon-only img {
+        width: auto;
+        height: 110px;
+        display: block;
+        padding: 0;
+        box-sizing: border-box; } }
 
 /* Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
@@ -13002,7 +13082,17 @@ body .ion-search:before {
     .f-box .f-box-child img {
       width: 40%;
       height: 40px;
-      padding: 10px 10px 0px; } }
+      padding: 10px 10px 0px; }
+    .f-box .f-box-child.icon-only {
+      background: transparent !important; }
+      .f-box .f-box-child.icon-only.activated img {
+        display: block; }
+      .f-box .f-box-child.icon-only img {
+        width: auto;
+        height: 90px;
+        display: block;
+        padding: 0;
+        box-sizing: border-box; } }
 
 /* ----------- iPhone 5 and 5S ----------- */
 /* Portrait and Landscape */
@@ -13017,7 +13107,17 @@ body .ion-search:before {
     .f-box .f-box-child img {
       width: 50%;
       height: 60px;
-      padding: 10px 10px 0px; } }
+      padding: 10px 10px 0px; }
+    .f-box .f-box-child.icon-only {
+      background: transparent !important; }
+      .f-box .f-box-child.icon-only.activated img {
+        display: block; }
+      .f-box .f-box-child.icon-only img {
+        width: auto;
+        height: 110px;
+        display: block;
+        padding: 0;
+        box-sizing: border-box; } }
 
 /* Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
@@ -13034,7 +13134,17 @@ body .ion-search:before {
     .f-box .f-box-child img {
       width: 40%;
       height: 40px;
-      padding: 10px 10px 0px; } }
+      padding: 10px 10px 0px; }
+    .f-box .f-box-child.icon-only {
+      background: transparent !important; }
+      .f-box .f-box-child.icon-only.activated img {
+        display: block; }
+      .f-box .f-box-child.icon-only img {
+        width: auto;
+        height: 90px;
+        display: block;
+        padding: 0;
+        box-sizing: border-box; } }
 
 /* ----------- iPhone 6 ----------- */
 /* Portrait and Landscape */
@@ -13092,9 +13202,19 @@ ion-content.padding.has-subheader.has-footer.scroll-content.ionic-scroll.has-hea
     padding: 12px 11px;
   }*/ }
 
+.home-page .position-left.ion-ios-arrow-back {
+  left: 7px !important;
+  padding-right: 8px;
+  padding-bottom: 1px; }
+
+.home-page .position-right.ion-ios-arrow-forward {
+  right: 7px !important;
+  padding-left: 8px;
+  padding-bottom: 1px; }
+
 .button.button-clear.button-icon.position-left, .button.button-clear.button-icon.position-right {
   position: absolute;
-  top: 46%;
+  top: 50%;
   z-index: 99999999;
   color: #000;
   width: 25px;
@@ -13107,6 +13227,11 @@ ion-content.padding.has-subheader.has-footer.scroll-content.ionic-scroll.has-hea
   border-radius: 100%;
   box-sizing: border-box;
   opacity: .6; }
+  .button.button-clear.button-icon.position-left:after, .button.button-clear.button-icon.position-right:after {
+    top: -45px;
+    bottom: -45px;
+    left: -15px;
+    right: -15px; }
 
 .button.button-clear.button-icon.position-left.ion-ios-arrow-back {
   left: 5px;
@@ -13198,3 +13323,32 @@ ion-content.padding.has-subheader.has-footer.scroll-content.ionic-scroll.has-hea
     left: 0;
     margin: auto;
     width: 90%; }
+
+/*.f-box-child.icon-only {
+  background: transparent !important;
+
+  &.activated {
+    img {
+      display: block;
+    }
+  }
+
+  img {
+
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: -5px;
+  }
+}*/
+a[href^="tel:"] {
+  text-decoration: none; }
+  a[href^="tel:"]:before {
+    content: "\260e";
+    margin-right: 0.3em; }
+
+.left-buttons .button.button-icon.button-clear, .right-buttons .button.button-icon.button-clear {
+  padding-left: 5px;
+  padding-right: 5px; }
