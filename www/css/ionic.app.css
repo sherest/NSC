@@ -12627,8 +12627,8 @@ body .ion-search:before {
   overflow-x: scroll;
   overflow-y: hidden;
   top: 50%;
-  right: 40px;
-  left: 40px;
+  right: 38px;
+  left: 38px;
   transform: translateY(-50%); }
   .landscape .f-box .f-box-child {
     position: absolute; }
@@ -12660,7 +12660,8 @@ body .ion-search:before {
       top: 0px;
       left: 600px; }
     .landscape .f-box .f-box-child.icon-only {
-      width: 110px; }
+      width: 110px;
+      margin: 0; }
       .landscape .f-box .f-box-child.icon-only:nth-child(3) {
         top: 0px;
         left: 120px; }
@@ -13247,21 +13248,32 @@ ion-content.padding.has-subheader.has-footer.scroll-content.ionic-scroll.has-hea
   font-size: 25px; }
 
 .popupModalMain.platform-ios .modal-backdrop, .popupModalMain.platform-ios .modal-backdrop-bg {
-  top: 64px !important; }
+  top: 0px !important; }
+
+.popupModalMain.platform-ios .modal-backdrop .popupModal {
+  top: 20px !important; }
 
 .popupModalMain .modal-backdrop, .popupModalMain .modal-backdrop-bg {
-  top: 44px !important; }
+  top: 0px !important; }
 
 .popupModalMain .popupModal {
-  width: 200px;
+  width: 190px;
   height: 160px;
   min-height: inherit;
-  right: 0;
-  left: auto !important; }
+  top: 44px;
+  right: 10px;
+  left: auto !important;
+  -webkit-box-shadow: 10px 11px 44px -16px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 11px 44px -16px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 11px 44px -16px rgba(0, 0, 0, 0.75); }
   .popupModalMain .popupModal .item-icon-left {
-    font-size: 1em; }
+    font-size: 1em;
+    padding-left: 40px; }
     .popupModalMain .popupModal .item-icon-left .icon {
       font-size: 20px; }
+      .popupModalMain .popupModal .item-icon-left .icon img {
+        width: 16px;
+        height: auto; }
 
 .popupModalMain .help {
   width: 100%;
@@ -13355,5 +13367,8 @@ a[href^="tel:"] {
 
 .page.about-disclaimer .scroll-content {
   padding: 10px 25px 10px 20px !important; }
+  .page.about-disclaimer .scroll-content b span {
+    font-weight: normal;
+    font-style: italic; }
   .page.about-disclaimer .scroll-content p {
     text-align: justify; }
