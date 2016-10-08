@@ -1,6 +1,6 @@
-nscApp.controller("HomeCtrl", function ($scope, tiles) {
+nscApp.controller("HomeCtrl", function ($scope, $rootScope, tiles) {
 
-    $scope.tiles = tiles.data.data;
+    $rootScope.tiles = tiles.data.data;
 
     var fullScrollVal = 0;
     $scope.$on("new_scroll_val", function(evt, data){

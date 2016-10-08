@@ -1393,13 +1393,13 @@ ion-content.padding.has-subheader.has-footer.scroll-content.ionic-scroll.has-hea
     height: 160px;
     min-height: inherit;
 
-    top: 44px;
-    right: 10px;
+    top: 0px;
+    right: 0px;
     left: auto !important;
 
-    -webkit-box-shadow: 10px 11px 44px -16px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 11px 44px -16px rgba(0,0,0,0.75);
-    box-shadow: 10px 11px 44px -16px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 6px 35px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 6px 35px 0px rgba(0,0,0,0.5);
+    box-shadow: 2px 6px 35px 0px rgba(0,0,0,0.5);
 
     .item-icon-left {
 
@@ -1413,6 +1413,13 @@ ion-content.padding.has-subheader.has-footer.scroll-content.ionic-scroll.has-hea
           width: 16px;
           height: auto;
         }
+      }
+    }
+
+    .list{
+      .item{
+        font-family: "Helvetica Neue LT Std Condensed";
+        color: #333333;
       }
     }
   }

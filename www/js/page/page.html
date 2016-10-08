@@ -5,8 +5,8 @@
 
     <ion-nav-view name="subContent"></ion-nav-view>
 
-    <button class="button button-clear button-icon position-left ion-ios-arrow-back ng-hide" ng-show="__currentIndex>0" ng-cloak ng-click="moveLeft()"></button>
-    <button class="button button-clear button-icon position-right ion-ios-arrow-forward ng-hide" ng-show="__currentIndex != __listLength-1" ng-cloak ng-click="moveRight()"></button>
+    <button class="button button-clear button-icon position-left ion-ios-arrow-back" ng-click="moveLeft()"></button>
+    <button class="button button-clear button-icon position-right ion-ios-arrow-forward" ng-click="moveRight()"></button>
 
     <div class="my-footer" ng-include="'js/common/templates/footer.html'">
     </div>

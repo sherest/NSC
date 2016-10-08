@@ -13260,12 +13260,12 @@ ion-content.padding.has-subheader.has-footer.scroll-content.ionic-scroll.has-hea
   width: 190px;
   height: 160px;
   min-height: inherit;
-  top: 44px;
-  right: 10px;
+  top: 0px;
+  right: 0px;
   left: auto !important;
-  -webkit-box-shadow: 10px 11px 44px -16px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 11px 44px -16px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 11px 44px -16px rgba(0, 0, 0, 0.75); }
+  -webkit-box-shadow: 2px 6px 35px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 2px 6px 35px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 6px 35px 0px rgba(0, 0, 0, 0.5); }
   .popupModalMain .popupModal .item-icon-left {
     font-size: 1em;
     padding-left: 40px; }
@@ -13274,6 +13274,9 @@ ion-content.padding.has-subheader.has-footer.scroll-content.ionic-scroll.has-hea
       .popupModalMain .popupModal .item-icon-left .icon img {
         width: 16px;
         height: auto; }
+  .popupModalMain .popupModal .list .item {
+    font-family: "Helvetica Neue LT Std Condensed";
+    color: #333333; }
 
 .popupModalMain .help {
   width: 100%;

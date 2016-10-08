@@ -28,18 +28,93 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.topics', {
-            url: '/topics',
+        .state('app.memoryAidTopics', {
+            url: '/memoryAidTopics',
             views: {
                 'menuContent': {
                     templateUrl: 'js/topics-page/topics-page.html',
                     controller: 'TopicsCtrl'
                 }
-            },
-            resolve: {
-                tiles: ["$http", function ($http) {
-                    return $http.get("jsons/home_page_tile.json");
-                }]
+            }
+        })
+
+        .state('app.responderSafetyTopics', {
+            url: '/responderSafetyTopics',
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/topics-page/topics-page.html',
+                    controller: 'TopicsCtrl'
+                }
+            }
+        })
+
+        .state('app.assessmentTopics', {
+            url: '/assessmentTopics',
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/topics-page/topics-page.html',
+                    controller: 'TopicsCtrl'
+                }
+            }
+        })
+
+        .state('app.airwayTopics', {
+            url: '/airwayTopics',
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/topics-page/topics-page.html',
+                    controller: 'TopicsCtrl'
+                }
+            }
+        })
+
+        .state('app.medicalTopics', {
+            url: '/medicalTopics',
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/topics-page/topics-page.html',
+                    controller: 'TopicsCtrl'
+                }
+            }
+        })
+
+        .state('app.traumaTopics', {
+            url: '/traumaTopics',
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/topics-page/topics-page.html',
+                    controller: 'TopicsCtrl'
+                }
+            }
+        })
+
+        .state('app.emsOperationsTopics', {
+            url: '/emsOperationsTopics',
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/topics-page/topics-page.html',
+                    controller: 'TopicsCtrl'
+                }
+            }
+        })
+
+        .state('app.specialSituationsTopics', {
+            url: '/specialSituationsTopics',
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/topics-page/topics-page.html',
+                    controller: 'TopicsCtrl'
+                }
+            }
+        })
+
+        .state('app.miscellaneousTopics', {
+            url: '/miscellaneousTopics',
+            views: {
+                'menuContent': {
+                    templateUrl: 'js/topics-page/topics-page.html',
+                    controller: 'TopicsCtrl'
+                }
             }
         })
 
@@ -1140,6 +1215,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.poisoning.poisonSwallowed', {
+            url: '/poison-swallowed',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/poisoning/swallowed-poison.html'
+                }
+            }
+        })
+
         .state('app.poisoning.inhaledPoison', {
             url: '/inhaled-poison',
             views: {
@@ -1514,6 +1598,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('app.wounds.softTissueInjuries', {
+            url: '/soft-tissue-injuries',
+            views: {
+                'subContent': {
+                    templateUrl: 'js/page/wounds-and-soft-tissue-injuries/wounds.html'
+                }
+            }
+        })
+
         .state('app.frostbite', {
             url: '/frostbite',
             abstract: true,
@@ -1721,8 +1814,8 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-        .state('app.legalEthical.refusesConsent', {
-            url: '/refuses-consent',
+        .state('app.legalEthical.consentRefuses', {
+            url: '/consent-refuses',
             views: {
                 'subContent': {
                     templateUrl: 'js/page/legal-and-ethical-issues/victim-refuses-consent.html'

@@ -118,7 +118,8 @@ nscApp.controller('AppCtrl', function ($scope, $rootScope, topicList, $timeout, 
 
         if(topics){
 
-            $scope.toState(topics);
+            //$scope.toState(topics);
+            checkTopic(selectedTopic.head);
 
         } else {
             //if state is not defined then get borrow it from uTopicList and show its first state.
@@ -130,6 +131,20 @@ nscApp.controller('AppCtrl', function ($scope, $rootScope, topicList, $timeout, 
         }
 
     };
+
+    function checkTopic(head){
+        switch(head){
+            case "Memory Aids": $scope.toState("app.memoryAidTopics"); break;
+            case "Responder Safety": $scope.toState("app.responderSafetyTopics"); break;
+            case "Assessment": $scope.toState("app.assessmentTopics"); break;
+            case "Circulation/Airway/Breathing": $scope.toState("app.airwayTopics"); break;
+            case "Medical": $scope.toState("app.medicalTopics"); break;
+            case "Trauma": $scope.toState("app.traumaTopics"); break;
+            case "EMS Operations": $scope.toState("app.emsOperationsTopics"); break;
+            case "Special Situations": $scope.toState("app.specialSituationsTopics"); break;
+            case "Miscellaneous": $scope.toState("app.miscellaneousTopics"); break;
+        }
+    }
 
     function compare(a,b){
         if (a["title"].toLowerCase() < b["title"].toLowerCase())

@@ -1,4 +1,4 @@
-nscApp.controller("PageCtrl", function ($scope, $ionicViewSwitcher, $state) {
+nscApp.controller("PageCtrl", function ($scope, $rootScope, $ionicViewSwitcher, $state) {
 
 
     var currentIndex = 0;
@@ -43,6 +43,10 @@ nscApp.controller("PageCtrl", function ($scope, $ionicViewSwitcher, $state) {
             $ionicViewSwitcher.nextDirection('forward');
 
             $scope.toState($scope.uTopicList[currentIndex+1]);
+        } else if($scope.topicHeading){
+
+            //move to next head topics list page
+            moveToNextTopic($scope.topicHeading, 1);
         }
     };
 
@@ -52,6 +56,27 @@ nscApp.controller("PageCtrl", function ($scope, $ionicViewSwitcher, $state) {
             $ionicViewSwitcher.nextDirection('back');
 
             $scope.toState($scope.uTopicList[currentIndex-1]);
+        } else if($scope.topicHeading){
+
+            //move to previous head topics list page
+            moveToNextTopic($scope.topicHeading, 0);
         }
     };
+
+    function moveToNextTopic(head, count){
+        var _currentIndex = _.findLastIndex($rootScope.tiles, {
+            head: $scope.topicHeading
+        });
+
+        _currentIndex+=count;
+
+        if(_currentIndex >= $rootScope.tiles.length){
+            _currentIndex = 0;
+        } else if(_currentIndex < 0){
+            _currentIndex = $rootScope.tiles.length-1;
+        }
+
+        var nextTopicObject = $rootScope.tiles[_currentIndex];
+        $scope.openPage(nextTopicObject, 'app.topics');
+    }
 });

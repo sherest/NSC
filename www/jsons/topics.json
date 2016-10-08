@@ -935,8 +935,8 @@
     {
       "title": "Poisoning, swallowed",
       "head": "Medical",
-      "state": "app.poisoning.swallowedPoison",
-      "url": "/swallowed-poison"
+      "state": "app.poisoning.poisonSwallowed",
+      "url": "/poison-swallowed"
     },
     {
       "title": "Primary assessment",
@@ -965,8 +965,8 @@
     {
       "title": "Refusal of consent",
       "head": "Miscellaneous",
-      "state": "app.legalEthical.refusesConsent",
-      "url": "/refuses-consent"
+      "state": "app.legalEthical.consentRefuses",
+      "url": "/consent-refuses"
     },
     {
       "title": "Reportable events",
@@ -1067,8 +1067,8 @@
     {
       "title": "Soft-tissue injuries",
       "head": "Trauma",
-      "state": "app.wounds.wounds",
-      "url": "/wounds"
+      "state": "app.wounds.softTissueInjuries",
+      "url": "/soft-tissue-injuries"
     },
     {
       "title": "Spinal injuries",
