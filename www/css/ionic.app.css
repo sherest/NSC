@@ -12210,9 +12210,12 @@ a.button {
 
 .ion_alpha_list_outer #alpha-scroll {
   height: calc(100vh - 44px);
-  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
-  overflow-x: hidden; }
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-transform: translateZ(0px);
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-perspective: 1000; }
 
 .filter-bar-backdrop {
   -webkit-transition: opacity 150ms ease-in-out;

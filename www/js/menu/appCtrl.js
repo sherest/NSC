@@ -51,6 +51,14 @@ nscApp.controller('AppCtrl', function ($scope, $rootScope, topicList, $timeout, 
         animation: 'fade-in'
     }).then(function (modal) {
         $scope.verticalHelpModal = modal;
+
+        if(!window.localStorage['AppLaunched']){
+
+            $rootScope.bPopupModal = true;
+            $scope.verticalHelpModal.show();
+
+            window.localStorage['AppLaunched'] = "true";
+        }
     });
     $scope.openVerticalHelpModal = function () {
 
@@ -112,8 +120,7 @@ nscApp.controller('AppCtrl', function ($scope, $rootScope, topicList, $timeout, 
         }
 
 
-        $scope.topicsGroup = _.where($scope.topicList, {head: selectedTopic.head}).sort(compare); //all topics as object array
-        $scope.uTopicList = _.uniq(_.pluck($scope.topicsGroup, "state")); //all states of selected topic as string of array
+        $scope.getGroupListing (selectedTopic);
 
 
         if(topics){
@@ -130,6 +137,11 @@ nscApp.controller('AppCtrl', function ($scope, $rootScope, topicList, $timeout, 
             }
         }
 
+    };
+
+    $scope.getGroupListing = function(selectedTopic){
+        $scope.topicsGroup = _.where($scope.topicList, {head: selectedTopic.head}).sort(compare); //all topics as object array
+        $scope.uTopicList = _.uniq(_.pluck($scope.topicsGroup, "state")); //all states of selected topic as string of array
     };
 
     function checkTopic(head){

@@ -8,10 +8,6 @@ nscApp.controller("PageCtrl", function ($scope, $rootScope, $ionicViewSwitcher, 
         var state = toState.name;
         currentIndex = _.indexOf($scope.uTopicList, state);
 
-
-        $scope.__currentIndex = currentIndex;
-        $scope.__listLength = $scope.uTopicList.length;
-
         if(currentIndex > -1){
             objTopic = _.findWhere($scope.topicsGroup, {state: state});
             if(objTopic){
@@ -22,9 +18,14 @@ nscApp.controller("PageCtrl", function ($scope, $rootScope, $ionicViewSwitcher, 
             objTopic = _.findWhere($scope.topicList, {state: state});
             if(objTopic){
 
+                $scope.getGroupListing (objTopic);
+                currentIndex = _.indexOf($scope.uTopicList, state);
                 $scope.topicHeading = objTopic.head;
             }
         }
+
+        $scope.__currentIndex = currentIndex;
+        $scope.__listLength = $scope.uTopicList.length;
     });
 
     $scope.$on("SwipeLeftEvent", function(){
