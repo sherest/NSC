@@ -1,5 +1,5 @@
 {
-  "name": "weRetailApp",
+  "name": "nsc-emr",
   "app_id": "",
   "gulpStartupTasks": [
     "sass",

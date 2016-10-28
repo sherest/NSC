@@ -28,7 +28,7 @@ nscApp.controller("PageCtrl", function ($scope, $rootScope, $ionicViewSwitcher, 
         $scope.__listLength = $scope.uTopicList.length;
     });
 
-    $scope.$on("SwipeLeftEvent", function(){
+    /*$scope.$on("SwipeLeftEvent", function(){
 
         $scope.moveRight();
     });
@@ -79,5 +79,5 @@ nscApp.controller("PageCtrl", function ($scope, $rootScope, $ionicViewSwitcher, 
 
         var nextTopicObject = $rootScope.tiles[_currentIndex];
         $scope.openPage(nextTopicObject, 'app.topics');
-    }
+    }*/
 });

@@ -1,23 +1,23 @@
 <ion-view>
-    <ion-nav-buttons side="left">         <button class="button button-icon button-clear custom-home ion-home" ui-sref="app.home">         </button>     </ion-nav-buttons>     <ion-content has-bouncing="false" class="padding has-subheader has-footer">
+    <ion-nav-buttons side="left">         <button class="button button-icon button-clear custom-home ion-home" ui-sref="home">         </button>     </ion-nav-buttons>     <ion-content has-bouncing="false" class="padding has-subheader has-footer">
         <h1>Anatomy</h1>
-        <figure>
+        <figure ng-click="showFullImage('./img/pages/anatomy/directional-terms.png')">
             <img ng-src="./img/pages/anatomy/directional-terms.png">
             <figcaption>Directional terms</figcaption>
         </figure>
-        <figure>
+        <figure ng-click="showFullImage('./img/pages/anatomy/abdominal-quadrants.png')">
             <img ng-src="./img/pages/anatomy/abdominal-quadrants.png">
             <figcaption>Abdominal quadrants</figcaption>
         </figure>
-        <figure>
+        <figure ng-click="showFullImage('./img/pages/anatomy/respiratory-system.png')">
             <img ng-src="./img/pages/anatomy/respiratory-system.png">
             <figcaption>Respiratory system</figcaption>
         </figure>
-        <figure>
+        <figure ng-click="showFullImage('./img/pages/anatomy/major-arteries.png')">
             <img ng-src="./img/pages/anatomy/major-arteries.png">
             <figcaption>Major arteries</figcaption>
         </figure>
-        <figure>
+        <figure ng-click="showFullImage('./img/pages/anatomy/skeletal-system.png')">
             <img ng-src="./img/pages/anatomy/skeletal-system.png">
             <figcaption>Skeletal system</figcaption>
         </figure>

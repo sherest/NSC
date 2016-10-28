@@ -1,5 +1,5 @@
 <ion-view>
-    <ion-nav-buttons side="left">         <button class="button button-icon button-clear custom-home ion-home" ui-sref="app.home">         </button>     </ion-nav-buttons>     <ion-content has-bouncing="false" class="padding has-subheader has-footer">
+    <ion-nav-buttons side="left">         <button class="button button-icon button-clear custom-home ion-home" ui-sref="home">         </button>     </ion-nav-buttons>     <ion-content has-bouncing="false" class="padding has-subheader has-footer">
         <h1 class="main-heading">Triage</h1>
         <h1>START Triage Categories </h1>
         <h1>Priority 1&mdash;Red&mdash;Immediate care needed</h1>
@@ -63,7 +63,7 @@
             </li>
         </ul>
         <h1>START Triage </h1>
-        <figure>
+        <figure ng-click="showFullImage('img/pages/triage/start-triage.png')">
             <img src="img/pages/triage/start-triage.png">
         </figure>
 
@@ -111,11 +111,11 @@
             </li>
         </ul>
         <h1>JumpSTART Pediatric Triage</h1>
-        <figure>
+        <figure ng-click="showFullImage('img/pages/triage/jumpStart-pediatric-triage.png')">
             <img src="img/pages/triage/jumpStart-pediatric-triage.png">
         </figure>
         <h1>&nbsp;</h1>
-        <figure>
+        <figure ng-click="showFullImage('img/pages/triage/triage-protocol.png')">
             <img src="img/pages/triage/triage-protocol.png">
             <figcaption>When in doubt, transport to a trauma center.</figcaption>
         </figure>

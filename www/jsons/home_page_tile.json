@@ -44,6 +44,11 @@
       "title": "Miscellaneous",
       "head": "Miscellaneous",
       "icon": "192x192_misc-icon-150.png"
+    },
+    {
+      "title": "A-Z",
+      "head": "A-Z",
+      "icon": "192x192_first aid icons_fnl.jpg"
     }
   ]
 }

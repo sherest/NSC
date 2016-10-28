@@ -1,0 +1,20 @@
+<ion-view view-title="" class="search-page" hide-nav-bar="true">
+  <div class="bar bar-header search-bar item-input-inset">
+    <button class="button button-icon button-clear ion-chevron-left" ng-click="goBack()">
+    </button>
+    <label class="item-input">
+      <input type="search" placeholder="Search..." ng-model="search.title" ng-blur="retainFocus()" >
+    </label>
+    <button class="button button-icon button-clear ion-close-round" ng-click="clearSearch()" ng-show="search.title">
+    </button>
+  </div>
+  <ion-content class="has-footer has-header-custom">
+    <ul class="search-list" ng-show="search.title">
+      <li ng-repeat="filterItem in topicList|filter:search" class="animated"
+          ng-bind-html="filterItem.title | highlight:search.title"
+          ng-click="openPage(filterItem)"></li>
+    </ul>
+  </ion-content>
+  <div class="my-footer" ng-include="'js/common/templates/footer.html'">
+  </div>
+</ion-view>

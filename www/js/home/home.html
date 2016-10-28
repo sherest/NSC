@@ -1,19 +1,11 @@
-<ion-view view-title="" hide-back-button="true" class="home-page">
-    <ion-content scroll="false"  class="has-footer">
+<ion-view view-title="" hide-back-button="true" class="home-page-new">
+    <ion-content scroll="false" has-bouncing="false" class="has-footer">
 
-        <button class="button button-clear button-icon position-left ion-ios-arrow-back landscape ng-hide" ng-show="isScroll&&isLeft" ng-click="scrollLeft()" ng-cloak></button>
-        <button class="button button-clear button-icon position-right ion-ios-arrow-forward landscape ng-hide" ng-show="isScroll&&isRight" ng-click="scrollRight()" ng-cloak></button>
-
-        <div class="f-box" scroll-position>
-            <div class="f-box-child icon-only" ng-repeat="tile in tiles" ng-click="openPage(tile, 'app.topics') ">
-                <!--<h1>
-                    <img ng-src="img/home_tile_icon.png">
-                    <img ng-src="img/home_tile_icon_selected.png" class="selected">
-                    <span>{{tile.head}}</span>
-                </h1>-->
+        <ul class="n-box-list">
+            <li ng-repeat="tile in tiles" ng-click="openPage(tile, 'app.topics') ">
                 <img ng-src="img/home/{{tile.icon}}">
-            </div>
-        </div>
+            </li>
+        </ul>
     </ion-content>
     <div class="my-footer" ng-include="'js/common/templates/footer.html'">
     </div>

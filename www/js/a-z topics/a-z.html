@@ -1,0 +1,13 @@
+<ion-view title="">
+    <div class="bar bar-subheader bar-greeny">
+      <h2 class="title">All Topics</h2>
+    </div>
+    <ion-content has-bouncing="false"
+                 scroll="false"
+                 has-tabs="true"
+                 has-header="true" overflow-scroll="false" class="has-subheader">
+        <ion-alpha-scroll ng-model="topicList" key="title" subheader="true">
+            <div menu-close ng-click="openPage(item)">{{item.title}}</div>
+        </ion-alpha-scroll>
+    </ion-content>
+</ion-view>

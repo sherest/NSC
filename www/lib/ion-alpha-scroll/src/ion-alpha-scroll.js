@@ -42,7 +42,7 @@ angular.module('ion-alpha-scroll', [])
                     return function (scope, element, attrs, ngModel) {
                         var count = 0;
                         var hideCount = 0;
-                        var orientation = 0;
+                        // var orientation = 0;
                         var li_height = 0;
                         var _alpha = null;
                         var _list = null;
@@ -96,6 +96,18 @@ angular.module('ion-alpha-scroll', [])
                                     id = "index_Numbers";
                                 }
 
+                                if(id == "index_X" || id == "index_Y" || id == "index_Z"){
+                                  id = "index_W";
+                                }
+
+                                if(id == "index_K"){
+                                  id = "index_L";
+                                }
+
+                                if(id == "index_Q"){
+                                  id = "index_R";
+                                }
+
 
                                 if(_alpha == null){
                                     _alpha = $(".alpha");
@@ -136,7 +148,7 @@ angular.module('ion-alpha-scroll', [])
                                 //console.log(event.gesture.direction, event.gesture.angle, $(event.gesture.target).parent().height(),event.gesture.distance);
                                 var _h = $(event.gesture.target).parent().height();
 
-                                if(orientation == "landscape"){
+                                if(scope.orientation == "landscape"){
                                     _h = parseInt(_h/1.6);
                                 }
 
@@ -180,7 +192,7 @@ angular.module('ion-alpha-scroll', [])
                             var footerHeight = $document[0].body.querySelector('.bar-footer') ? $document[0].body.querySelector('.bar-footer').offsetHeight : 0;
                             var windowHeight = window.innerHeight;
                             var windowWidth = window.innerWidth;
-                            orientation = windowWidth < windowHeight ? 'portrait' : 'landscape';
+                            // orientation = windowWidth < windowHeight ? 'portrait' : 'landscape';
 
                             var contentHeight = windowHeight - headerHeight - subHeaderHeight - tabHeight - footerHeight;
                             var top = headerHeight + subHeaderHeight;
@@ -203,7 +215,7 @@ angular.module('ion-alpha-scroll', [])
 
                             ion_alpa_sidebar.find('li').css({"height": li_height + "px"});
                             ion_alpa_sidebar.find('span').css({"font-size": fontSize + "px"});
-                            $("body").removeClass("portrait landscape").addClass(orientation);
+                            // $("body").removeClass("portrait landscape").addClass(orientation);
                         }
 
                         angular.element($window).bind('resize', function () {
