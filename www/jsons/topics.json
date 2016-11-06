@@ -399,8 +399,8 @@
     {
       "title": "Consent, refusal of",
       "head": "Miscellaneous",
-      "state": "page.refusesConsent",
-      "url": "/refuses-consent"
+      "state": "page.consentRefuses",
+      "url": "/consent-refuses"
     },
     {
       "title": "CPR, adult or child, 2-rescuer",

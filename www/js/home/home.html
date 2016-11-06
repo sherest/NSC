@@ -1,7 +1,7 @@
 <ion-view view-title="" hide-back-button="true" class="home-page-new">
     <ion-content scroll="false" has-bouncing="false" class="has-footer">
 
-        <ul class="n-box-list">
+        <ul class="n-box-list" ng-style="cal_width">
             <li ng-repeat="tile in tiles" ng-click="openPage(tile, 'app.topics') ">
                 <img ng-src="img/home/{{tile.icon}}">
             </li>

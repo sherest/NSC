@@ -607,6 +607,11 @@ body {
     }
   }
 
+  b, strong {
+    font-weight: bold;
+    font-family: "Helvetica Neue LT Std Bold Condensed";
+  }
+
   h2 {
 
     font-family: "Helvetica Neue LT Std Condensed";
@@ -916,7 +921,11 @@ body {
     font-size: 1.1em;
     padding: 15px 10px 10px 40px;
     border-bottom: 1px solid #c7c7c7;
-    text-transform: capitalize;
+    //text-transform: lowercase;
+
+    //&:first-letter{
+    //  text-transform: uppercase;
+    //}
   }
 }
 
@@ -1773,12 +1782,12 @@ a[href^="tel:"] {
     .n-box-list {
       text-align: center;
 
-      width: 100%;
+      width: 95%;
       padding: 4% 3% 2% 7%;
       margin: auto;
 
       li {
-        min-width: 115px;
+        //min-width: 115px;
         width: 35%;
 
         padding-right: 6%;

@@ -169,10 +169,15 @@ nscApp.controller('MainCtrl', function ($scope, $rootScope, $http, $timeout, $io
     var windowWidth = window.innerWidth;
     $rootScope.orientation = windowWidth < windowHeight ? 'portrait' : 'landscape';
 
-    var ratio = gcd (windowWidth, windowHeight);
-    var sRatio = windowHeight/ratio + ":" + windowWidth/ratio;
+/*
+    var fix_ratio = 0.6595165679526173;
+    var ele_height = $('.home-page-new .scroll-content').height()
+    var ratio = gcd (412, 624);
+    var sRatio = 624/ratio + ":" + 412/ratio;
 
-    console.log(ratio,  windowHeight/ratio + ":" + windowWidth/ratio, $rootScope.orientation);
+    console.log(ratio,  624/ratio + ":" + 412/ratio, $rootScope.orientation);
+    console.log(Math.floor(ele_height*fix_ratio));
+*/
 
 
     $("body").removeClass("portrait landscape").addClass($rootScope.orientation);

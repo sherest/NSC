@@ -12581,6 +12581,10 @@ body .ion-search:before {
   margin: 10px 0 5px 10px;
   text-transform: capitalize; }
 
+.page b, .page strong {
+  font-weight: bold;
+  font-family: "Helvetica Neue LT Std Bold Condensed"; }
+
 .page h2 {
   font-family: "Helvetica Neue LT Std Condensed";
   font-size: 1.4em;
@@ -12779,8 +12783,7 @@ body .ion-search:before {
     font-family: "Helvetica Neue LT Std Condensed";
     font-size: 1.1em;
     padding: 15px 10px 10px 40px;
-    border-bottom: 1px solid #c7c7c7;
-    text-transform: capitalize; }
+    border-bottom: 1px solid #c7c7c7; }
 
 /* Footer Component
 ********************************/
@@ -13292,11 +13295,10 @@ a[href^="tel:"] {
 
 .portrait .home-page-new .n-box-list {
   text-align: center;
-  width: 100%;
+  width: 95%;
   padding: 4% 3% 2% 7%;
   margin: auto; }
   .portrait .home-page-new .n-box-list li {
-    min-width: 115px;
     width: 35%;
     padding-right: 6%;
     padding-bottom: 2%;
