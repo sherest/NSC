@@ -12469,7 +12469,10 @@ body .ion-search:before {
   margin-right: 5px; }
 
 .right-buttons .button:last-child {
-  margin-right: 0px; }
+  margin-right: 0px;
+  margin-left: 5px;
+  padding-left: 10px !important;
+  padding-right: 10px !important; }
 
 /*  Home Page Styling
 ***********************************/
@@ -13247,6 +13250,10 @@ a[href^="tel:"] {
 
 .modal-open #alpha-scroll {
   display: block !important; }
+
+.bar .button.back-button {
+  margin-right: 10px;
+  padding-left: 5px; }
 
 .platform-android .bar .back-button .icon:before {
   font-size: 32px; }
