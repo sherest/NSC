@@ -1,0 +1,55 @@
+<ion-view>
+    <ion-nav-buttons side="left">         <button class="button button-icon button-clear custom-home ion-home" ui-sref="home">         </button>     </ion-nav-buttons>     <ion-content has-bouncing="false" class="padding has-subheader has-footer">
+        <h1>JumpSTART Triage for Pediatric Patients </h1>
+        <h1>Step 1. Assess Breathing</h1>
+        <ul>
+            <li>Check whether the child is breathing.</li>
+            <li>If the child is breathing at rate of 15&ndash;45 breaths/minute, move on
+                to assess circulation.
+            </li>
+            <li>If the child is breathing slower than 15 or faster than 45
+                breaths/minute, or if breathing is irregular, tag the child Priority 1
+                (red tag).
+            </li>
+            <li>If the child is not breathing, open the airway.</li>
+            <li>If still not breathing, look in the mouth for a foreign body and remove
+                it if &nbsp;seen.
+            </li>
+            <li>If the child is now breathing, tag child Priority 1 (red tag).</li>
+            <li>If not breathing, check for a pulse.</li>
+            <li>If no pulse, tag the child Priority 4 (black tag).&nbsp;&nbsp;</li>
+            <li>Give a child with a pulse 5 ventilations; if the child begins breathing,
+                tag the child red and move on.&nbsp;&nbsp;</li>
+            <li>If the child does not begin breathing, tag the child black.</li>
+        </ul>
+        <h1>Step 2. Assess Circulation</h1>
+        <ul>
+            <li>For child who is breathing 15&ndash;45 breaths/minute without your
+                having to open the airway, check the child&rsquo;s pulse in an uninjured
+                extremity.
+            </li>
+            <li>If you feel a pulse, move on to assess mental status.&nbsp;&nbsp;</li>
+            <li>If you do not feel a pulse, tag the child Priority 1 (red tag).</li>
+        </ul>
+        <h1>Step 3. Assess Mental Status </h1>
+        <ul>
+            <li>For a child who is breathing and has a pulse, assess mental status with
+                AVPU assessment.
+            </li>
+            <li>A child who is alert and responds to your voice or pain is tagged
+                Priority 2 (yellow tag).
+            </li>
+            <li>A child who does not respond or who only responds inappropriately to
+                pain is considered unresponsive and tagged Priority 1 (red tag).
+            </li>
+        </ul>
+        <h1>JumpSTART Pediatric Triage</h1>
+        <figure ng-click="showFullImage('img/pages/triage/jumpStart-pediatric-triage.png')">
+            <img src="img/pages/triage/jumpStart-pediatric-triage.png">
+        </figure>
+        <figure ng-click="showFullImage('img/pages/triage/triage-protocol.png')">
+            <img src="img/pages/triage/triage-protocol.png">
+            <figcaption>When in doubt, transport to a trauma center.</figcaption>
+        </figure>
+    </ion-content>
+</ion-view>

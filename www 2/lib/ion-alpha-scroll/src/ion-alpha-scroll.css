@@ -1,0 +1,37 @@
+.ion_alpha_list_outer .list{
+	padding-right: 15px;
+}
+.ion_alpha_list_outer .item{
+	border-right: none;
+}
+.ion_alpha_sidebar{
+	position: fixed;
+	right: 0;
+	top: 0;
+	height: 100%;
+}
+.ion_alpha_sidebar li{
+	line-height: 1.1;
+	position: relative;
+}
+.ion_alpha_sidebar li:before {
+	content: ' ';
+	display: block;
+	background: transparent;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	z-index: -1;
+	right: 0;
+	top: -3px;
+}
+.ion_alpha_list_outer #alpha-scroll{
+	height: calc(100vh - 88px);
+	-webkit-overflow-scrolling: touch;
+	overflow-y: scroll;
+	overflow-x: hidden;
+
+	/*-webkit-transform: translateZ(0px);*/
+	/*-webkit-transform: translate3d(0,0,0);*/
+	/*-webkit-perspective: 1000;*/
+}

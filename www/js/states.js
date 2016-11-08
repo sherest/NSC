@@ -775,6 +775,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         }
       }
     })
+	
+	    .state('page.cpr-aed-main', {
+      url: '/cpr-aed-main',
+      views: {
+        'subContent': {
+          templateUrl: 'js/page/cpr/cpr-aed-main.html'
+        }
+      }
+    })
 
     .state('page.1RescuerCpr', {
       url: '/1-rescuer-cpr',
@@ -943,6 +952,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
       views: {
         'subContent': {
           templateUrl: 'js/page/poisoning/swallowed-poison.html'
+        }
+      }
+    })
+	
+	.state('page.poisoning-main', {
+      url: '/poisoning-main',
+      views: {
+        'subContent': {
+          templateUrl: 'js/page/poisoning/poisoning-main.html'
         }
       }
     })
@@ -1518,6 +1536,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         }
       }
     })
+	    .state('page.documentation-tips-main', {
+      url: '/documentation-tips-main',
+      views: {
+        'subContent': {
+          templateUrl: 'js/page/documentation-tips/documentation-tips-main.html'
+        }
+      }
+    })
+
 
     .state('page.correctingErrorInReports', {
       url: '/correcting-error-in-reports',
@@ -1546,7 +1573,15 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
       }
     })
 
-    .state('page.bandages', {
+    .state('page.dressing-bandages', {
+      url: '/dressing-bandages',
+      views: {
+        'subContent': {
+          templateUrl: 'js/page/dressing-and-bandages/dressing-bandages.html'
+        }
+      }
+    })
+	    .state('page.bandages', {
       url: '/bandages',
       views: {
         'subContent': {
@@ -1563,12 +1598,20 @@ nscApp.config(function ($stateProvider, $urlRouterProvider) {
         }
       }
     })
-
-    .state('page.bleedingSerious', {
-      url: '/bleeding-serious',
+	    .state('page.assessment-main', {
+      url: '/assessment-main',
       views: {
         'subContent': {
-          templateUrl: 'js/page/assessment/bleeding-serious.html'
+          templateUrl: 'js/page/assessment/assessment-main.html'
+        }
+      }
+    })
+
+    .state('page.bleedingSerious', {
+      url: '/assessment-main',
+      views: {
+        'subContent': {
+          templateUrl: 'js/page/assessment/assessment-main.html'
         }
       }
     })

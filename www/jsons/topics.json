@@ -210,6 +210,12 @@
       "state": "page.bandages",
       "url": "/bandages"
     },
+	    {
+      "title": "Dressing and Bandages",
+      "head": "Miscellaneous",
+      "state": "page.dressing-bandages",
+      "url": "/dressing-bandages"
+    },
     {
       "title": "Behavioral emergencies",
       "head": "Medical",
@@ -238,7 +244,7 @@
       "title": "Bleeding, checking for serious",
       "head": "Assessment",
       "state": "page.bleedingSerious",
-      "url": "/bleeding-serious"
+      "url": "/assessment-main"
     },
     {
       "title": "Bleeding, External",
@@ -329,6 +335,12 @@
       "head": "Circulation/Airway/Breathing",
       "state": "page.cprAed",
       "url": "/cpr-aed"
+    },
+	    {
+      "title": "CPR and AED",
+      "head": "Circulation/Airway/Breathing",
+      "state": "page.cpr-aed-main",
+      "url": "/cpr-aed-main"
     },
     {
       "title": "Chemical burns",
@@ -462,12 +474,7 @@
       "state": "page.directGroundLift",
       "url": "/direct-ground-lift"
     },
-    {
-      "title": "Documentation tips",
-      "head": "Miscellaneous",
-      "state": "page.documentationTips",
-      "url": "/documentation-tips"
-    },
+
     {
       "title": "DOTS in physical examination",
       "head": "Assessment",
@@ -657,7 +664,7 @@
       "url": "/hazmat"
     },
     {
-      "title": "Head injuries",
+      "title": "Head and spinal injuries",
       "head": "Trauma",
       "state": "page.emergency",
       "url": "/emergency"
@@ -746,6 +753,12 @@
       "state": "page.inhaledPoison",
       "url": "/inhaled-poison"
     },
+	    {
+      "title": "Poisoning",
+      "head": "Medical",
+      "state": "page.poisoning-main",
+      "url": "/poisoning-main"
+    },
     {
       "title": "Inhaler for asthma attack",
       "head": "Medical",
@@ -805,6 +818,12 @@
       "head": "Miscellaneous",
       "state": "page.documentationTips",
       "url": "/documentation-tips"
+    },
+	    {
+      "title": "Documentation tips",
+      "head": "Miscellaneous",
+      "state": "page.documentation-tips-main",
+      "url": "/documentation-tips-main"
     },
     {
       "title": "Mouth-to-mask ventilation",
@@ -871,6 +890,12 @@
       "head": "Assessment",
       "state": "page.opqrst",
       "url": "/opqrst"
+    },
+	    {
+      "title": "Assessment",
+      "head": "Assessment",
+      "state": "page.assessment-main",
+      "url": "/assessment-main"
     },
     {
       "title": "Oral airway insertion",
@@ -1065,7 +1090,7 @@
       "url": "/soft-tissue-injuries"
     },
     {
-      "title": "Spinal injuries",
+      "title": "Spinal and head injuries",
       "head": "Trauma",
       "state": "page.spinalInjuries",
       "url": "/spinal-injuries"
