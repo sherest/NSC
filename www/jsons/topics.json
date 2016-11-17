@@ -247,13 +247,13 @@
       "url": "/assessment-main"
     },
     {
-      "title": "Bleeding, External",
+      "title": "Bleeding, external",
       "head": "Trauma",
       "state": "page.bleedingExternal",
       "url": "/bleeding-external"
     },
     {
-      "title": "Bleeding, Internal",
+      "title": "Bleeding, internal",
       "head": "Trauma",
       "state": "page.bleedingInternal",
       "url": "/bleeding-internal"

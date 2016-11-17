@@ -12309,6 +12309,9 @@ body .ion-search:before {
     .menu.menu-right button.button-icon:before {
       font-size: 24px !important; }
 
+.ion_alpha_list_outer #alpha-scroll.ngScrolling {
+  -webkit-overflow-scrolling: auto !important; }
+
 .ion_alpha_list_outer .list {
   padding-right: 0px; }
 
@@ -12317,7 +12320,6 @@ body .ion-search:before {
   background-size: contain;
   font-family: "Helvetica Neue LT Std Heavy Condensed";
   font-size: 1em;
-  text-transform: capitalize;
   color: #fff;
   text-align: center;
   border: none; }
@@ -12665,13 +12667,17 @@ body .ion-search:before {
   .page figure.full-size {
     width: calc(100% - 10px); }
   .page figure[ng-click] {
-    position: relative; }
+    position: relative;
+    /*&.start-triage:after{
+        top: 0px;
+        right: 0px;
+      }*/ }
     .page figure[ng-click]:after {
       content: ' ';
       display: block;
       position: absolute;
-      top: 10px;
-      right: 10px;
+      top: -20px;
+      right: 0px;
       width: 20px;
       height: 20px;
       background: transparent url("../img/zoom.png") no-repeat center center;

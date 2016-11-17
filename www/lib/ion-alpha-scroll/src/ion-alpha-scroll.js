@@ -23,13 +23,13 @@ angular.module('ion-alpha-scroll', [])
                     var children = tElement.contents();
                     var template = angular.element([
                         '<ion-list class="ion_alpha_list_outer">',
-                        '<div delegate-handle="alphaScroll" id="alpha-scroll">',
+                        '<div delegate-handle="alphaScroll" id="alpha-scroll" on-touch="onTouch($event)" ng-class="{\'ngScrolling\': dy_scrolling}">',
                         '<div data-ng-repeat="(letter, items) in sorted_items" class="ion_alpha_list">',
                         '<ion-item class="item item-divider" id="index_{{letter}}">{{letter}}</ion-item>',
                         '<ion-item ng-repeat="item in items" class="custom"></ion-item>',
                         '</div>',
                         '</div>',
-                        '<ul class="ion_alpha_sidebar" on-drag="onDrag($event)">',
+                        '<ul class="ion_alpha_sidebar" on-touch="alphaTouch()" on-drag="onDrag($event)">',
                         ' <li ng-click="alphaScrollGoToList(\'index_{{letter}}\')" data-code="{{letter.charCodeAt(0)}}" ng-repeat="letter in alphabet" ng-class="{portrait: checkoutletter(letter)}" repeat-done="layoutDone()"><span class="alpha" ng-class="{portrait:$index%2==1}">{{letter}}</span><span ng-if="$index%2==1" class="alpha landscape">&bull;</span></li>',
                         '</ul>',
                         '</ion-list>'
@@ -48,6 +48,18 @@ angular.module('ion-alpha-scroll', [])
                         var _list = null;
                         var scrollContainer = element.find('ion-scroll');
                         var hide = ['C', 'D', 'E', 'F', 'J', 'K', "L", "M", 'Q', 'R', 'V', 'W'];
+
+
+                        scope.dy_scrolling = false;
+
+                        scope.onTouch = function(e){
+                            scope.dy_scrolling = false;
+                        };
+                        scope.alphaTouch = function(){
+
+                            scope.dy_scrolling = true;
+                        };
+
                         var ionicScroll = scrollContainer.controller('$ionicScroll');
 
 

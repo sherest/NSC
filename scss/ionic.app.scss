@@ -175,6 +175,11 @@ body {
 }
 
 .ion_alpha_list_outer {
+  #alpha-scroll{
+    &.ngScrolling{
+      -webkit-overflow-scrolling: auto !important;
+    }
+  }
   .scroll {
     //transform: none !important;
   }
@@ -188,7 +193,7 @@ body {
 
       font-family: "Helvetica Neue LT Std Heavy Condensed";
       font-size: 1em;
-      text-transform: capitalize;
+      //text-transform: capitalize;
 
       color: #fff;
       text-align: center;
@@ -749,8 +754,8 @@ body {
         content: ' ';
         display: block;
         position: absolute;
-        top: 10px;
-        right: 10px;
+        top: -20px;
+        right: 0px;
 
         width: 20px;
         height: 20px;
@@ -758,6 +763,11 @@ body {
         background: transparent url("../img/zoom.png") no-repeat center center;
         background-size: contain;
       }
+
+      /*&.start-triage:after{
+        top: 0px;
+        right: 0px;
+      }*/
     }
 
     img {
