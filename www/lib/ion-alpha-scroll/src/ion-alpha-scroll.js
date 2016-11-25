@@ -23,14 +23,14 @@ angular.module('ion-alpha-scroll', [])
                     var children = tElement.contents();
                     var template = angular.element([
                         '<ion-list class="ion_alpha_list_outer">',
-                        '<div delegate-handle="alphaScroll" id="alpha-scroll" on-touch="onTouch($event)" ng-class="{\'ngScrolling\': dy_scrolling}">',
+                        '<div delegate-handle="alphaScroll" id="alpha-scroll" ng-class="{\'ngScrolling\': dy_scrolling}">',
                         '<div data-ng-repeat="(letter, items) in sorted_items" class="ion_alpha_list">',
                         '<ion-item class="item item-divider" id="index_{{letter}}">{{letter}}</ion-item>',
                         '<ion-item ng-repeat="item in items" class="custom"></ion-item>',
                         '</div>',
                         '</div>',
                         '<ul class="ion_alpha_sidebar" on-touch="alphaTouch()" on-drag="onDrag($event)">',
-                        ' <li ng-click="alphaScrollGoToList(\'index_{{letter}}\')" data-code="{{letter.charCodeAt(0)}}" ng-repeat="letter in alphabet" ng-class="{portrait: checkoutletter(letter)}" repeat-done="layoutDone()"><span class="alpha" ng-class="{portrait:$index%2==1}">{{letter}}</span><span ng-if="$index%2==1" class="alpha landscape">&bull;</span></li>',
+                        ' <li ng-click="alphaScrollGoToList(\'index_{{letter}}\', $event)" data-code="{{letter.charCodeAt(0)}}" ng-repeat="letter in alphabet" ng-class="{portrait: checkoutletter(letter)}" repeat-done="layoutDone()"><span class="alpha" ng-class="{portrait:$index%2==1}">{{letter}}</span><span ng-if="$index%2==1" class="alpha landscape">&bull;</span></li>',
                         '</ul>',
                         '</ion-list>'
                     ].join(''));
@@ -46,6 +46,9 @@ angular.module('ion-alpha-scroll', [])
                         var li_height = 0;
                         var _alpha = null;
                         var _list = null;
+                        var nscroll = 0;
+                        var nTop = 0;
+                        var ex_elem = $('#alpha-scroll');
                         var scrollContainer = element.find('ion-scroll');
                         var hide = ['C', 'D', 'E', 'F', 'J', 'K', "L", "M", 'Q', 'R', 'V', 'W'];
 
@@ -57,11 +60,13 @@ angular.module('ion-alpha-scroll', [])
                         };
                         scope.alphaTouch = function(){
 
-                            scope.dy_scrolling = true;
+                            //scope.dy_scrolling = true;
                         };
 
                         var ionicScroll = scrollContainer.controller('$ionicScroll');
 
+
+                        onResizeFunction();
 
                         function compare(a,b){
                             if (a[attrs.key].toLowerCase() < b[attrs.key].toLowerCase())
@@ -101,7 +106,10 @@ angular.module('ion-alpha-scroll', [])
 
                             scope.sorted_items = tmp;
 
-                            scope.alphaScrollGoToList = function (id) {
+                            scope.alphaScrollGoToList = function (id, e) {
+
+                                //console.log(e)
+                                e.preventDefault();
 
                                 var code = id.split("_")[1].charCodeAt(0);
                                 if(id === "index_#"){
@@ -133,10 +141,19 @@ angular.module('ion-alpha-scroll', [])
                                 var hashID = "#";
                                 hashID+=id;
 
+                                nscroll =  ex_elem.scrollTop() + $( hashID ).offset().top - nTop;
+                                console.log(nscroll ,ex_elem.scrollTop());
                                 if($(hashID).get(0)){
-                                    $location.hash(id);
-                                    $ionicScrollDelegate.$getByHandle('alphaScroll').anchorScroll();
+                                    //$location.hash(id);
+                                    //$ionicScrollDelegate.$getByHandle('alphaScroll').anchorScroll(true);
+
+                                    //ex_elem.get(0).scrollTop = 0;
+                                    ex_elem.animate({
+                                        scrollTop: nscroll
+                                    }, 1000);
                                 }
+
+                                scope.dy_scrolling = false;
                             };
 
                             //Create alphabet object
@@ -208,6 +225,7 @@ angular.module('ion-alpha-scroll', [])
 
                             var contentHeight = windowHeight - headerHeight - subHeaderHeight - tabHeight - footerHeight;
                             var top = headerHeight + subHeaderHeight;
+                            nTop = top;
 
                             var estimatedHeight = 20 * 27;
                             li_height = (contentHeight - 20) / 27;
@@ -234,8 +252,6 @@ angular.module('ion-alpha-scroll', [])
                             onResizeFunction();
                             scope.$apply();
                         });
-
-                        onResizeFunction();
 
                     }
                 }

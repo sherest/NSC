@@ -12210,12 +12210,19 @@ a.button {
 
 .ion_alpha_list_outer #alpha-scroll {
   height: calc(100vh - 88px);
-  -webkit-overflow-scrolling: touch;
+  z-index: 0 !important;
   overflow-y: scroll;
   overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  -webkit-backface-visibility: hidden;
   /*-webkit-transform: translateZ(0px);*/
   /*-webkit-transform: translate3d(0,0,0);*/
-  /*-webkit-perspective: 1000;*/ }
+  /*-webkit-perspective: 1000;*/
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  -ms-transition: none !important;
+  transition: none !important; }
 
 /* Fonts
 *********************/
@@ -12313,7 +12320,8 @@ body .ion-search:before {
   -webkit-overflow-scrolling: auto !important; }
 
 .ion_alpha_list_outer .list {
-  padding-right: 0px; }
+  padding-right: 0px;
+  background-color: #17649d; }
 
 .ion_alpha_list_outer .ion_alpha_list .item {
   background: url("../img/menu_item_bkg.png") repeat-x top left;
