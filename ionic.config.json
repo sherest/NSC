@@ -1,5 +1,5 @@
 {
-  "name": "nsc-emr",
+  "name": "EMR Guide",
   "app_id": "",
   "gulpStartupTasks": [
     "sass",
